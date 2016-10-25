@@ -1,353 +1,353 @@
-STT	N?i dung c�u h?i	��p �n d�ng
-1	01 NE 5430 h? tr? t?i da bao nhi�u module LM 	30
-2	Area Backbone hi?n t?i dang khai b�o trong OSPF c?a m?ng IP Core Mobile hi?n t?i l� bao nhi�u	0
-3	AS Number c?a giao th?c IBGP dang s? d?ng trong m?ng IP Core cho di d?ng hi?n t�i l� bao nhi�u	65512
-4	B?o du?ng thi?t b? vi?n th�ng c� ?nh hu?ng li�n l?c c?n th?c hi?n th?i gian n�o	Sau 23h d�m
-5	B? chuy?n d?i bu?c s�ng quang (OWT) c� ch?c nang 	Chuy?n d?i c�c bu?c s�ng ng� v�o t? ti�u chu?n ITU-T G.957 th�nh ITU-T G.962 d? ph� h?p v?i qui d?nh c?a h? th?ng DWDM
-6	C? 2 Router P, PE trong m?ng IP Core cho Mobile d?u khai b�o BGP v?i Router Reflector, d�ng hay sai	FALSE
-7	C�c  router MAN-E du?c ph�n th�nh c�c lo?i n�o sau d�y theo ch?c nang? 	AGG router v� UPE router
-8	c�c b�o hi?u n�o sao d�y du?c s? d?ng trong� t?ng d�i NGN-HIE9200	H248; SIP; Sigtran
-9	C�c bu?c c?n th?c hi?n trong thao t�c r�t card OAU h?ng tr�n thi?t b? HW OSN8800 d? thay m?i	Ki?m tra card m?i c�ng version v?i card c?n thay � ghi nh?n c?nh b�o dang t?n t?i � k�ch ho?t ch?c nang ch? th? th�o card (board removal indication function) tr�n NMS � label c�c c�p tr�n card � mang d�y t?nh di?n � r�t card c?n thay ra
-10	C�c bu?c th?c hi?n remove m?t card CPU blade (l�m ch?c nang OMU)  tr�n MSSND	"  1.Copy d? li?u t? OMU v�o ? c?ng.
-- 2.Ngan c?m vi?c c?p nh?t d? li?u l�n ? c?ng.
-- 3.Thay d?i tr?ng th�i ? c?ng,
-- 4.Thay d?i tr?ng th�i OMU sang SE-NH.
-- 5. Ti?n h�nh r�t card."
-11	C�c card cung c?p giao di?n truy?n d?n TDM tr�n MGW c?a c�c MSS Ericsson dang ho?t d?ng theo co ch? d? ph�ng nhu th? n�o	1+1
-12	C�c d?ch v? ( VPNL2 li�n t?nh  ,VPNL3 ) tr�n m?ng VN2 du?c khai b�o tr�n c�c thi?t n�o du?i d�y?	"Alcalte 7750SR 
+﻿Nội dung câu hỏi	Đáp án đúng
+01 NE 5430 hỗ trợ tối đa bao nhiêu module LM 	30
+Area Backbone hiện tại đang khai báo trong OSPF của mạng IP Core Mobile hiện tại là bao nhiêu	0
+AS Number của giao thức IBGP đang sử dụng trong mạng IP Core cho di động hiện tài là bao nhiêu	65512
+Bảo dưỡng thiết bị viễn thông có ảnh hưởng liên lạc cần thực hiện thời gian nào	Sau 23h đêm
+Bộ chuyển đổi bước sóng quang (OWT) có chức năng 	Chuyển đổi các bước sóng ngõ vào từ tiêu chuẩn ITU-T G.957 thành ITU-T G.962 để phù hợp với qui định của hệ thống DWDM
+Cả 2 Router P, PE trong mạng IP Core cho Mobile đều khai báo BGP với Router Reflector, đúng hay sai	FALSE
+Các  router MAN-E được phân thành các loại nào sau đây theo chức năng? 	AGG router và UPE router
+các báo hiệu nào sao đây được sử dụng trong  tổng đài NGN-HIE9200	H248; SIP; Sigtran
+Các bước cần thực hiện trong thao tác rút card OAU hỏng trên thiết bị HW OSN8800 để thay mới	Kiểm tra card mới cùng version với card cần thay – ghi nhận cảnh báo đang tồn tại – kích hoạt chức năng chị thị tháo card (board removal indication function) trên NMS – label các cáp trên card – mang dây tỉnh điện – rút card cần thay ra
+Các bước thực hiện remove một card CPU blade (làm chức năng OMU)  trên MSSND	"  1.Copy dữ liệu từ OMU vào ổ cứng.
+- 2.Ngăn cấm việc cập nhật dữ liệu lên ổ cứng.
+- 3.Thay đổi trạng thái ổ cứng,
+- 4.Thay đổi trạng thái OMU sang SE-NH.
+- 5. Tiến hành rút card."
+Các card cung cấp giao diện truyền dẫn TDM trên MGW của các MSS Ericsson đang hoạt động theo cơ chế dự phòng như thế nào	1+1
+Các dịch vụ ( VPNL2 liên tỉnh  ,VPNL3 ) trên mạng VN2 được khai báo trên các thiết nào dưới đây?	"Alcalte 7750SR 
 Juniper MX-960 
 "
-13	C�c giao th?c n�o sau d�y thu?c lo?i giao th?c EGP (Exterior Gateway Protocols) :	BGP
-14	C�c kh?i ch?c nang ch�nh trong m?t card CLA c?a MWGN 	"OMU; CM; HCLB; SISU; GSU
+Các giao thức nào sau đây thuộc loại giao thức EGP (Exterior Gateway Protocols) :	BGP
+Các khối chức năng chính trong một card CLA của MWGN 	"OMU; CM; HCLB; SISU; GSU
 "
-15	C�c lo?i Card n�o dang du?c s? d?ng tr�n MGW4D, VNPT-NET2 	ACPI4-A, AHUB3-A, CPRT4-A, HBRT3-A, ADSP1-B.
-16	C�c lo?i Card n�o dang du?c s? d?ng tr�n MSSN4D, VNPT-NET2 	ACPI4-B, AHUB3-A, CPRT4-B, HBRT3-A
-17	C�c lo?i card trong thi?t b? NE40E c?a Huawei	SRU ,  LPU ; SFU    
-18	C�c lo?i d?ch v? dang khai b�o tr�n MAN-E c?a VNPT?	"D?ch v? VPN Layer 2 ( ELAN , ETREE ) 
-D?ch v? Virtual Leased Line ( ELINE ) 
-D?ch v? MyTV/VoD 
+Các loại Card nào đang được sử dụng trên MGW4D, VNPT-NET2 	ACPI4-A, AHUB3-A, CPRT4-A, HBRT3-A, ADSP1-B.
+Các loại Card nào đang được sử dụng trên MSSN4D, VNPT-NET2 	ACPI4-B, AHUB3-A, CPRT4-B, HBRT3-A
+Các loại card trong thiết bị NE40E của Huawei	SRU ,  LPU ; SFU    
+Các loại dịch vụ đang khai báo trên MAN-E của VNPT?	"Dịch vụ VPN Layer 2 ( ELAN , ETREE ) 
+Dịch vụ Virtual Leased Line ( ELINE ) 
+Dịch vụ MyTV/VoD 
 "
-19	C�c lo?i giao di?n dang s? d?ng tr�n PE 7750 SR-7 l� g� 	1GE, 10GE, STM16, STM64
-20	C�c lo?i Line card c� trong MAN-E cisco	"7600-ES+2TG3C
+Các loại giao diện đang sử dụng trên PE 7750 SR-7 là gì 	1GE, 10GE, STM16, STM64
+Các loại Line card có trong MAN-E cisco	"7600-ES+2TG3C
 7600-ES+20G3C
 7600-ES+4TG3C 
 7600-ES20-10G3C ,7600-ES20-GE3C 
 "
-21	C�c l?p n�o sau d�y thu?c v? c?u tr�c ph�n l?p c?a h? th?ng chuy?n m?ch m?m:	"L?p di?u khi?n; 
-L?p phuong ti?n
+Các lớp nào sau đây thuộc về cấu trúc phân lớp của hệ thống chuyển mạch mềm:	"Lớp điều khiển; 
+Lớp phương tiện
 "
-22	C�c m?ng n�o sau d�y thu?c lo?i Broadcast Multi-access :	Ethernet
-23	C�c m?ng n�o sau d�y thu?c lo?i NBMA (Nonbroadcast Multi-access) :	"Frame Relay
+Các mạng nào sau đây thuộc loại Broadcast Multi-access :	Ethernet
+Các mạng nào sau đây thuộc loại NBMA (Nonbroadcast Multi-access) :	"Frame Relay
 ATM
 X.25
 "
-24	C�c model router dang du?c khai th�c tr�n m?ng MAN-E ?   	"CISCO7609  v� CISCO7609
-Huawei NE40E-4 v� Huawei NE40E-8
+Các model router đang được khai thác trên mạng MAN-E ?   	"CISCO7609  và CISCO7609
+Huawei NE40E-4 và Huawei NE40E-8
 "
-25	C�c ph?n t? thu?c m?ng v� tuy?n 2G	BTS/BSC
-26	C�c Router trong m?ng IP Core cho di d?ng hi?n t?i c� c?u h�nh COPP( Control Plane Policing) 	C�
-27	C�c router trong m?ng IP Core Mobile VNP s? d?ng x�c th?c user login l� x�c th?c TACACS+, d�ng hay sai	FALSE
-28	C�c shelf qu?t du?c c?p ngu?n b?i nh?ng CB n�o	A9, A10, B9, B10
-29	C�c ti�u chu?n ITU-T G.821, G.826, G.829 l� c�c ti�u chu?n 	�? d�nh gi� ch?t lu?ng du?ng truy?n d?n PDH v� SDH.
-30	C�c T?ng d�i MSS Ericsson card n�o th?c hi?n ch?c nang x? l� tho?i v� tri?t ti?ng v?ng 	MSB
-31	C�c T?ng d�i MSS Ericsson khu v?c d�i CTO dang du?c gi�m s�t qua giao th?c g�	Telnet
-32	C�c t?ng d�i MSS Ericsson t?i khu v?c d�i VT C?n Tho d�ng d? cung c?p d?ch v? g� trong m?ng th�ng tin di d?ng 	D?ch v? tho?i 
-33	c�c th�nh ph?n co b?n c?a t?ng d�i NGN-HIE9200	CP113, MB, MCPA , HIG 1200/HIG1800, PCU, NETM
-34	C�c thi?t b? EAGLE 5 ISS Tekelec n?m trong h? th?ng n�o tr�n m?ng lu?i c?a TCT NEt?	M?ng b�o hi?u STP
-35	C�c thi?t b? n�o sau d�y c� co c?u t?n nhi?t h�t theo chi?u th?ng d?ng?	"T1600, MX960, 7750-SR7; 
+Các phần tử thuộc mạng vô tuyến 2G	BTS/BSC
+Các Router trong mạng IP Core cho di động hiện tại có cấu hình COPP( Control Plane Policing) 	Có
+Các router trong mạng IP Core Mobile VNP sử dụng xác thực user login là xác thực TACACS+, đúng hay sai	FALSE
+Các shelf quạt được cấp nguồn bởi những CB nào	A9, A10, B9, B10
+Các tiêu chuẩn ITU-T G.821, G.826, G.829 là các tiêu chuẩn 	Để đánh giá chất lượng đường truyền dẫn PDH và SDH.
+Các Tổng đài MSS Ericsson card nào thực hiện chức năng xử lý thoại và triệt tiếng vọng 	MSB
+Các Tổng đài MSS Ericsson khu vực đài CTO đang được giám sát qua giao thức gì	Telnet
+Các tổng đài MSS Ericsson tại khu vực đài VT Cần Thơ dùng để cung cấp dịch vụ gì trong mạng thông tin di động 	Dịch vụ thoại 
+các thành phần cơ bản của tổng đài NGN-HIE9200	CP113, MB, MCPA , HIG 1200/HIG1800, PCU, NETM
+Các thiết bị EAGLE 5 ISS Tekelec nằm trong hệ thống nào trên mạng lưới của TCT NEt?	Mạng báo hiệu STP
+Các thiết bị nào sau đây có cơ cấu tản nhiệt hút theo chiều thẳng đứng?	"T1600, MX960, 7750-SR7; 
 T1600, MX960, 7750-SR12"
-36	C�c thi?t b? US5Ge n?m trong h? th?ng n�o tr�n m?ng lu?i 	M?ng d?ng b?
-37	C�c VNPT TTP n�o thu?c khu v?c VNPT Net2 hi?n dang trang b? h? th?ng MAN-E Huawei	"L�m �?ng
+Các thiết bị US5Ge nằm trong hệ thống nào trên mạng lưới 	Mạng đồng bộ
+Các VNPT TTP nào thuộc khu vực VNPT Net2 hiện đang trang bị hệ thống MAN-E Huawei	"Lâm Đồng
 Long An
-B�nh Thu?n
+Bình Thuận
 "
-38	Card 8xGE/T h? tr? d? d�i g�i Ethernet d?n 9600 bytes, d�ng hay sai	TRUE
-39	Card HOCC thi?t b? FW4570 c� kh? nang k?t n?i ch�o m?i c?p d? VC, d�ng hay sai 	FALSE
-40	Card IPDU trong h? th?ng MSSN4D ho?t d?ng theo co ch? n�o 	2 + 1
-41	Card n�o sau d�y th?c hi?n ch?c nang khuy?t d?i t�n hi?u trong ring nam HW OSN8800	"OAU
+Card 8xGE/T hỗ trợ độ dài gói Ethernet đến 9600 bytes, đúng hay sai	TRUE
+Card HOCC thiết bị FW4570 có khả năng kết nối chéo mọi cấp độ VC, đúng hay sai 	FALSE
+Card IPDU trong hệ thống MSSN4D hoạt động theo cơ chế nào 	2 + 1
+Card nào sau đây thực hiện chức năng khuyết đại tín hiệu trong ring nam HW OSN8800	"OAU
 RAU
 "
-42	Card n�o tr�n c�c Mediagateway c?a c�c MSS Ericsson cung c?p giao di?n IP d? k?t n?i d?n m?ng IP-Core	ET-IPG
-43	Card n�o tr�n c�c MGW Ericsson cung c?p giao di?n truy?n d?n ATM 	ET-MC1 
-44	Card n�o tr�n c�c MGW Ericsson nh?n v� x? l� t�n hi?u d?ng b? 2Mhz	TUB
-45	Card x? l� chung trong h? th?ng STP Tekelek l� card n�o sau d�y	E5-MASP  A, B
-46	C?u h�nh thi?t b? FW7500 ch? c� hai hu?ng quang c� add/drop bu?c s�ng, c� th? ch?n c?u h�nh  	"2D-ROADM
+Card nào trên các Mediagateway của các MSS Ericsson cung cấp giao diện IP để kết nối đến mạng IP-Core	ET-IPG
+Card nào trên các MGW Ericsson cung cấp giao diện truyền dẫn ATM 	ET-MC1 
+Card nào trên các MGW Ericsson nhận và xử lý tín hiệu đồng bộ 2Mhz	TUB
+Card xử lý chung trong hệ thống STP Tekelek là card nào sau đây	E5-MASP  A, B
+Cấu hình thiết bị FW7500 chỉ có hai hướng quang có add/drop bước sóng, có thể chọn cấu hình  	"2D-ROADM
 WSS-ROADM"
-47	C�u l?nh d? ki?m tra tr?ng th�i Master/Slave tr�n Router Huawei l�	"Display device; Display version
+Câu lệnh để kiểm tra trạng thái Master/Slave trên Router Huawei là	"Display device; Display version
 "
-48	C�u l?nh du?c s? d?ng trong qu� tr�nh thu th?p th�ng tin cho router Cisco d? ph?c v? ch?n do�n, x? l� l?i l� g�	Show tech-support
-49	C?u tr�c c?a SoftSwitch HiE 9200 bao g?m c�c th�nh ph?n n�o	CFS, ICN, PM, SG v� OAM&P agent
-50	C?u tr�c h? th?ng c?a t?ng d�i AXE10 du?c chia l�m 02 ph?n, t�n g?i hai ph?n d� l� g�?	APT v� APZ
-51	C?u tr�c khung PCM 30 du?c m� h�a theo lu?t A c� d?c t�nh co b?n sau:	T?c d? truy?n 2,048 Kb/s, m?t khung g?m 32 TS/30 CH
-52	C� bao nhi�u module �Power and Fan� tr�n subrack IS c?a c�c MSS Ericsson blade cluster	2
-53	C� th? s? d?ng l?nh d? chuy?n thu� bao qua l?i gi?a 2 MSS trong c�ng 1 Pool, d�ng hay sai	TRUE
-54	C?ng giao ti?p gi?a PE/VN2 v� MAN-E s? d?ng lo?i c?ng n�o sao d�y 	1GE ; 10GE-LAN 
-55	Co ch? chuy?n m?ch b?o v? bu?c s�ng quang dang s? d?ng tr�n ring BB2 ALU	ASON
-56	Co ch? Pool n�o dang ho?t d?ng tr�n c�c t?ng d�i Ericsson khu v?c d�i CTO	"MPP
+Câu lệnh được sử dụng trong quá trình thu thập thông tin cho router Cisco để phục vụ chẩn đoán, xử lý lỗi là gì	Show tech-support
+Cấu trúc của SoftSwitch HiE 9200 bao gồm các thành phần nào	CFS, ICN, PM, SG và OAM&P agent
+Cấu trúc hệ thống của tổng đài AXE10 được chia làm 02 phần, tên gọi hai phần đó là gì?	APT và APZ
+Cấu trúc khung PCM 30 được mã hóa theo luật A có đặc tính cơ bản sau:	Tốc độ truyền 2,048 Kb/s, một khung gồm 32 TS/30 CH
+Có bao nhiêu module “Power and Fan” trên subrack IS của các MSS Ericsson blade cluster	2
+Có thể sử dụng lệnh để chuyển thuê bao qua lại giữa 2 MSS trong cùng 1 Pool, đúng hay sai	TRUE
+Cổng giao tiếp giữa PE/VN2 và MAN-E sử dụng loại cổng nào sao đây 	1GE ; 10GE-LAN 
+Cơ chế chuyển mạch bảo vệ bước sóng quang đang sử dụng trên ring BB2 ALU	ASON
+Cơ chế Pool nào đang hoạt động trên các tổng đài Ericsson khu vực đài CTO	"MPP
 MiP"
-57	Ch? d? ch?y d? ph�ng c?a card GISU (General Signalling Unit) trong MSSN nhu th? n�o	N+ 3
-58	Ch?c nang c�c thi?t b? SSU du?c l?p d?t t?i c�c tr?m vi?n th�ng Tl� g� 	C?p c�c lu?ng t�n hi?u d?ng b? 2MHZ v� 2MBPS cho c�c thi?t b? Vi?n th�ng
-59	Ch?c nang card SHP3 s? d?ng trong h? th?ng FW7500 l� g� 	Qu?n l� d? li?u, d?nh tuy?n v� k?t cu?i DCC, OSC. H? tr? t?i ph?m m?m. H? tr? luu tr? v� ph?c h?i b? nh? t? xa. �i?u khi?n chuy?n m?ch b?o v? quang. Ph�t hi?n v� c?nh b�o l?i. Gi�m s�t v� c?nh b�o ch?t lu?ng h? th?ng
-60	Ch?c nang c?a  STP l� g� 	Chuy?n ti?p b�o hi?u t? 1 d�i n�y t?i 1 d�i kh�c 
-61	Ch?c nang c?a m?ng MAN-E l� g�?	L� m?ng d� th? d�ng c�ng ngh? Ethernet  cung c?p c�c d?ch v? l?p 2, MyTV ,VOD  t?i t?t  c? c�c t?nh , k?t n?i v�i m?ng Core VN2 c?a VNPT 
-62	Ch?c nang c?a m?ng v� tuy?n 3G l�	Cung c?p, di?u ki?n v� qu?n l� t�i nguy�n v� tuy?n.
-63	Ch?c nang c?a NodeB l� 	"Qu?n l� k�nh v� tuy?n
-M� h�a v� gi?i m� k�nh
-�i?u ch?nh c�ng su?t ph�t"
-64	Ch?c nang c?a t?ng d�i AXE tr�n m?ng lu?i vi?n th�ng c?a TCT Net l� g�?	L�m T?ng d�i Toll
-65	Ch?c nang ch�nh c?a STP trong m?ng b�o hi?u SS7 	"�?nh tuy?n c�c b?n tin b�o hi?u.
-Qu?n l� m?ng b�o hi?u.
-Th?c hi?n do ki?m.
-Phi�n d?ch d?a ch? GT (Global Title)
-L�m ch?c nang Gateway Screening Function: l?c c�c b?n tin b�o hi?u.
+Chế độ chạy dự phòng của card GISU (General Signalling Unit) trong MSSN như thế nào	N+ 3
+Chức năng các thiết bị SSU được lắp đặt tại các trạm viễn thông Tlà gì 	Cấp các luồng tín hiệu đồng bộ 2MHZ và 2MBPS cho các thiết bị Viễn thông
+Chức năng card SHP3 sử dụng trong hệ thống FW7500 là gì 	Quản lý dữ liệu, định tuyến và kết cuối DCC, OSC. Hỗ trợ tải phầm mềm. Hỗ trợ lưu trữ và phục hồi bộ nhớ từ xa. Điều khiển chuyển mạch bảo vệ quang. Phát hiện và cảnh báo lỗi. Giám sát và cảnh báo chất lượng hệ thống
+Chức năng của  STP là gì 	Chuyển tiếp báo hiệu từ 1 đài này tới 1 đài khác 
+Chức năng của mạng MAN-E là gì?	Là mạng đô thị dùng công nghệ Ethernet  cung cấp các dịch vụ lớp 2, MyTV ,VOD  tại tất  cả các tỉnh , kết nối vói mạng Core VN2 của VNPT 
+Chức năng của mạng vô tuyến 3G là	Cung cấp, điều kiển và quản lý tài nguyên vô tuyến.
+Chức năng của NodeB là 	"Quản lý kênh vô tuyến
+Mã hóa và giải mã kênh
+Điều chỉnh công suất phát"
+Chức năng của tổng đài AXE trên mạng lưới viễn thông của TCT Net là gì?	Làm Tổng đài Toll
+Chức năng chính của STP trong mạng báo hiệu SS7 	"Định tuyến các bản tin báo hiệu.
+Quản lí mạng báo hiệu.
+Thực hiện đo kiểm.
+Phiên dịch địa chỉ GT (Global Title)
+Làm chức năng Gateway Screening Function: lọc các bản tin báo hiệu.
 "
-66	Ch?c nang chuy?n m?ch ASON thi?t b? 1830PSS-36 du?c di?u khi?n b?i 	FLC
-67	D?ch v? SMS BrandName du?c cung c?p b?i h? th?ng thi?t b? n�o c?a VNPT Net2 ?	H? th?ng SMSGW
-68	Dung lu?ng t?i da c?a h? th?ng M16.1 ATCA-MSSN  c� c?u h�nh cao nh?t (1 cabinet, 3 shelves) l� bao nhi�u 	5 tri?u thu� bao, 120 ngh�n calls c�ng m?t l�c. 
-69	�a truy c?p gh�p k�nh ph�n chia theo t?n s? c� t�n vi?t t?t l� g�	FDMA
-70	�a truy c?p gh�p k�nh ph�n chia theo th?i gian c� t�n vi?t t?t l� g�	TDMA
-71	�?c trung ch�nh c?a lo?i Hardware ATCA dang s? d?ng tr�n h? th?ng MSSN v� MGWN c?a VNPT-NET 	"Dung lu?ng l?n, nang lu?ng di?n ti�u thu th?p.
-K�ch thu?c nh? v� kh? nang tuong th�ch cao v?i c�c h? th?ng dang c�
-Lu?ng kh� th?i CO2 th?p
+Chức năng chuyển mạch ASON thiết bị 1830PSS-36 được điều khiển bởi 	FLC
+Dịch vụ SMS BrandName được cung cấp bởi hệ thống thiết bị nào của VNPT Net2 ?	Hệ thống SMSGW
+Dung lượng tối đa của hệ thống M16.1 ATCA-MSSN  có cấu hình cao nhất (1 cabinet, 3 shelves) là bao nhiêu 	5 triệu thuê bao, 120 nghìn calls cùng một lúc. 
+Đa truy cập ghép kênh phân chia theo tần số có tên viết tắt là gì	FDMA
+Đa truy cập ghép kênh phân chia theo thời gian có tên viết tắt là gì	TDMA
+Đặc trưng chính của loại Hardware ATCA đang sử dụng trên hệ thống MSSN và MGWN của VNPT-NET 	"Dung lượng lớn, năng lượng điện tiêu thu thấp.
+Kích thước nhỏ và khả năng tương thích cao với các hệ thống đang có
+Lượng khí thải CO2 thấp
 "
-72	�? gi�m s�t v� �i?u khi?n ho?t d?ng c?a Subrack IS tr�n c�c MSS Blade cluster Ericsson, ta d�ng chuong tr�nh g� 	S? d?ng giao th?c http qua ?ng d?ng Web Browser
-73	�? ti?n h�nh thay th? card d? ph�ng cho c�c t?ng d�i MSS Ericsson ta c?n xem c�c th�ng tin g� tr�n card d? ph�ng d? thay th? ph� h?p 	"T�n card
-S? Part Number
+Để giám sát và Điều khiển hoạt động của Subrack IS trên các MSS Blade cluster Ericsson, ta dùng chương trình gì 	Sử dụng giao thức http qua ứng dụng Web Browser
+Để tiến hành thay thế card dự phòng cho các tổng đài MSS Ericsson ta cần xem các thông tin gì trên card dự phòng để thay thế phù hợp 	"Tên card
+Số Part Number
 "
-74	d?a ch? port craft default tr�n module UOSC c?a thi?t b? Ciena CPL l�	10.10.0.1/30
-75	�i?m kh�c bi?t co b?n gi?a Node OADM v� ROADM trong h? th?ng DWDM l� g�?	ROADM c� th? t�y ch?nh remote vi?c add/drop bu?c s�ng m� kh�ng ?nh hu?ng d?n c�c bu?c s�ng d� pass-through qua Node
-76	di?m kh�c nhau gi?a t�n hi?u s? v� t�n hi?u tuong t? l� T�n hi?u s? l� t�n hi?u c� gi� tr? h?u h?n trong mi?n x�t (t?n s?, bi�n d?), c�n t�nh hi?u tuong t? c� gi� tr? li�n t?c, so s�nh n�y d�ng  hay sai	d�ng
-77	di?m kh�c nhau gi?a t�n hi?u s? v� t�n hi?u tuong t? l� t�n hi?u s? l� t�n hi?u ch? c� hai gi� tr?, c�n t�n hi?u tuong t? c� nhi?u hon hai gi� tr?, so s�nh n�y d�ng  hay sai	sai
-78	�? r?ng bang t?n c?a m?t t?n s? s? d?ng trong WCDMA	5MHZ
-79	�? r?ng bang t?n c?a m?t t?n s? trong GSM l� 	200 KHz
-80	�?i v?i d?ch v? Megawan cung c?p, d?nh tuy?n gi?a thi?t b? m?ng c?a TCT Net v?i thi?t b? kh�ch h�ng dang s? d?ng phuong th?c:	"Static
+địa chỉ port craft default trên module UOSC của thiết bị Ciena CPL là	10.10.0.1/30
+Điểm khác biệt cơ bản giữa Node OADM và ROADM trong hệ thống DWDM là gì?	ROADM có thể tùy chỉnh remote việc add/drop bước sóng mà không ảnh hưởng đến các bước sóng đã pass-through qua Node
+điểm khác nhau giữa tín hiệu số và tín hiệu tương tự là Tín hiệu số là tín hiệu có giá trị hữu hạn trong miền xét (tần số, biên độ), còn tính hiệu tương tự có giá trị liên tục, so sánh này đúng  hay sai	đúng
+điểm khác nhau giữa tín hiệu số và tín hiệu tương tự là tín hiệu số là tín hiệu chỉ có hai giá trị, còn tín hiệu tương tự có nhiều hơn hai giá trị, so sánh này đúng  hay sai	sai
+Độ rộng băng tần của một tần số sử dụng trong WCDMA	5MHZ
+Độ rộng băng tần của một tần số trong GSM là 	200 KHz
+Đối với dịch vụ Megawan cung cấp, định tuyến giữa thiết bị mạng của TCT Net với thiết bị khách hàng đang sử dụng phương thức:	"Static
 EBGP
 "
-81	�on v? n�o ch?u tr�ch nhi?m ch�nh v?n h�nh khai th�c m?ng IP Mobile Core VNPT khu v?c NET2 	INOC2
-82	�on v? n�o hi?n dang ch?u tr�ch nhi?m ch�nh trong vi?c v?n h�nh khai th�c h? th?ng c�c t?ng d�i di d?ng khu v?c NET2	SNOC2
-83	EDFA l� b? khu?ch d?i quang 	"Ho?t d?ng d?a tr�n c�c th�nh ph?n ch? y?u l� ngu?n bom laser c� bu?c s�ng 980 nm v� 1480 nm v� s?i quang pha t?p nguy�n t? hi?m Erbium.
-�u?c ?ng d?ng trong c�c tru?ng h?p nhu khu?ch d?i c�ng su?t cho ph�a ph�t, khu?ch d?i du?ng d�y cho c�c tuy?n quang d�i, v� ti?n khu?ch d?i cho ph�a thu tr�n h? th?ng DWDM.
-Ho?t d?ng du?c v?i d�i bu?c s�ng thu?c bang C v� L"
-84	Gh�p k�nh ph�n chia theo t?n s? c� t�n vi?t t?t l� g�	FDM
-85	Gh�p k�nh ph�n chia theo th?i gian c� t�n vi?t t?t l� g�	TDM
-86	Giao th? d?nh tuy?n OSPF dang khai b�o trong m?ng IP Core cho mobile hi?n t?i l�	OSPFv2
-87	Giao th?c dang du?c s? d?ng d? truy?n tin nh?n SMS gi?a h? th�ng SMSGW  v?i c�c h? th?ng kh�c l�	SMPP
-88	Giao th?c d�ng g�i t�n hi?u GE v�o khung SDH tr�n thi?t b? FW4570	GFP
-89	Hai t?ng d�i MSS Ericsson c� dung lu?ng kh�c nhau c� th? c?u h�nh v�o c�ng 1 Pool Area , ��ng hay sai 	TRUE
-90	H?n ch? hi?n nay c?a c�ng ngh? gh�p bu?c s�ng quang DWDM l� :	"Chua khai th�c h?t bang t?n ho?t d?ng c?a soi quang (ch? s? d?ng d�i bu?c s�ng bang C v� L).
-Ph? thu?c r?t nhi?u v�o d?c t�nh c?a s?i quang s? d?ng.
+Đơn vị nào chịu trách nhiệm chính vận hành khai thác mạng IP Mobile Core VNPT khu vực NET2 	INOC2
+Đơn vị nào hiện đang chịu trách nhiệm chính trong việc vận hành khai thác hệ thống các tổng đài di động khu vực NET2	SNOC2
+EDFA là bộ khuếch đại quang 	"Hoạt động dựa trên các thành phần chủ yếu là nguồn bơm laser có bước sóng 980 nm và 1480 nm và sợi quang pha tạp nguyên tố hiếm Erbium.
+Được ứng dụng trong các trường hợp như khuếch đại công suất cho phía phát, khuếch đại đường dây cho các tuyến quang dài, và tiền khuếch đại cho phía thu trên hệ thống DWDM.
+Hoạt động được với dãi bước sóng thuộc băng C và L"
+Ghép kênh phân chia theo tần số có tên viết tắt là gì	FDM
+Ghép kênh phân chia theo thời gian có tên viết tắt là gì	TDM
+Giao thứ định tuyến OSPF đang khai báo trong mạng IP Core cho mobile hiện tại là	OSPFv2
+Giao thức đang được sử dụng để truyền tin nhắn SMS giữa hệ thông SMSGW  với các hệ thống khác là	SMPP
+Giao thức đóng gói tín hiệu GE vào khung SDH trên thiết bị FW4570	GFP
+Hai tổng đài MSS Ericsson có dung lượng khác nhau có thể cấu hình vào cùng 1 Pool Area , Đúng hay sai 	TRUE
+Hạn chế hiện nay của công nghệ ghép bước sóng quang DWDM là :	"Chưa khai thác hết băng tần hoạt động của sơi quang (chỉ sử dụng dãi bước sóng băng C và L).
+Phụ thuộc rất nhiều vào đặc tính của sợi quang sử dụng.
 "
-91	h�y li?t k� c�c d?ch v? ch?y tr�n thi?t b? BRAS E320	MegaVNN, FTTH
-92	h�y Li?t k� c�c d?ch v? ch?y tr�n thi?t b? BRAS ERX 1410/1440/705	MegaVNN, MegaWan, FTTH
-93	H? th?ng DWDM c� th? k?t n?i nhi?u hu?ng kh�c nhau (multi degree) nh? c� :	B? xen/r? bu?c s�ng quang ROADM (t�ch h?p WSS) da hu?ng c� th? th?c hi?n c?u h�nh t? xa cho t?ng bu?c s�ng quang xen/r?.
-94	H? th?ng DWDM du?c ?ng d?ng trong c�c m� h�nh :	"M?ng truy?n d?n quang du?ng d�i (long haul).
-M?ng truy nh?p (access).
-M?ng truy?n d?n quang d� th?(MAN).
+hãy liệt kê các dịch vụ chạy trên thiết bị BRAS E320	MegaVNN, FTTH
+hãy Liệt kê các dịch vụ chạy trên thiết bị BRAS ERX 1410/1440/705	MegaVNN, MegaWan, FTTH
+Hệ thống DWDM có thể kết nối nhiều hướng khác nhau (multi degree) nhờ có :	Bộ xen/rẽ bước sóng quang ROADM (tích hợp WSS) đa hướng có thể thực hiện cấu hình từ xa cho từng bước sóng quang xen/rẽ.
+Hệ thống DWDM được ứng dụng trong các mô hình :	"Mạng truyền dẫn quang đường dài (long haul).
+Mạng truy nhập (access).
+Mạng truyền dẫn quang đô thị(MAN).
 "
-95	H? th?ng DWDM ki?u �t�ch h?p� c� d?c t�nh kh�c v?i h? th?ng DWDM ki?u �m?� l� :	H? th?ng DWDM ki?u t�ch h?p y�u c?u t�n hi?u quang t?i c�c ng� v�o h? th?ng DWDM ph?i tu�n th? ti�u chu?n ITU-T G.962.
-96	H? th?ng EAGLE 5 ISS Tekelec  c� ch?c nang l�:	M?ng b�o hi?u d?c l?p tr�n m?ng lu?i vi?n th�ng-STP
-97	H? th?ng ManE t?i c�c VNPT T?nh/TP do TCT Net qu?n l� s? d?ng thi?t b? c?a h�ng n�o?	"Cisco
+Hệ thống DWDM kiểu “tích hợp” có đặc tính khác với hệ thống DWDM kiểu “mở” là :	Hệ thống DWDM kiểu tích hợp yêu cầu tín hiệu quang tại các ngõ vào hệ thống DWDM phải tuân thủ tiêu chuẩn ITU-T G.962.
+Hệ thống EAGLE 5 ISS Tekelec  có chức năng là:	Mạng báo hiệu độc lập trên mạng lưới viễn thông-STP
+Hệ thống ManE tại các VNPT Tỉnh/TP do TCT Net quản lý sử dụng thiết bị của hãng nào?	"Cisco
 Huawei
 "
-98	H? th?ng NGN bao g?m c�c thi?t b? n�o sau d�y	"SoftSwitch HiE 9200, HiG1000, HiG1100, HiG1200, HiR200, HiQ20, HiQ30
-C�c router Core v� c�c router bi�n
+Hệ thống NGN bao gồm các thiết bị nào sau đây	"SoftSwitch HiE 9200, HiG1000, HiG1100, HiG1200, HiR200, HiQ20, HiQ30
+Các router Core và các router biên
 "
-99	H? th?ng Router ManE-Huawei t?i VNPT T?nh/TP do TCT Net qu?n l� c� t?t c? 2 th? nh??	True 
-100	H? th?ng STP Tekelek c� c�c lo?i Card n�o sau d�y 	"E5-MASP, E5-SM4G, E5-ENET, E5-TSM;
+Hệ thống Router ManE-Huawei tại VNPT Tỉnh/TP do TCT Net quản lý có tất cả 2 thẻ nhớ?	True 
+Hệ thống STP Tekelek có các loại Card nào sau đây 	"E5-MASP, E5-SM4G, E5-ENET, E5-TSM;
 E5-IPSM, E5-E1/T1, E5-ATM"
-101	H? th?ng STP Tekelek c� th? cho ph�p khai b�o t?i da bao nhi�u Point Code theo chu?n ITU	16,384
-102	H? th?ng STP Tekelek don v? do luu lu?ng c?a m?t link b�o hi?u sigtran l� g� 	TPS
-103	H? th?ng Surpass  c� kh? nang du?c s? d?ng d? cung c?p d?ch v? thay th? cho t?ng d�i AXE	TRUE
-104	H? th?ng thi?t b? d?ng b? US5Ge  dang cung c?p lo?i t�n hi?u d?ng b? n�o?	" 2Mbps/2MHz; PTP;  NTP
- (C? 3 lo?i)
+Hệ thống STP Tekelek có thể cho phép khai báo tối đa bao nhiêu Point Code theo chuẩn ITU	16,384
+Hệ thống STP Tekelek đơn vị đo lưu lượng của một link báo hiệu sigtran là gì 	TPS
+Hệ thống Surpass  có khả năng được sử dụng để cung cấp dịch vụ thay thế cho tổng đài AXE	TRUE
+Hệ thống thiết bị đồng bộ US5Ge  đang cung cấp loại tín hiệu đồng bộ nào?	" 2Mbps/2MHz; PTP;  NTP
+ (Cả 3 loại)
 "
-105	Hi?n nay c�c co ch? b?o v? luu lu?ng dang du?c d?u n?i chia s? gi?a c�c thi?tb? t?i c�c tr?m T?nh thu?c Net2 nhu sau	"C�c link MSP 1+1 tr�n FW4570 du?c chia s? qua HW OSN-8800
-C�c link MSP 1+1 tr�n FW4570 ch? du?c k?t n?i tr�n c�ng FW7500. (a+b)
+Hiện nay các cơ chế bảo vệ lưu lượng đang được đấu nối chia sẻ giữa các thiếtbị tại các trạm Tỉnh thuộc Net2 như sau	"Các link MSP 1+1 trên FW4570 được chia sẻ qua HW OSN-8800
+Các link MSP 1+1 trên FW4570 chỉ được kết nối trên cùng FW7500. (a+b)
 "
-106	Hi?n nay NOC2 dang �p d?ng c?u h�nh b?o v? chuy?n m?ch b?o v? d?i v?i c�c links SDH t?i c�c t?nh ph�a Nam	"B?o v? MSP 1+1; B?o v? SNCP
-B?o v? MS-SPRing (t?t c? d�ng)
+Hiện nay NOC2 đang áp dụng cấu hình bảo vệ chuyển mạch bảo vệ đối với các links SDH tại các tỉnh phía Nam	"Bảo vệ MSP 1+1; Bảo vệ SNCP
+Bảo vệ MS-SPRing (tất cả đúng)
 "
-107	Hi?n t?i tr�n m?ng NGN dang c� luu lu?ng c?a c�c d?ch v? n�o?	171, 1719, 1800, 1900 v� c�c d?ch v? IP 
-108	Hi?n tu?ng t?c ngh?n  tr�n c�c hu?ng trung k? li�n d�i x?y ra khi	S? cu?c tho?i c?n k?t n?i d?ng th?i l?n hon s? k�nh trung k?
-109	Ho?t d?ng c?a b? khu?ch d?i RAMAN su? du?ng trong h�? th��ng DWDM :	"D?a tr�n hi?n tu?ng t�n x? k�ch th�ch Raman, b? khu?ch d?i Raman kh�ng gi?i h?n d�i bu?c s�ng khu?ch d?i.
-Nh? v�o ho?t d?ng c?a ngu?n bom laser ?n d?nh c� c�ng su?t cao (c� th? l�n d?n 1W), b? gh�p (coupler) v� b? c�ch ly (isolator).
+Hiện tại trên mạng NGN đang có lưu lượng của các dịch vụ nào?	171, 1719, 1800, 1900 và các dịch vụ IP 
+Hiện tượng tắc nghẽn  trên các hướng trung kế liên đài xảy ra khi	Số cuộc thoại cần kết nối đồng thời lớn hơn số kênh trung kế
+Hoạt động của bộ khuếch đại RAMAN sử dụng trong hệ thống DWDM :	"Dựa trên hiện tượng tán xạ kích thích Raman, bộ khuếch đại Raman không giới hạn dãi bước sóng khuếch đại.
+Nhờ vào hoạt động của nguồn bơm laser ổn định có công suất cao (có thể lên đến 1W), bộ ghép (coupler) và bộ cách ly (isolator).
 "
-110	K�nh gi�m s�t OSC thi?t b? FW7500 c� bu?c s�ng	1510nm
-111	K�nh OSC trong h? th?ng DWDM co� th�? s? d?ng bu?c s�ng n�o sau d�y?	"1510 nm;1620 nm;1310 nm
-T?t c? c�c phuong �n d?u d�ng
+Kênh giám sát OSC thiết bị FW7500 có bước sóng	1510nm
+Kênh OSC trong hệ thống DWDM có thể sử dụng bước sóng nào sau đây?	"1510 nm;1620 nm;1310 nm
+Tất cả các phương án đều đúng
 "
-112	K?t n?i gi?a RNC v� Router c� th? s? d?ng c? hai giao di?n di?n v� quang	TRUE
-113	K?t n?i t? TRAU d?n c�c MediaGateway c?a t?ng d�i Ericsson thu?c d�i VT CTO  dang s? d?ng giao di?n g� 	"STM1
+Kết nối giữa RNC và Router có thể sử dụng cả hai giao diện điện và quang	TRUE
+Kết nối từ TRAU đến các MediaGateway của tổng đài Ericsson thuộc đài VT CTO  đang sử dụng giao diện gì 	"STM1
 E1
 "
-114	Kh? nang k?t n?i ch�o card MT1T9C thi?t b? 1830PSS-36	"1,92Tbps c?p ODU
-640Gbps c?p SDH   (c� 2)"
-115	khai b�o OSPF hi?n t?i tr�n interface c�c Router PE, P trong m?ng IP Mobile l� mode n�o	Point-to-point
-116	Khi 2 t?ng d�i du?c c?u h�nh v�o c�ng 1 Pool Area th� d? li?u khai b�o tr�n 2 t?ng d�i ph?i gi?ng nhau, d�ng hay sai 	TRUE
-117	Khi c� s? c? x?y ra g�y m?t li�n l?c c�c t?ng d�i MSS Ericsson th� kh�ch h�ng kh�ng th? s? d?ng d?ch v? DATA tr�n s�ng 3G, d�ng hay sai 	FALSE
-118	Khi login v�o c�c Router trong m?ng IP Core Mobile, hi?n t?i ngu?i khai th�c dang s? d?ng giao th?c n�o d? k?t n?i v�o Router	Telnet
-119	Kh�ng th? khai b�o c�c d?ch v? VPN tr�n h? th?ng ManE, b?t bu?c ph?i khai b�o tr�n Router PE ho?c BRAS?	FALSE
-120	L?y m?u t�n hi?u trong qu� tr�nh PCM l� 	Qu� tr�nh chuy?n d?i t�n hi?u tuong t? li�n t?c theo th?i gian th�nh t�n hi?u r?i r?c v?i 1 t?n s? l?y m?u n�o d�.
-121	l?ch s? ph�t tri?n c?a vi?n th�ng du?c chia th�nh bao nhi�u pha trong qu� tr�nh ph�t tri?n	4
-122	Lo?i k�nh truy?n n�o kh�ng s? d?ng trong m?ng truy?n h�nh h?i ngh? NGN ?	Leasedline
-123	Lo?i Router Cisco ASR9K n�o dang s? d?ng trong m?ng IP Core Mobile t?i NET2	9010
-124	Lo?i t�n hi?u b�o hi?u n�o sau d�y dang du?c s? d?ng t?i t?ng d�i Toll	"SS7; R2
+Khả năng kết nối chéo card MT1T9C thiết bị 1830PSS-36	"1,92Tbps cấp ODU
+640Gbps cấp SDH   (cà 2)"
+khai báo OSPF hiện tại trên interface các Router PE, P trong mạng IP Mobile là mode nào	Point-to-point
+Khi 2 tổng đài được cấu hình vào cùng 1 Pool Area thì dữ liệu khai báo trên 2 tổng đài phải giống nhau, đúng hay sai 	TRUE
+Khi có sự cố xảy ra gây mất liên lạc các tổng đài MSS Ericsson thì khách hàng không thể sử dụng dịch vụ DATA trên sóng 3G, đúng hay sai 	FALSE
+Khi login vào các Router trong mạng IP Core Mobile, hiện tại người khai thác đang sử dụng giao thức nào để kết nối vào Router	Telnet
+Không thể khai báo các dịch vụ VPN trên hệ thống ManE, bắt buộc phải khai báo trên Router PE hoặc BRAS?	FALSE
+Lấy mẫu tín hiệu trong quá trình PCM là 	Quá trình chuyển đổi tín hiệu tương tự liên tục theo thời gian thành tín hiệu rời rạc với 1 tần số lấy mẫu nào đó.
+lịch sử phát triển của viễn thông được chia thành bao nhiêu pha trong quá trình phát triển	4
+Loại kênh truyền nào không sử dụng trong mạng truyền hình hội nghị NGN ?	Leasedline
+Loại Router Cisco ASR9K nào đang sử dụng trong mạng IP Core Mobile tại NET2	9010
+Loại tín hiệu báo hiệu nào sau đây đang được sử dụng tại tổng đài Toll	"SS7; R2
 "
-125	Lo?i thi?t b? MG n�o trong h? th?ng Surpass c?a TCT Net c� dung lu?ng k?t n?i 32 E1?	hiG 1100
-126	Lo?i thi?t b? n�o sau d�y kh�ng c� trong h? th?ng Surpass c?a TCT Net?	hiG 1600
-127	Luu lu?ng d?ch v? t? c�c RNC v? c�c t?ng d�i MSS Ericsson hi?n t?i dang s? d?ng qua giao di?n truy?n d?n g� 	IP
-128	M� di?m b�o hi?u l?n lu?t c?a STPT4A v� STPT4B d�ng d? khai b�o  b�o hi?u sigtran l� bao nhi�u 	8778 v� 8779
-129	M� du?ng truy?n AMI c� d?c di?m 	"Kh�ng c� th�nh ph?n DC nh? d?c t�nh lu�n phi�n d?o d?u.
-C� th? t?n t?i nhi?u bit 0 li�n ti?p
-Gi?m suy hao tr�n du?ng truy?n do th�nh ph?n DC g�y ra."
-130	M� HDB3 c� d?c di?m 	"Kh�ng c� th�nh ph?n DC
-Ch? t?n t?i t?i da 3 bit 0 li�n ti?p"
-131	M� ho� trong qu� tr�nh PCM l� S? chuy?n d?i c�c gi� tr? lu?ng t? ho� c?a t�n hi?u tuong t? th�nh m� nh? ph�n d? truy?n di.	TRUE
-132	M?ng 3G Vinaphone dang s? dung c�ng ngh? da truy c?p n�o	WCDMA
-133	M?ng 3G Vinaphone s? d?ng c�ng ngh? n�o sau d�y:	T?t c? d?u sai (coi l?i)
-134	M?ng chuy?n m?ch li�n t?nh  th?c hi?n chuy?n ti?p c�c cu?c g?i li�n t?nh cho t?t c? c�c VNPT T/TP tr�n to�n qu?c, c�c m?ng di d?ng v� c�c m?ng Doanh nghi?p Vi?n th�ng kh�c?	true 
-135	M?ng MAN-E c?a VNPT s? d?ng c?u tr�c d?u n?i n�o sao d�y   	Ring topology  
-136	M?ng MAN-E c?a VNPT s? d?ng thi?t b? c?a c�c vendor n�o sau d�y  	Huawei  v� Cisco 
-137	M?ng v� tuy?n 3G g?m c� c�c ph?n t? ch�nh 	RNC + NodeB
-138	MGW c?a t?ng d�i NSN ATCA c� t?i da bao nhi�u shelf	3
-139	M?i card E5-IPSM trong h? th?ng STP Tekelek c� th? cung c?p bao nhi�u port telnet v�o h? th?ng 	8
-140	M?i card ET-C41 tr�n c�c Media Gateway c?a c�c MSS Ericsson h? tr? bao nhi�u port STM1	4
-141	M?i module Power and Fan tr�n subrack IS c?a T?ng d�i Ericsson c� bao nhi�u ngu?n cung c?p	3
-142	M?i subrack tr�n c�c t?ng d�i Ericsson c� bao nhi�u module FAN	2
-143	M?t da khung du?c h�nh th�nh t? c�ch gh�p 16 khung 2Mbit/s co s? (PCM-30), v� c� d? d�i l� 2ms	TRUE
-144	M?t k�nh b�o hi?u R2 c� th? d�p ?ng t?i da bao nhi�u k�nh trung k? tho?i?	30
-145	M?t s? th�ng s? c?a b? khu?ch d?i EDFA c� th? g�y ?nh hu?ng x?u t?i ch?t lu?ng ho?t d?ng c?a h? th?ng DWDM l� :	"T?p �m n?i c?a b? khu?ch d?i EDFA, h? s? t?p �m n�y c� th? l�m suy gi?m SNR c?a h? th?ng.
-�? b?ng ph?ng c?a d? l?i khu?ch d?i trong d�i bu?c s�ng s? d?ng.
+Loại thiết bị MG nào trong hệ thống Surpass của TCT Net có dung lượng kết nối 32 E1?	hiG 1100
+Loại thiết bị nào sau đây không có trong hệ thống Surpass của TCT Net?	hiG 1600
+Lưu lượng dịch vụ từ các RNC về các tổng đài MSS Ericsson hiện tại đang sử dụng qua giao diện truyền dẫn gì 	IP
+Mã điểm báo hiệu lần lượt của STPT4A và STPT4B dùng để khai báo  báo hiệu sigtran là bao nhiêu 	8778 và 8779
+Mã đường truyền AMI có đặc điểm 	"Không có thành phần DC nhờ đặc tính luân phiên đảo dấu.
+Có thể tồn tại nhiều bit 0 liên tiếp
+Giảm suy hao trên đường truyền do thành phần DC gây ra."
+Mã HDB3 có đặc điểm 	"Không có thành phần DC
+Chỉ tồn tại tối đa 3 bit 0 liên tiếp"
+Mã hoá trong quá trình PCM là Sự chuyển đổi các giá trị lượng tử hoá của tín hiệu tương tự thành mã nhị phân để truyền đi.	TRUE
+Mạng 3G Vinaphone đang sử dung công nghệ đa truy cập nào	WCDMA
+Mạng 3G Vinaphone sử dụng công nghệ nào sau đây:	Tất cả đều sai (coi lại)
+Mạng chuyển mạch liên tỉnh  thực hiện chuyển tiếp các cuộc gọi liên tỉnh cho tất cả các VNPT T/TP trên toàn quốc, các mạng di động và các mạng Doanh nghiệp Viễn thông khác?	true 
+Mạng MAN-E của VNPT sử dụng cấu trúc đấu nối nào sao đây   	Ring topology  
+Mạng MAN-E của VNPT sử dụng thiết bị của các vendor nào sau đây  	Huawei  và Cisco 
+Mạng vô tuyến 3G gồm có các phần tử chính 	RNC + NodeB
+MGW của tổng đài NSN ATCA có tối đa bao nhiêu shelf	3
+Mỗi card E5-IPSM trong hệ thống STP Tekelek có thể cung cấp bao nhiêu port telnet vào hệ thống 	8
+Mỗi card ET-C41 trên các Media Gateway của các MSS Ericsson hổ trợ bao nhiêu port STM1	4
+Mỗi module Power and Fan trên subrack IS của Tổng đài Ericsson có bao nhiêu nguồn cung cấp	3
+Mỗi subrack trên các tổng đài Ericsson có bao nhiêu module FAN	2
+Một đa khung được hình thành từ cách ghép 16 khung 2Mbit/s cơ sở (PCM-30), và có độ dài là 2ms	TRUE
+Một kênh báo hiệu R2 có thể đáp ứng tối đa bao nhiêu kênh trung kế thoại?	30
+Một số thông số của bộ khuếch đại EDFA có thể gây ảnh hưởng xấu tới chất lượng hoạt động của hệ thống DWDM là :	"Tạp âm nội của bộ khuếch đại EDFA, hệ số tạp âm này có thể làm suy giảm SNR của hệ thống.
+Độ bằng phẳng của độ lợi khuếch đại trong dãi bước sóng sử dụng.
 "
-146	M?t s? y?u t? ?nh hu?ng d?n ch?t lu?ng c?a h? th?ng gh�p bu?c s�ng quang DWDM l� 	"C�c lo?i suy hao quang kh�c nhau nhu suy hao do h?p th?, do t�n x? tuy?n t�nh, do t�n x? Rayleigh, suy hao do u?n cong.
-C�c lo?i t�n s?c, t�n s?c s?c th?, t�n s?c ph�n c?c.
+Một số yếu tố ảnh hưởng đến chất lượng của hệ thống ghép bước sóng quang DWDM là 	"Các loại suy hao quang khác nhau như suy hao do hấp thụ, do tán xạ tuyến tính, do tán xạ Rayleigh, suy hao do uốn cong.
+Các loại tán sắc, tán sắc sắc thể, tán sắc phân cực.
 "
-147	M?t tr?m BTS c� s? lu?ng cell t?i thi?u l� 	1
-148	m?c d�ch c?a vi?c chu?n ho� trong vi?n th�ng l� g�	"�? gi�p ngu?i s? d?ng du?c nhi?u quy?n l?a ch?n khi mua s?n ph?m
-�? gi?m b?t kh� khan v? k? thu?t khi k?t n?i c�c h? th?ng thi?t b? c?a c�c nh� s?n xu?t kh�c nhau
-�? cung c?p c�c d?ch v? k?t n?i qu?c t? du?c d? d�ng hon"
-149	N?n t?ng ph?n c?ng t?ng d�i NSN ATCA c� d?c di?m n�o sau d�y	MSS v� MGW s? d?ng c�ng n?n t?ng ph?n c?ng
-150	N?u 1 trong 2 t?ng d�i MSSE4B v� MSSE4C b? m?t li�n l?c th� 50% s? thu� bao c?a 2 t?ng d�i tr�n s? kh�ng th? th?c hi?n cu?c g?i, d�ng hay sai 	FALSE
-151	Nh?ng thi?t b?, th�nh ph?n c?a h? th?ng n�o sau d�y kh�ng k?t n?i t?i PE? 	H? th?ng t?ng d�i Toll
-152	Nh?ng th�ng s? n�o sau d�y c?a k�nh Megawan n?m trong cam k?t ch?t lu?ng d?ch v? (SLA) gi?a TCT Net v?i kh�ch h�ng?	"Bandwidth
+Một trạm BTS có số lượng cell tối thiểu là 	1
+mục đích của việc chuẩn hoá trong viễn thông là gì	"Để giúp người sử dụng được nhiều quyền lựa chọn khi mua sản phẩm
+Để giảm bớt khó khăn về kỹ thuật khi kết nối các hệ thống thiết bị của các nhà sản xuất khác nhau
+Để cung cấp các dịch vụ kết nối quốc tế được dễ dàng hơn"
+Nền tảng phần cứng tổng đài NSN ATCA có đặc điểm nào sau đây	MSS và MGW sử dụng cùng nền tảng phần cứng
+Nếu 1 trong 2 tổng đài MSSE4B và MSSE4C bị mất liên lạc thì 50% số thuê bao của 2 tổng đài trên sẽ không thể thực hiện cuộc gọi, đúng hay sai 	FALSE
+Những thiết bị, thành phần của hệ thống nào sau đây không kết nối tới PE? 	Hệ thống tổng đài Toll
+Những thông số nào sau đây của kênh Megawan nằm trong cam kết chất lượng dịch vụ (SLA) giữa TCT Net với khách hàng?	"Bandwidth
 Latency
 Packet loss
 "
-153	Nhu?c di?m c?a m?ng GSM l� g� 	"T?c d? truy?n s? li?u th?p
-�? r?ng bang t?n th?p
-T�i nguy�n v� tuy?n t?n s? b? h?n ch?
+Nhược điểm của mạng GSM là gì 	"Tốc độ truyền số liệu thấp
+Độ rộng băng tần thấp
+Tài nguyên vô tuyến tần số bị hạn chế
 "
-154	Ph�t bi?u n�o sau d�y KH�NG ��NG v? tr?ng th�i c?nh b�o tr�n card c?a thi?t b? HW OSN8800 	Khi LED �LAS�  tr�n card RAU s�ng xanh: Lazer d� t?t v� NV c� th? thao t�c chuy?n c�p quang
-155	Ph?n t? n�o sau d�y kh�ng thu?c m?ng l�i (core) 3G 	RNC
-156	Ph?n t? n�o sau d�y lu�n lu�n di k�m v?i t?ng d�i chuy?n m?ch MSC	VLR
-157	Ph?n t? n�o tr�n c�c t?ng d�i Ericsson l�m nhi?m v? ghi v� luu tr? file cu?c	APG
-158	Phuong ti?n b?o v? c� nh�n l�m ngh? v?n h�nh b?o du?ng s?a ch?a t?i tr?m g?m:	"Qu?n �o, v?i; Gi?y ch?ng tinh di?n
-Gang tay c�ch di?n
+Phát biểu nào sau đây KHÔNG ĐÚNG về trạng thái cảnh báo trên card của thiết bị HW OSN8800 	Khi LED “LAS”  trên card RAU sáng xanh: Lazer đã tắt và NV có thể thao tác chuyển cáp quang
+Phần tử nào sau đây không thuộc mạng lõi (core) 3G 	RNC
+Phần tử nào sau đây luôn luôn đi kèm với tổng đài chuyển mạch MSC	VLR
+Phần tử nào trên các tổng đài Ericsson làm nhiệm vụ ghi và lưu trữ file cước	APG
+Phương tiện bảo vệ cá nhân làm nghề vận hành bảo dưỡng sửa chữa tại trạm gồm:	"Quần áo, vải; Giầy chống tĩnh điện
+Găng tay cách điện
 "
-159	Phuong th?c di?u ch? WCDMA c� nghia l�	�a truy nh?p ph�n chia theo m� bang r?ng
-160	Router 7750 SR-7 dang s? d?ng k?t n?i cho  RNC ALU  trong m?ng IP Core Mobile d�ng vai g�	CE
-161	Router Cisco ASR9K c?n t?i thi?u bao nhi�u card di?u khi?n RSP d? c� th? ho?t d?ng	1
-162	Router Cisco CRS1 c� bao nhi�u module ngu?n 	2
-163	RTM (Rear Tranition Modules) trong t?ng d�i NSN ATCA l� g�	L� t? ng? chung ch? c�c card n?m ph�a sau m?t ch�nh c?a shelf
-164	Shelf B tr�n Ciena 5430 c� bao nhi�u slot 	9
-165	So s�nh t?c d? truy?n data gi?a GPRS v� EDGE	EDGE > GPRS
-166	Software dang ch?y tr�n h? th?ng MSSN v� MGWN c?a  VNPT-NET l� g�	DX200 (M16.1) (MSS) v� Flexi Ui5.0 (MGW).
-167	S? lu?ng line card trong Router Cisco 7609	7
-168	S? lu?ng Router Core m?ng VN2 d?t t?i C?n Tho	2
-169	S? lu?ng t?n s? thu/ph�t c?a d?i t?n s? PGSM du?c c?p ri�ng cho Vinaphone 	43 (coi l?i)
-170	So d? k?t n?i ph�n c?p n�o ph� h?p trong m?ng VN2	"ASBR-P-PE-BRAS
+Phương thức điều chế WCDMA có nghĩa là	Đa truy nhập phân chia theo mã băng rộng
+Router 7750 SR-7 đang sử dụng kết nối cho  RNC ALU  trong mạng IP Core Mobile đóng vai gì	CE
+Router Cisco ASR9K cần tối thiểu bao nhiêu card điều khiển RSP để có thể hoạt động	1
+Router Cisco CRS1 có bao nhiêu module nguồn 	2
+RTM (Rear Tranition Modules) trong tổng đài NSN ATCA là gì	Là từ ngữ chung chỉ các card nằm phía sau mặt chính của shelf
+Shelf B trên Ciena 5430 có bao nhiêu slot 	9
+So sánh tốc độ truyền data giữa GPRS và EDGE	EDGE > GPRS
+Software đang chạy trên hệ thống MSSN và MGWN của  VNPT-NET là gì	DX200 (M16.1) (MSS) và Flexi Ui5.0 (MGW).
+Số lượng line card trong Router Cisco 7609	7
+Số lượng Router Core mạng VN2 đặt tại Cần Thơ	2
+Số lượng tần số thu/phát của dải tần số PGSM được cấp riêng cho Vinaphone 	43 (coi lại)
+Sơ đố kết nối phân cấp nào phù hợp trong mạng VN2	"ASBR-P-PE-BRAS
 PE-BRAS-MANE
 "
-171	STP Tekelek EAGLE 5 h? tr? khai b�o t?i da bao nhi�u linkset 	1024
-172	STP TEKELEK m� VNPT-NET dang s? d?ng du?c s?n xu?t ? qu?c gia n�o	M?
-173	Subrack TCSM c?a c�c BSC Huawei hi?n t?i dang du?c l?p d?t g?n T?ng d�i hon so v?i BSC , d�ng hay sai 	TRUE
-174	SW 4200 t?i tr?m c� k?t n?i Uplink d?n thi?t b? n�o 	PE
-175	T?c d?�k?t n?i m?c d?nh (default) d? login tr?c ti?p v�o Modem Juniper SSG20 th�ng qua c?ng Console 	9600 bps
-176	T?ng d�i AXE c� kh? nang du?c s? d?ng d? cung c?p d?ch v? thay th? cho t?ng d�i Surpass	FALSE
-177	T?ng d�i HiG 1100 c� th? d?u n?i t?i da bao nhi�u E1 ?	32 E1
-178	T?ng d�i MSC trong ki?n tr�c m?ng UMTS R4 du?c chia th�nh c�c ph?n t? n�o?	MSC Server, MGW(Media Gateway)  
-179	Tham s? n�o du?c s? d?ng trong s? TMSI d? nh?n d?ng t?ng d�i n�o s? qu?n l� thu� bao trong Pool 	NRI
-180	Th�nh ph?n APT trong h? th?ng c?a t?ng d�i AXE10 g?m c�c thi?t b? n�o?	"Bao g?m c�c thi?t b? chuy?n m?ch
-Bao g?m c�c thi?t b? ph?n c?ng cung nhu ph?n m?m di?u khi?n
+STP Tekelek EAGLE 5 hổ trợ khai báo tối đa bao nhiêu linkset 	1024
+STP TEKELEK mà VNPT-NET đang sử dụng được sản xuất ở quốc gia nào	Mỹ
+Subrack TCSM của các BSC Huawei hiện tại đang được lắp đặt gần Tổng đài hơn so với BSC , đúng hay sai 	TRUE
+SW 4200 tại trạm có kết nối Uplink đến thiết bị nào 	PE
+Tốc độ kết nối mặc định (default) để login trực tiếp vào Modem Juniper SSG20 thông qua cổng Console 	9600 bps
+Tổng đài AXE có khả năng được sử dụng để cung cấp dịch vụ thay thế cho tổng đài Surpass	FALSE
+Tổng đài HiG 1100 có thể đấu nối tối đa bao nhiêu E1 ?	32 E1
+Tổng đài MSC trong kiến trúc mạng UMTS R4 được chia thành các phần tử nào?	MSC Server, MGW(Media Gateway)  
+Tham số nào được sử dụng trong số TMSI để nhận dạng tổng đài nào sẽ quản lý thuê bao trong Pool 	NRI
+Thành phần APT trong hệ thống của tổng đài AXE10 gồm các thiết bị nào?	"Bao gồm các thiết bị chuyển mạch
+Bao gồm các thiết bị phần cứng cũng như phần mềm điều khiển
 "
-181	Theo khuy?n ngh? c?a Ericsson th� tr�n m?i card ET-C41 c� th? khai b�o t?i da bao nhi�u b�o hi?u HSL	2
-182	Theo qui d?nh VHBD, nhi?t d? ph�ng m�y du?c qui d?nh nhu sau	"T? 22-24 d? C;
-�?m b?o nhi?t d? t?i gi� m�y t?i vi? tr� qu?t h�t v�o thi?t b?  kh�ng qu� 25 d? C"
-183	Theo quy thi?t k? c?a t?ng c�ng ty, t?ng d�i TSSE4A Ericsson t?i C?n Tho th?c hi?n ch?c nang g�  	L�m Gateway cho c�c t?ng d�i di d?ng thu?c khu v?c d�i C?n Tho
-184	Theo t�i li?u thi?t k? c?a t?ng c�ng ty th� t?ng d�i MSSE4C Ericsson c� dung lu?ng bao nhi�u thu� bao 	1M
-185	Theo t�i li?u, c?ng ES tr�n card EC thi?t b? 1830PSS-32 d�ng d?	K?t n?i d?n card EC tr�n shelf m? r?ng
-186	Theo t�ili?u, card SCMA-SCC4 c�ngu?ngthudu?id?iv?igiaodi?n NTWK l�	          - 36 dBm
-187	Theo t�ili?u, lo?idi?uch?t�nhi?uquang 40G s?d?ngtrong card IFMA-QMC1 thi?tb? FW7500 l�:	NRZ-ADPSK
-188	Thi?t b?  FW7500, c�ng su?t ph�t  card khu?ch d?i tang theo s? bu?c s�ng s? d?ng tuong ?ng di qua card, d�ng hay sai	TRUE
-189	Thi?t b? d?u cu?i n�o sau d�y  c� th? du?c s? d?ng d? l�m ch?c nang c?a Router?	"SSG-20
+Theo khuyến nghị của Ericsson thì trên mỗi card ET-C41 có thể khai báo tối đa bao nhiêu báo hiệu HSL	2
+Theo qui định VHBD, nhiệt độ phòng máy được qui định như sau	"Từ 22-24 độ C;
+Đảm bảo nhiệt độ tại giá máy tại vị trí quạt hút vào thiết bị  không quá 25 độ C"
+Theo quy thiết kế của tổng công ty, tổng đài TSSE4A Ericsson tại Cần Thơ thực hiện chức năng gì  	Làm Gateway cho các tổng đài di dộng thuộc khu vực đài Cần Thơ
+Theo tài liệu thiết kế của tổng công ty thì tổng đài MSSE4C Ericsson có dung lượng bao nhiêu thuê bao 	1M
+Theo tài liệu, cổng ES trên card EC thiết bị 1830PSS-32 dùng để	Kết nối đến card EC trên shelf mở rộng
+Theo tàiliệu, card SCMA-SCC4 cóngưỡngthudướiđổivớigiaodiện NTWK là	          - 36 dBm
+Theo tàiliệu, loạiđiềuchếtínhiệuquang 40G sửdụngtrong card IFMA-QMC1 thiếtbị FW7500 là:	NRZ-ADPSK
+Thiết bị  FW7500, công suất phát  card khuếch đại tăng theo số bước sóng sử dụng tương ứng đi qua card, đúng hay sai	TRUE
+Thiết bị đầu cuối nào sau đây  có thể được sử dụng để làm chức năng của Router?	"SSG-20
 Cisco-888"
-190	Thi?t b? d?ng b? US5Ge k?t n?i t?i PE tr�n VN2 d?:	C?p t�n hi?u d?ng b? PTP cho c�c thi?t b? kh�c qua m?ng VN2
-191	Thi?t b? E320 c� m?y module ngu?n	1
-192	Thi?t b? MGC v� MG trong h? th?ng t?ng d�i Surpass c?a VTN du?c k?t n?i v?i nhau qua	�u?ng truy?n VPN
-193	Thi?t b? MX960 hi?n t?i c� bao nhi�u FAN Tray	2
-194	Thi?t b? n�o trong MAN-E k?t n?i v?i PE/BRAS c?a VTN?	AGG
-195	Thi?t b? OME6500 MSPP du?c thi?t k? d? cung c?p c�c lo?i d?ch v? n�o sau d�y	"C�c d?ch v? SDH/SONET; C�c d?ch v? PDH; C�c d?ch v? bang r?ng (c? 3 )
+Thiết bị đồng bộ US5Ge kết nối tới PE trên VN2 để:	Cấp tín hiệu đồng bộ PTP cho các thiết bị khác qua mạng VN2
+Thiết bị E320 có mấy module nguồn	1
+Thiết bị MGC và MG trong hệ thống tổng đài Surpass của VTN được kết nối với nhau qua	Đường truyền VPN
+Thiết bị MX960 hiện tại có bao nhiêu FAN Tray	2
+Thiết bị nào trong MAN-E kết nối với PE/BRAS của VTN?	AGG
+Thiết bị OME6500 MSPP được thiết kế để cung cấp các loại dịch vụ nào sau đây	"Các dịch vụ SDH/SONET; Các dịch vụ PDH; Các dịch vụ băng rộng (cả 3 )
 "
-196	Thi?t b? PE 7750 SR-7 c� th? g?n t?i da bao nhi�u Line card 	5
-197	Thu?t ng? cell trong m?ng di d?ng du?c hi?u l� 	m?t v�ng ph? s�ng v� tuy?n.
-198	Tr?m BTS c� s? t?n s? c�ng nhi?u th� 	"c�ng ph?c v? du?c nhi?u thu� bao
-T?c d? data c?a ngu?i d�ng c�ng l?n
-kh? nang g�y nhi?u c�ng l?n"
-199	Tr?ng th�i led TRIB1 c?a card IFMA-8TC1 thi?t b? FW7500 c?nh b�o m�u v�ng, nghia l� 	"C?nhb�o AIS c?ng TRIB1;
-C?nhb�o RDI c?ng TRIB"
-200	Tr�n hu?ng  li�n l?c gi?a 2 di?m b�o hi?u, b�o hi?u SS7 c� th? d�p ?ng t?i da bao nhi�u k�nh trung k? tho?i	4096
-201	Tr�n m?t hu?ng li�n l?c li�n d�i c� 6 k�nh trung k? tho?i, v�o gi? cao di?m ghi nh?n c� t?ng c?ng 54 ph�t li�n l?c. Luu lu?ng trung b�nh (Erl/k�nh) gi? cao di?m tr�n hu?ng n�y l� bao nhi�u?	0.15
-202	Tr�n thi?t b? FW7500, card khu�ch d?i APMA-DRC1 ph?i lu�n g?n tr�n shelf SHU2, d�ng hay sai	TRUE
-203	Tr�n thi?t b? FW7500, khi s? d?ng card khu?ch d?i APMA-DRC1 ph?i lu�n s? d?ng c�ng v?i  card  khu?ch d?i APMA-ULU1, d�ng hay sai	TRUE
-204	Tr�n thi?t b? FW7500, t�n hi?u OSC du?c gh�p v�o t�n hi?u DWDM t?i card:	Amplifier
-205	Tr�n thi?t b? HW OSN8800, card n�o sau d�y th?c hi?n gh�p 40 bu?c s�ng ng� v�o d? t?o th�nh t�n hi?u DWDM	M40
-206	Trong c�c lo?i card sau d�y, lo?i card n�o n?m tr�n thi?t b? BRAS E320:	"LM-10 Uplink
+Thiết bị PE 7750 SR-7 có thể gắn tối đa bao nhiêu Line card 	5
+Thuật ngữ cell trong mạng di động được hiểu là 	một vùng phủ sóng vô tuyến.
+Trạm BTS có số tần số càng nhiều thì 	"càng phục vụ được nhiều thuê bao
+Tốc độ data của người dùng càng lớn
+khả năng gây nhiễu càng lớn"
+Trạng thái led TRIB1 của card IFMA-8TC1 thiết bị FW7500 cảnh báo màu vàng, nghĩa là 	"Cảnhbáo AIS cổng TRIB1;
+Cảnhbáo RDI cổng TRIB"
+Trên hướng  liên lạc giữa 2 điểm báo hiệu, báo hiệu SS7 có thể đáp ứng tối đa bao nhiêu kênh trung kế thoại	4096
+Trên một hướng liên lạc liên đài có 6 kênh trung kế thoại, vào giờ cao điểm ghi nhận có tổng cộng 54 phút liên lạc. Lưu lượng trung bình (Erl/kênh) giờ cao điểm trên hướng này là bao nhiêu?	0.15
+Trên thiết bị FW7500, card khuêch đại APMA-DRC1 phải luôn gắn trên shelf SHU2, đúng hay sai	TRUE
+Trên thiết bị FW7500, khi sử dụng card khuếch đại APMA-DRC1 phải luôn sử dụng cùng với  card  khuếch đại APMA-ULU1, đúng hay sai	TRUE
+Trên thiết bị FW7500, tín hiệu OSC được ghép vào tín hiệu DWDM tại card:	Amplifier
+Trên thiết bị HW OSN8800, card nào sau đây thực hiện ghép 40 bước sóng ngõ vào để tạo thành tín hiệu DWDM	M40
+Trong các loại card sau đây, loại card nào nằm trên thiết bị BRAS E320:	"LM-10 Uplink
 GE-4 IOA
 "
-207	Trong c�c lo?i card sau d�y, lo?i card n�o n?m tr�n thi?t b? BRAS E320:	SRP-100; SFM-100
-208	Trong c�c lo?i card sau d�y, lo?i card n�o n?m tr�n thi?t b? PE 7750:	"MDA m2-10gb-xp-xfp
+Trong các loại card sau đây, loại card nào nằm trên thiết bị BRAS E320:	SRP-100; SFM-100
+Trong các loại card sau đây, loại card nào nằm trên thiết bị PE 7750:	"MDA m2-10gb-xp-xfp
 IOM2-20g
 "
-209	Trong c�c lo?i card sau d�y, lo?i card n�o n?m tr�n thi?t b? PE MX960:	MIC 3D 20x 1GE(LAN) SFP
-210	Trong c�c lo?i d?ch v? sau d�y, d?ch v? n�o c� bang th�ng ?n d?nh nh?t?	Leasedline
-211	Trong c?u tr�c ch?c nang c?a t?ng d�i MSSN c�c kh?i ch?c nang n�o sau d�y c� c?u h�nh c? d?nh 	"OMU; STU; CMM
+Trong các loại card sau đây, loại card nào nằm trên thiết bị PE MX960:	MIC 3D 20x 1GE(LAN) SFP
+Trong các loại dịch vụ sau đây, dịch vụ nào có băng thông ổn định nhất?	Leasedline
+Trong cấu trúc chức năng của tổng đài MSSN các khối chức năng nào sau đây có cấu hình cố định 	"OMU; STU; CMM
 "
-212	Trong h? di?u h�nh Cisco IOS XR, khai b�o MPLS du?c th?c hi?n ? mode Global Configuration, d�ng hay sai	TRUE
-213	Trong h? th?ng chuy?n ti?p b�o hi?u STP Tekelec, card n�o sau d�y c� th?d?u n?i ra port ge, d? khai b�o b�o hi?u Sigtran.	E5-ENET
-214	Trong h? th?ng STP Tekelek 2 card x? l� E5-MASP du?c g?n ? v? tr� n�o  sau d�y 	1113/1114 v� 1115/1116
-215	Trong h? th?ng STP Tekelek card d�nh s? 1102 s? du?c g?n ? v? tr� n�o sau d�y 	Frame 1, shelf 1, slot 02
-216	Trong h? th?ng STP Tekelek card E5-E1/T1 th?c hi?n ch?c nang n�o sau d�y	Cung c?p d?n 32 link b�o hi?u k�nh 64k ho?c 1 link b�o hi?u HSL TDM.
-217	Trong h? th?ng STP Tekelek card E5-ENET th?c hi?n ch?c nang ch�nh n�o sau d�y	Cung c?p giao di?n v?t l� 10/100 Mbps v� th?c hi?n x? l� b�o hi?u sigtran.
-218	Trong h? th?ng STP Tekelek c� th? khai b�o t?i da bao nhi�u link cho m?t linkset ?	16
-219	Trong h? th?ng Surpass c?a TCT Net, MGC di?u khi?n c�c MG qua giao th?c n�o?	MGCP, H248
-220	Trong h? th?ng Surpass c?a TCT Net, thi?t b? n�o sau d�y kh�ng thu?c v? l?p phuong ti?n (Media) trong c?u tr�c ph�n l?p c?a h? th?ng chuy?n m?ch m?m?	hiE 9200
-221	Trong IOG 20C t?ng d�i Toll/AXE2 ta c� th? xu?t d? li?u ra ngo�i b?ng c�ch n�o ?	"Truy?n qua data link Ftam 
-Truy?n qua data link Ericsson MTP
-Truy?n qua dia quang
+Trong hệ điều hành Cisco IOS XR, khai báo MPLS được thực hiện ở mode Global Configuration, đúng hay sai	TRUE
+Trong hệ thống chuyển tiếp báo hiệu STP Tekelec, card nào sau đây có thểđấu nối ra port ge, để khai báo báo hiệu Sigtran.	E5-ENET
+Trong hệ thống STP Tekelek 2 card xử lý E5-MASP được gắn ở vị trí nào  sau đây 	1113/1114 và 1115/1116
+Trong hệ thống STP Tekelek card đánh số 1102 sẽ được gắn ở vị trí nào sau đây 	Frame 1, shelf 1, slot 02
+Trong hệ thống STP Tekelek card E5-E1/T1 thực hiện chức năng nào sau đây	Cung cấp đến 32 link báo hiệu kênh 64k hoặc 1 link báo hiệu HSL TDM.
+Trong hệ thống STP Tekelek card E5-ENET thực hiện chức năng chính nào sau đây	Cung cấp giao diện vật lý 10/100 Mbps và thực hiện xử lý báo hiệu sigtran.
+Trong hệ thống STP Tekelek có thể khai báo tối đa bao nhiêu link cho một linkset ?	16
+Trong hệ thống Surpass của TCT Net, MGC điều khiển các MG qua giao thức nào?	MGCP, H248
+Trong hệ thống Surpass của TCT Net, thiết bị nào sau đây không thuộc về lớp phương tiện (Media) trong cấu trúc phân lớp của hệ thống chuyển mạch mềm?	hiE 9200
+Trong IOG 20C tổng đài Toll/AXE2 ta có thể xuất dữ liệu ra ngoài bằng cách nào ?	"Truyền qua data link Ftam 
+Truyền qua data link Ericsson MTP
+Truyền qua dĩa quang
 "
-222	Trong ki?n tr�c m?ng l�i UMTS, ph?n t? n�o sau d�y k?t n?i v?i GGSN? :	SGSN
-223	Trong khung 2Mbps c?a lu?ng trung k? li�n d�i, t�n hi?u b�o hi?u R2 du?c gh�p v�o Time slot n�o?	16
-224	Trong m?ng b�o hi?u s? 7, di?m b�o hi?u (Signaling Point Code) l� duy nh?t d�ng hay sai	TRUE
-225	Trong m?ng di?nh tuy�n du`ng OSPF, m?i router trong m?ng d?u ph?i luu gi? c�c th�ng tin :	"Neighbor Table
+Trong kiến trúc mạng lõi UMTS, phần tử nào sau đây kết nối với GGSN? :	SGSN
+Trong khung 2Mbps của luồng trung kế liên đài, tín hiệu báo hiệu R2 được ghép vào Time slot nào?	16
+Trong mạng báo hiệu số 7, điểm báo hiệu (Signaling Point Code) là duy nhất đúng hay sai	TRUE
+Trong mạng định tuyến dùng OSPF, mỗi router trong mạng đều phải lưu giữ các thông tin :	"Neighbor Table
 Topology Table
 Routing Table
 "
-226	Trong ring nam HW OSN8800, h? th?ng c� th? th?c hi?n crossconnect ho?c passthrought bu?c s�ng quang , d�ng hay sai 	FALSE
-227	Trong t?ng d�i AXE Toll c�c ph�n h? con n�o sau d�y thu?c v? b? ph?n chuy?n m?ch APT	"GSS
+Trong ring nam HW OSN8800, hệ thống có thể thực hiện crossconnect hoặc passthrought bước sóng quang , đúng hay sai 	FALSE
+Trong tổng đài AXE Toll các phân hệ con nào sau đây thuộc về bộ phận chuyển mạch APT	"GSS
 TSS
 "
-228	Trong t?ng d�i AXE Toll c�c ph�n h? con n�o sau d�y thu?c v? b? ph?n di?u khi?n APZ:	"RPS; CPS
+Trong tổng đài AXE Toll các phân hệ con nào sau đây thuộc về bộ phận điều khiển APZ:	"RPS; CPS
 "
-229	Trong t?ng d�i AXE10 nh?m chia t?i cho b? x? l� trung t�m (CP), ngu?i ta thi?t k? th�m c�c b? x? l� v�ng (Regional Processor), C�c RP h? tr? cho c�c CP x? l� c�c c�ng vi?c chuy�n bi?t n�o d�, tuy nhi�n t?t c? c�c quy?t d?nh d?u do CP	True 
-230	trong th�ng tin di d?ng, h? th?ng m?ng l�i GPRS bao g?m c�c ph?n t? n�o	SGSN,GGSN
-231	trong th�ng tin di d?ng, SGSN l� ph?n t? thu?c h? th?ng n�o c?a m?ng	H? th?ng v� tuy?n g�i chung GPRS
-232	Trung k? li�n d�i gi?a t?ng d�i AXE v?i c�c t?ng d�i kh�c tr�n m?ng lu?i hi?n t?i dang s? d?ng c�c lo?i c?ng k?t n?i	"E1
+Trong tổng đài AXE10 nhằm chia tải cho bộ xử lý trung tâm (CP), người ta thiết kế thêm các bộ xử lý vùng (Regional Processor), Các RP hỗ trợ cho các CP xử lý các công việc chuyên biệt nào đó, tuy nhiên tất cả các quyết định đều do CP	True 
+trong thông tin di động, hệ thống mạng lõi GPRS bao gồm các phần tử nào	SGSN,GGSN
+trong thông tin di động, SGSN là phần tử thuộc hệ thống nào của mạng	Hệ thống vô tuyến gói chung GPRS
+Trung kế liên đài giữa tổng đài AXE với các tổng đài khác trên mạng lưới hiện tại đang sử dụng các loại cổng kết nối	"E1
 STM1 
 "
-233	Vai tr� c?a PE 7750/MX960 trong m?ng VN2	"Cung c?p d?ch v? L2/L3 VPN (unicast/multicast) 
-LeaseLine/Peering Internet , d?nh tuy?n luu lu?ng MegaVNN/FTTH"
-234	Vai tr� c?a ph?n t? SPX tr�n c�c t?ng d�i Ericsson blade cluster l� g� 	X? l� b�o hi?u
-235	V? tr� v� ch?c nang c?a card SRU trong thi?t b? NE40E-4 v� NE40E-8?   	Slot 5 v� 6 ( NE40E-4 ) v� slot 9 v� 10 ( NE40E-8 ) cung c?p ch?c nang di?u khi?n ch�nh cho to�n b? thi?t b? 
-236	V? tr� v� ki?u d? ph�ng card RSP720-3C-GE tr�n MAN-E?	Slot 5,6  d? ph�ng ki?u 1:1 
-237	Vi?c d?nh tuy?n c?a giao th?c RIP d?a tr�n 	Hop count (s? hop d?m du?c)
-238	V�ng ph? s�ng c?a tr?m 3G l� c? d?nh hay thay d?i nhu th? n�o 	Ph? thu?c v�o s? thu� bao dang ho?t d?ng t?i tr?m n�n v�ng ph? s�ng l� d?ng
+Vai trò của PE 7750/MX960 trong mạng VN2	"Cung cấp dịch vụ L2/L3 VPN (unicast/multicast) 
+LeaseLine/Peering Internet , định tuyến lưu lượng MegaVNN/FTTH"
+Vai trò của phần tử SPX trên các tổng đài Ericsson blade cluster là gì 	Xử lý báo hiệu
+Vị trí và chức năng của card SRU trong thiết bị NE40E-4 và NE40E-8?   	Slot 5 và 6 ( NE40E-4 ) và slot 9 và 10 ( NE40E-8 ) cung cấp chức năng điều khiển chính cho toàn bộ thiết bị 
+Vị trí và kiểu dự phòng card RSP720-3C-GE trên MAN-E?	Slot 5,6  dự phòng kiều 1:1 
+Việc định tuyến của giao thức RIP dựa trên 	Hop count (số hop đếm được)
+Vùng phủ sóng của trạm 3G là cố định hay thay đổi như thế nào 	Phụ thuộc vào số thuê bao đang hoạt động tại trạm nên vùng phủ sóng là động

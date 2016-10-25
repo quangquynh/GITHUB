@@ -1,2 +1,353 @@
-1234QW
-SDSDGFD
+STT	N?i dung câu h?i	Ðáp án dúng
+1	01 NE 5430 h? tr? t?i da bao nhiêu module LM 	30
+2	Area Backbone hi?n t?i dang khai báo trong OSPF c?a m?ng IP Core Mobile hi?n t?i là bao nhiêu	0
+3	AS Number c?a giao th?c IBGP dang s? d?ng trong m?ng IP Core cho di d?ng hi?n tài là bao nhiêu	65512
+4	B?o du?ng thi?t b? vi?n thông có ?nh hu?ng liên l?c c?n th?c hi?n th?i gian nào	Sau 23h dêm
+5	B? chuy?n d?i bu?c sóng quang (OWT) có ch?c nang 	Chuy?n d?i các bu?c sóng ngõ vào t? tiêu chu?n ITU-T G.957 thành ITU-T G.962 d? phù h?p v?i qui d?nh c?a h? th?ng DWDM
+6	C? 2 Router P, PE trong m?ng IP Core cho Mobile d?u khai báo BGP v?i Router Reflector, dúng hay sai	FALSE
+7	Các  router MAN-E du?c phân thành các lo?i nào sau dây theo ch?c nang? 	AGG router và UPE router
+8	các báo hi?u nào sao dây du?c s? d?ng trong  t?ng dài NGN-HIE9200	H248; SIP; Sigtran
+9	Các bu?c c?n th?c hi?n trong thao tác rút card OAU h?ng trên thi?t b? HW OSN8800 d? thay m?i	Ki?m tra card m?i cùng version v?i card c?n thay – ghi nh?n c?nh báo dang t?n t?i – kích ho?t ch?c nang ch? th? tháo card (board removal indication function) trên NMS – label các cáp trên card – mang dây t?nh di?n – rút card c?n thay ra
+10	Các bu?c th?c hi?n remove m?t card CPU blade (làm ch?c nang OMU)  trên MSSND	"  1.Copy d? li?u t? OMU vào ? c?ng.
+- 2.Ngan c?m vi?c c?p nh?t d? li?u lên ? c?ng.
+- 3.Thay d?i tr?ng thái ? c?ng,
+- 4.Thay d?i tr?ng thái OMU sang SE-NH.
+- 5. Ti?n hành rút card."
+11	Các card cung c?p giao di?n truy?n d?n TDM trên MGW c?a các MSS Ericsson dang ho?t d?ng theo co ch? d? phòng nhu th? nào	1+1
+12	Các d?ch v? ( VPNL2 liên t?nh  ,VPNL3 ) trên m?ng VN2 du?c khai báo trên các thi?t nào du?i dây?	"Alcalte 7750SR 
+Juniper MX-960 
+"
+13	Các giao th?c nào sau dây thu?c lo?i giao th?c EGP (Exterior Gateway Protocols) :	BGP
+14	Các kh?i ch?c nang chính trong m?t card CLA c?a MWGN 	"OMU; CM; HCLB; SISU; GSU
+"
+15	Các lo?i Card nào dang du?c s? d?ng trên MGW4D, VNPT-NET2 	ACPI4-A, AHUB3-A, CPRT4-A, HBRT3-A, ADSP1-B.
+16	Các lo?i Card nào dang du?c s? d?ng trên MSSN4D, VNPT-NET2 	ACPI4-B, AHUB3-A, CPRT4-B, HBRT3-A
+17	Các lo?i card trong thi?t b? NE40E c?a Huawei	SRU ,  LPU ; SFU    
+18	Các lo?i d?ch v? dang khai báo trên MAN-E c?a VNPT?	"D?ch v? VPN Layer 2 ( ELAN , ETREE ) 
+D?ch v? Virtual Leased Line ( ELINE ) 
+D?ch v? MyTV/VoD 
+"
+19	Các lo?i giao di?n dang s? d?ng trên PE 7750 SR-7 là gì 	1GE, 10GE, STM16, STM64
+20	Các lo?i Line card có trong MAN-E cisco	"7600-ES+2TG3C
+7600-ES+20G3C
+7600-ES+4TG3C 
+7600-ES20-10G3C ,7600-ES20-GE3C 
+"
+21	Các l?p nào sau dây thu?c v? c?u trúc phân l?p c?a h? th?ng chuy?n m?ch m?m:	"L?p di?u khi?n; 
+L?p phuong ti?n
+"
+22	Các m?ng nào sau dây thu?c lo?i Broadcast Multi-access :	Ethernet
+23	Các m?ng nào sau dây thu?c lo?i NBMA (Nonbroadcast Multi-access) :	"Frame Relay
+ATM
+X.25
+"
+24	Các model router dang du?c khai thác trên m?ng MAN-E ?   	"CISCO7609  và CISCO7609
+Huawei NE40E-4 và Huawei NE40E-8
+"
+25	Các ph?n t? thu?c m?ng vô tuy?n 2G	BTS/BSC
+26	Các Router trong m?ng IP Core cho di d?ng hi?n t?i có c?u hình COPP( Control Plane Policing) 	Có
+27	Các router trong m?ng IP Core Mobile VNP s? d?ng xác th?c user login là xác th?c TACACS+, dúng hay sai	FALSE
+28	Các shelf qu?t du?c c?p ngu?n b?i nh?ng CB nào	A9, A10, B9, B10
+29	Các tiêu chu?n ITU-T G.821, G.826, G.829 là các tiêu chu?n 	Ð? dánh giá ch?t lu?ng du?ng truy?n d?n PDH và SDH.
+30	Các T?ng dài MSS Ericsson card nào th?c hi?n ch?c nang x? lý tho?i và tri?t ti?ng v?ng 	MSB
+31	Các T?ng dài MSS Ericsson khu v?c dài CTO dang du?c giám sát qua giao th?c gì	Telnet
+32	Các t?ng dài MSS Ericsson t?i khu v?c dài VT C?n Tho dùng d? cung c?p d?ch v? gì trong m?ng thông tin di d?ng 	D?ch v? tho?i 
+33	các thành ph?n co b?n c?a t?ng dài NGN-HIE9200	CP113, MB, MCPA , HIG 1200/HIG1800, PCU, NETM
+34	Các thi?t b? EAGLE 5 ISS Tekelec n?m trong h? th?ng nào trên m?ng lu?i c?a TCT NEt?	M?ng báo hi?u STP
+35	Các thi?t b? nào sau dây có co c?u t?n nhi?t hút theo chi?u th?ng d?ng?	"T1600, MX960, 7750-SR7; 
+T1600, MX960, 7750-SR12"
+36	Các thi?t b? US5Ge n?m trong h? th?ng nào trên m?ng lu?i 	M?ng d?ng b?
+37	Các VNPT TTP nào thu?c khu v?c VNPT Net2 hi?n dang trang b? h? th?ng MAN-E Huawei	"Lâm Ð?ng
+Long An
+Bình Thu?n
+"
+38	Card 8xGE/T h? tr? d? dài gói Ethernet d?n 9600 bytes, dúng hay sai	TRUE
+39	Card HOCC thi?t b? FW4570 có kh? nang k?t n?i chéo m?i c?p d? VC, dúng hay sai 	FALSE
+40	Card IPDU trong h? th?ng MSSN4D ho?t d?ng theo co ch? nào 	2 + 1
+41	Card nào sau dây th?c hi?n ch?c nang khuy?t d?i tín hi?u trong ring nam HW OSN8800	"OAU
+RAU
+"
+42	Card nào trên các Mediagateway c?a các MSS Ericsson cung c?p giao di?n IP d? k?t n?i d?n m?ng IP-Core	ET-IPG
+43	Card nào trên các MGW Ericsson cung c?p giao di?n truy?n d?n ATM 	ET-MC1 
+44	Card nào trên các MGW Ericsson nh?n và x? lý tín hi?u d?ng b? 2Mhz	TUB
+45	Card x? lý chung trong h? th?ng STP Tekelek là card nào sau dây	E5-MASP  A, B
+46	C?u hình thi?t b? FW7500 ch? có hai hu?ng quang có add/drop bu?c sóng, có th? ch?n c?u hình  	"2D-ROADM
+WSS-ROADM"
+47	Câu l?nh d? ki?m tra tr?ng thái Master/Slave trên Router Huawei là	"Display device; Display version
+"
+48	Câu l?nh du?c s? d?ng trong quá trình thu th?p thông tin cho router Cisco d? ph?c v? ch?n doán, x? lý l?i là gì	Show tech-support
+49	C?u trúc c?a SoftSwitch HiE 9200 bao g?m các thành ph?n nào	CFS, ICN, PM, SG và OAM&P agent
+50	C?u trúc h? th?ng c?a t?ng dài AXE10 du?c chia làm 02 ph?n, tên g?i hai ph?n dó là gì?	APT và APZ
+51	C?u trúc khung PCM 30 du?c mã hóa theo lu?t A có d?c tính co b?n sau:	T?c d? truy?n 2,048 Kb/s, m?t khung g?m 32 TS/30 CH
+52	Có bao nhiêu module “Power and Fan” trên subrack IS c?a các MSS Ericsson blade cluster	2
+53	Có th? s? d?ng l?nh d? chuy?n thuê bao qua l?i gi?a 2 MSS trong cùng 1 Pool, dúng hay sai	TRUE
+54	C?ng giao ti?p gi?a PE/VN2 và MAN-E s? d?ng lo?i c?ng nào sao dây 	1GE ; 10GE-LAN 
+55	Co ch? chuy?n m?ch b?o v? bu?c sóng quang dang s? d?ng trên ring BB2 ALU	ASON
+56	Co ch? Pool nào dang ho?t d?ng trên các t?ng dài Ericsson khu v?c dài CTO	"MPP
+MiP"
+57	Ch? d? ch?y d? phòng c?a card GISU (General Signalling Unit) trong MSSN nhu th? nào	N+ 3
+58	Ch?c nang các thi?t b? SSU du?c l?p d?t t?i các tr?m vi?n thông Tlà gì 	C?p các lu?ng tín hi?u d?ng b? 2MHZ và 2MBPS cho các thi?t b? Vi?n thông
+59	Ch?c nang card SHP3 s? d?ng trong h? th?ng FW7500 là gì 	Qu?n lý d? li?u, d?nh tuy?n và k?t cu?i DCC, OSC. H? tr? t?i ph?m m?m. H? tr? luu tr? và ph?c h?i b? nh? t? xa. Ði?u khi?n chuy?n m?ch b?o v? quang. Phát hi?n và c?nh báo l?i. Giám sát và c?nh báo ch?t lu?ng h? th?ng
+60	Ch?c nang c?a  STP là gì 	Chuy?n ti?p báo hi?u t? 1 dài này t?i 1 dài khác 
+61	Ch?c nang c?a m?ng MAN-E là gì?	Là m?ng dô th? dùng công ngh? Ethernet  cung c?p các d?ch v? l?p 2, MyTV ,VOD  t?i t?t  c? các t?nh , k?t n?i vói m?ng Core VN2 c?a VNPT 
+62	Ch?c nang c?a m?ng vô tuy?n 3G là	Cung c?p, di?u ki?n và qu?n lý tài nguyên vô tuy?n.
+63	Ch?c nang c?a NodeB là 	"Qu?n lý kênh vô tuy?n
+Mã hóa và gi?i mã kênh
+Ði?u ch?nh công su?t phát"
+64	Ch?c nang c?a t?ng dài AXE trên m?ng lu?i vi?n thông c?a TCT Net là gì?	Làm T?ng dài Toll
+65	Ch?c nang chính c?a STP trong m?ng báo hi?u SS7 	"Ð?nh tuy?n các b?n tin báo hi?u.
+Qu?n lí m?ng báo hi?u.
+Th?c hi?n do ki?m.
+Phiên d?ch d?a ch? GT (Global Title)
+Làm ch?c nang Gateway Screening Function: l?c các b?n tin báo hi?u.
+"
+66	Ch?c nang chuy?n m?ch ASON thi?t b? 1830PSS-36 du?c di?u khi?n b?i 	FLC
+67	D?ch v? SMS BrandName du?c cung c?p b?i h? th?ng thi?t b? nào c?a VNPT Net2 ?	H? th?ng SMSGW
+68	Dung lu?ng t?i da c?a h? th?ng M16.1 ATCA-MSSN  có c?u hình cao nh?t (1 cabinet, 3 shelves) là bao nhiêu 	5 tri?u thuê bao, 120 nghìn calls cùng m?t lúc. 
+69	Ða truy c?p ghép kênh phân chia theo t?n s? có tên vi?t t?t là gì	FDMA
+70	Ða truy c?p ghép kênh phân chia theo th?i gian có tên vi?t t?t là gì	TDMA
+71	Ð?c trung chính c?a lo?i Hardware ATCA dang s? d?ng trên h? th?ng MSSN và MGWN c?a VNPT-NET 	"Dung lu?ng l?n, nang lu?ng di?n tiêu thu th?p.
+Kích thu?c nh? và kh? nang tuong thích cao v?i các h? th?ng dang có
+Lu?ng khí th?i CO2 th?p
+"
+72	Ð? giám sát và Ði?u khi?n ho?t d?ng c?a Subrack IS trên các MSS Blade cluster Ericsson, ta dùng chuong trình gì 	S? d?ng giao th?c http qua ?ng d?ng Web Browser
+73	Ð? ti?n hành thay th? card d? phòng cho các t?ng dài MSS Ericsson ta c?n xem các thông tin gì trên card d? phòng d? thay th? phù h?p 	"Tên card
+S? Part Number
+"
+74	d?a ch? port craft default trên module UOSC c?a thi?t b? Ciena CPL là	10.10.0.1/30
+75	Ði?m khác bi?t co b?n gi?a Node OADM và ROADM trong h? th?ng DWDM là gì?	ROADM có th? tùy ch?nh remote vi?c add/drop bu?c sóng mà không ?nh hu?ng d?n các bu?c sóng dã pass-through qua Node
+76	di?m khác nhau gi?a tín hi?u s? và tín hi?u tuong t? là Tín hi?u s? là tín hi?u có giá tr? h?u h?n trong mi?n xét (t?n s?, biên d?), còn tính hi?u tuong t? có giá tr? liên t?c, so sánh này dúng  hay sai	dúng
+77	di?m khác nhau gi?a tín hi?u s? và tín hi?u tuong t? là tín hi?u s? là tín hi?u ch? có hai giá tr?, còn tín hi?u tuong t? có nhi?u hon hai giá tr?, so sánh này dúng  hay sai	sai
+78	Ð? r?ng bang t?n c?a m?t t?n s? s? d?ng trong WCDMA	5MHZ
+79	Ð? r?ng bang t?n c?a m?t t?n s? trong GSM là 	200 KHz
+80	Ð?i v?i d?ch v? Megawan cung c?p, d?nh tuy?n gi?a thi?t b? m?ng c?a TCT Net v?i thi?t b? khách hàng dang s? d?ng phuong th?c:	"Static
+EBGP
+"
+81	Ðon v? nào ch?u trách nhi?m chính v?n hành khai thác m?ng IP Mobile Core VNPT khu v?c NET2 	INOC2
+82	Ðon v? nào hi?n dang ch?u trách nhi?m chính trong vi?c v?n hành khai thác h? th?ng các t?ng dài di d?ng khu v?c NET2	SNOC2
+83	EDFA là b? khu?ch d?i quang 	"Ho?t d?ng d?a trên các thành ph?n ch? y?u là ngu?n bom laser có bu?c sóng 980 nm và 1480 nm và s?i quang pha t?p nguyên t? hi?m Erbium.
+Ðu?c ?ng d?ng trong các tru?ng h?p nhu khu?ch d?i công su?t cho phía phát, khu?ch d?i du?ng dây cho các tuy?n quang dài, và ti?n khu?ch d?i cho phía thu trên h? th?ng DWDM.
+Ho?t d?ng du?c v?i dãi bu?c sóng thu?c bang C và L"
+84	Ghép kênh phân chia theo t?n s? có tên vi?t t?t là gì	FDM
+85	Ghép kênh phân chia theo th?i gian có tên vi?t t?t là gì	TDM
+86	Giao th? d?nh tuy?n OSPF dang khai báo trong m?ng IP Core cho mobile hi?n t?i là	OSPFv2
+87	Giao th?c dang du?c s? d?ng d? truy?n tin nh?n SMS gi?a h? thông SMSGW  v?i các h? th?ng khác là	SMPP
+88	Giao th?c dóng gói tín hi?u GE vào khung SDH trên thi?t b? FW4570	GFP
+89	Hai t?ng dài MSS Ericsson có dung lu?ng khác nhau có th? c?u hình vào cùng 1 Pool Area , Ðúng hay sai 	TRUE
+90	H?n ch? hi?n nay c?a công ngh? ghép bu?c sóng quang DWDM là :	"Chua khai thác h?t bang t?n ho?t d?ng c?a soi quang (ch? s? d?ng dãi bu?c sóng bang C và L).
+Ph? thu?c r?t nhi?u vào d?c tính c?a s?i quang s? d?ng.
+"
+91	hãy li?t kê các d?ch v? ch?y trên thi?t b? BRAS E320	MegaVNN, FTTH
+92	hãy Li?t kê các d?ch v? ch?y trên thi?t b? BRAS ERX 1410/1440/705	MegaVNN, MegaWan, FTTH
+93	H? th?ng DWDM có th? k?t n?i nhi?u hu?ng khác nhau (multi degree) nh? có :	B? xen/r? bu?c sóng quang ROADM (tích h?p WSS) da hu?ng có th? th?c hi?n c?u hình t? xa cho t?ng bu?c sóng quang xen/r?.
+94	H? th?ng DWDM du?c ?ng d?ng trong các mô hình :	"M?ng truy?n d?n quang du?ng dài (long haul).
+M?ng truy nh?p (access).
+M?ng truy?n d?n quang dô th?(MAN).
+"
+95	H? th?ng DWDM ki?u “tích h?p” có d?c tính khác v?i h? th?ng DWDM ki?u “m?” là :	H? th?ng DWDM ki?u tích h?p yêu c?u tín hi?u quang t?i các ngõ vào h? th?ng DWDM ph?i tuân th? tiêu chu?n ITU-T G.962.
+96	H? th?ng EAGLE 5 ISS Tekelec  có ch?c nang là:	M?ng báo hi?u d?c l?p trên m?ng lu?i vi?n thông-STP
+97	H? th?ng ManE t?i các VNPT T?nh/TP do TCT Net qu?n lý s? d?ng thi?t b? c?a hãng nào?	"Cisco
+Huawei
+"
+98	H? th?ng NGN bao g?m các thi?t b? nào sau dây	"SoftSwitch HiE 9200, HiG1000, HiG1100, HiG1200, HiR200, HiQ20, HiQ30
+Các router Core và các router biên
+"
+99	H? th?ng Router ManE-Huawei t?i VNPT T?nh/TP do TCT Net qu?n lý có t?t c? 2 th? nh??	True 
+100	H? th?ng STP Tekelek có các lo?i Card nào sau dây 	"E5-MASP, E5-SM4G, E5-ENET, E5-TSM;
+E5-IPSM, E5-E1/T1, E5-ATM"
+101	H? th?ng STP Tekelek có th? cho phép khai báo t?i da bao nhiêu Point Code theo chu?n ITU	16,384
+102	H? th?ng STP Tekelek don v? do luu lu?ng c?a m?t link báo hi?u sigtran là gì 	TPS
+103	H? th?ng Surpass  có kh? nang du?c s? d?ng d? cung c?p d?ch v? thay th? cho t?ng dài AXE	TRUE
+104	H? th?ng thi?t b? d?ng b? US5Ge  dang cung c?p lo?i tín hi?u d?ng b? nào?	" 2Mbps/2MHz; PTP;  NTP
+ (C? 3 lo?i)
+"
+105	Hi?n nay các co ch? b?o v? luu lu?ng dang du?c d?u n?i chia s? gi?a các thi?tb? t?i các tr?m T?nh thu?c Net2 nhu sau	"Các link MSP 1+1 trên FW4570 du?c chia s? qua HW OSN-8800
+Các link MSP 1+1 trên FW4570 ch? du?c k?t n?i trên cùng FW7500. (a+b)
+"
+106	Hi?n nay NOC2 dang áp d?ng c?u hình b?o v? chuy?n m?ch b?o v? d?i v?i các links SDH t?i các t?nh phía Nam	"B?o v? MSP 1+1; B?o v? SNCP
+B?o v? MS-SPRing (t?t c? dúng)
+"
+107	Hi?n t?i trên m?ng NGN dang có luu lu?ng c?a các d?ch v? nào?	171, 1719, 1800, 1900 và các d?ch v? IP 
+108	Hi?n tu?ng t?c ngh?n  trên các hu?ng trung k? liên dài x?y ra khi	S? cu?c tho?i c?n k?t n?i d?ng th?i l?n hon s? kênh trung k?
+109	Ho?t d?ng c?a b? khu?ch d?i RAMAN su? du?ng trong hê? thô´ng DWDM :	"D?a trên hi?n tu?ng tán x? kích thích Raman, b? khu?ch d?i Raman không gi?i h?n dãi bu?c sóng khu?ch d?i.
+Nh? vào ho?t d?ng c?a ngu?n bom laser ?n d?nh có công su?t cao (có th? lên d?n 1W), b? ghép (coupler) và b? cách ly (isolator).
+"
+110	Kênh giám sát OSC thi?t b? FW7500 có bu?c sóng	1510nm
+111	Kênh OSC trong h? th?ng DWDM co´ thê? s? d?ng bu?c sóng nào sau dây?	"1510 nm;1620 nm;1310 nm
+T?t c? các phuong án d?u dúng
+"
+112	K?t n?i gi?a RNC và Router có th? s? d?ng c? hai giao di?n di?n và quang	TRUE
+113	K?t n?i t? TRAU d?n các MediaGateway c?a t?ng dài Ericsson thu?c dài VT CTO  dang s? d?ng giao di?n gì 	"STM1
+E1
+"
+114	Kh? nang k?t n?i chéo card MT1T9C thi?t b? 1830PSS-36	"1,92Tbps c?p ODU
+640Gbps c?p SDH   (cà 2)"
+115	khai báo OSPF hi?n t?i trên interface các Router PE, P trong m?ng IP Mobile là mode nào	Point-to-point
+116	Khi 2 t?ng dài du?c c?u hình vào cùng 1 Pool Area thì d? li?u khai báo trên 2 t?ng dài ph?i gi?ng nhau, dúng hay sai 	TRUE
+117	Khi có s? c? x?y ra gây m?t liên l?c các t?ng dài MSS Ericsson thì khách hàng không th? s? d?ng d?ch v? DATA trên sóng 3G, dúng hay sai 	FALSE
+118	Khi login vào các Router trong m?ng IP Core Mobile, hi?n t?i ngu?i khai thác dang s? d?ng giao th?c nào d? k?t n?i vào Router	Telnet
+119	Không th? khai báo các d?ch v? VPN trên h? th?ng ManE, b?t bu?c ph?i khai báo trên Router PE ho?c BRAS?	FALSE
+120	L?y m?u tín hi?u trong quá trình PCM là 	Quá trình chuy?n d?i tín hi?u tuong t? liên t?c theo th?i gian thành tín hi?u r?i r?c v?i 1 t?n s? l?y m?u nào dó.
+121	l?ch s? phát tri?n c?a vi?n thông du?c chia thành bao nhiêu pha trong quá trình phát tri?n	4
+122	Lo?i kênh truy?n nào không s? d?ng trong m?ng truy?n hình h?i ngh? NGN ?	Leasedline
+123	Lo?i Router Cisco ASR9K nào dang s? d?ng trong m?ng IP Core Mobile t?i NET2	9010
+124	Lo?i tín hi?u báo hi?u nào sau dây dang du?c s? d?ng t?i t?ng dài Toll	"SS7; R2
+"
+125	Lo?i thi?t b? MG nào trong h? th?ng Surpass c?a TCT Net có dung lu?ng k?t n?i 32 E1?	hiG 1100
+126	Lo?i thi?t b? nào sau dây không có trong h? th?ng Surpass c?a TCT Net?	hiG 1600
+127	Luu lu?ng d?ch v? t? các RNC v? các t?ng dài MSS Ericsson hi?n t?i dang s? d?ng qua giao di?n truy?n d?n gì 	IP
+128	Mã di?m báo hi?u l?n lu?t c?a STPT4A và STPT4B dùng d? khai báo  báo hi?u sigtran là bao nhiêu 	8778 và 8779
+129	Mã du?ng truy?n AMI có d?c di?m 	"Không có thành ph?n DC nh? d?c tính luân phiên d?o d?u.
+Có th? t?n t?i nhi?u bit 0 liên ti?p
+Gi?m suy hao trên du?ng truy?n do thành ph?n DC gây ra."
+130	Mã HDB3 có d?c di?m 	"Không có thành ph?n DC
+Ch? t?n t?i t?i da 3 bit 0 liên ti?p"
+131	Mã hoá trong quá trình PCM là S? chuy?n d?i các giá tr? lu?ng t? hoá c?a tín hi?u tuong t? thành mã nh? phân d? truy?n di.	TRUE
+132	M?ng 3G Vinaphone dang s? dung công ngh? da truy c?p nào	WCDMA
+133	M?ng 3G Vinaphone s? d?ng công ngh? nào sau dây:	T?t c? d?u sai (coi l?i)
+134	M?ng chuy?n m?ch liên t?nh  th?c hi?n chuy?n ti?p các cu?c g?i liên t?nh cho t?t c? các VNPT T/TP trên toàn qu?c, các m?ng di d?ng và các m?ng Doanh nghi?p Vi?n thông khác?	true 
+135	M?ng MAN-E c?a VNPT s? d?ng c?u trúc d?u n?i nào sao dây   	Ring topology  
+136	M?ng MAN-E c?a VNPT s? d?ng thi?t b? c?a các vendor nào sau dây  	Huawei  và Cisco 
+137	M?ng vô tuy?n 3G g?m có các ph?n t? chính 	RNC + NodeB
+138	MGW c?a t?ng dài NSN ATCA có t?i da bao nhiêu shelf	3
+139	M?i card E5-IPSM trong h? th?ng STP Tekelek có th? cung c?p bao nhiêu port telnet vào h? th?ng 	8
+140	M?i card ET-C41 trên các Media Gateway c?a các MSS Ericsson h? tr? bao nhiêu port STM1	4
+141	M?i module Power and Fan trên subrack IS c?a T?ng dài Ericsson có bao nhiêu ngu?n cung c?p	3
+142	M?i subrack trên các t?ng dài Ericsson có bao nhiêu module FAN	2
+143	M?t da khung du?c hình thành t? cách ghép 16 khung 2Mbit/s co s? (PCM-30), và có d? dài là 2ms	TRUE
+144	M?t kênh báo hi?u R2 có th? dáp ?ng t?i da bao nhiêu kênh trung k? tho?i?	30
+145	M?t s? thông s? c?a b? khu?ch d?i EDFA có th? gây ?nh hu?ng x?u t?i ch?t lu?ng ho?t d?ng c?a h? th?ng DWDM là :	"T?p âm n?i c?a b? khu?ch d?i EDFA, h? s? t?p âm này có th? làm suy gi?m SNR c?a h? th?ng.
+Ð? b?ng ph?ng c?a d? l?i khu?ch d?i trong dãi bu?c sóng s? d?ng.
+"
+146	M?t s? y?u t? ?nh hu?ng d?n ch?t lu?ng c?a h? th?ng ghép bu?c sóng quang DWDM là 	"Các lo?i suy hao quang khác nhau nhu suy hao do h?p th?, do tán x? tuy?n tính, do tán x? Rayleigh, suy hao do u?n cong.
+Các lo?i tán s?c, tán s?c s?c th?, tán s?c phân c?c.
+"
+147	M?t tr?m BTS có s? lu?ng cell t?i thi?u là 	1
+148	m?c dích c?a vi?c chu?n hoá trong vi?n thông là gì	"Ð? giúp ngu?i s? d?ng du?c nhi?u quy?n l?a ch?n khi mua s?n ph?m
+Ð? gi?m b?t khó khan v? k? thu?t khi k?t n?i các h? th?ng thi?t b? c?a các nhà s?n xu?t khác nhau
+Ð? cung c?p các d?ch v? k?t n?i qu?c t? du?c d? dàng hon"
+149	N?n t?ng ph?n c?ng t?ng dài NSN ATCA có d?c di?m nào sau dây	MSS và MGW s? d?ng cùng n?n t?ng ph?n c?ng
+150	N?u 1 trong 2 t?ng dài MSSE4B và MSSE4C b? m?t liên l?c thì 50% s? thuê bao c?a 2 t?ng dài trên s? không th? th?c hi?n cu?c g?i, dúng hay sai 	FALSE
+151	Nh?ng thi?t b?, thành ph?n c?a h? th?ng nào sau dây không k?t n?i t?i PE? 	H? th?ng t?ng dài Toll
+152	Nh?ng thông s? nào sau dây c?a kênh Megawan n?m trong cam k?t ch?t lu?ng d?ch v? (SLA) gi?a TCT Net v?i khách hàng?	"Bandwidth
+Latency
+Packet loss
+"
+153	Nhu?c di?m c?a m?ng GSM là gì 	"T?c d? truy?n s? li?u th?p
+Ð? r?ng bang t?n th?p
+Tài nguyên vô tuy?n t?n s? b? h?n ch?
+"
+154	Phát bi?u nào sau dây KHÔNG ÐÚNG v? tr?ng thái c?nh báo trên card c?a thi?t b? HW OSN8800 	Khi LED “LAS”  trên card RAU sáng xanh: Lazer dã t?t và NV có th? thao tác chuy?n cáp quang
+155	Ph?n t? nào sau dây không thu?c m?ng lõi (core) 3G 	RNC
+156	Ph?n t? nào sau dây luôn luôn di kèm v?i t?ng dài chuy?n m?ch MSC	VLR
+157	Ph?n t? nào trên các t?ng dài Ericsson làm nhi?m v? ghi và luu tr? file cu?c	APG
+158	Phuong ti?n b?o v? cá nhân làm ngh? v?n hành b?o du?ng s?a ch?a t?i tr?m g?m:	"Qu?n áo, v?i; Gi?y ch?ng tinh di?n
+Gang tay cách di?n
+"
+159	Phuong th?c di?u ch? WCDMA có nghia là	Ða truy nh?p phân chia theo mã bang r?ng
+160	Router 7750 SR-7 dang s? d?ng k?t n?i cho  RNC ALU  trong m?ng IP Core Mobile dóng vai gì	CE
+161	Router Cisco ASR9K c?n t?i thi?u bao nhiêu card di?u khi?n RSP d? có th? ho?t d?ng	1
+162	Router Cisco CRS1 có bao nhiêu module ngu?n 	2
+163	RTM (Rear Tranition Modules) trong t?ng dài NSN ATCA là gì	Là t? ng? chung ch? các card n?m phía sau m?t chính c?a shelf
+164	Shelf B trên Ciena 5430 có bao nhiêu slot 	9
+165	So sánh t?c d? truy?n data gi?a GPRS và EDGE	EDGE > GPRS
+166	Software dang ch?y trên h? th?ng MSSN và MGWN c?a  VNPT-NET là gì	DX200 (M16.1) (MSS) và Flexi Ui5.0 (MGW).
+167	S? lu?ng line card trong Router Cisco 7609	7
+168	S? lu?ng Router Core m?ng VN2 d?t t?i C?n Tho	2
+169	S? lu?ng t?n s? thu/phát c?a d?i t?n s? PGSM du?c c?p riêng cho Vinaphone 	43 (coi l?i)
+170	So d? k?t n?i phân c?p nào phù h?p trong m?ng VN2	"ASBR-P-PE-BRAS
+PE-BRAS-MANE
+"
+171	STP Tekelek EAGLE 5 h? tr? khai báo t?i da bao nhiêu linkset 	1024
+172	STP TEKELEK mà VNPT-NET dang s? d?ng du?c s?n xu?t ? qu?c gia nào	M?
+173	Subrack TCSM c?a các BSC Huawei hi?n t?i dang du?c l?p d?t g?n T?ng dài hon so v?i BSC , dúng hay sai 	TRUE
+174	SW 4200 t?i tr?m có k?t n?i Uplink d?n thi?t b? nào 	PE
+175	T?c d? k?t n?i m?c d?nh (default) d? login tr?c ti?p vào Modem Juniper SSG20 thông qua c?ng Console 	9600 bps
+176	T?ng dài AXE có kh? nang du?c s? d?ng d? cung c?p d?ch v? thay th? cho t?ng dài Surpass	FALSE
+177	T?ng dài HiG 1100 có th? d?u n?i t?i da bao nhiêu E1 ?	32 E1
+178	T?ng dài MSC trong ki?n trúc m?ng UMTS R4 du?c chia thành các ph?n t? nào?	MSC Server, MGW(Media Gateway)  
+179	Tham s? nào du?c s? d?ng trong s? TMSI d? nh?n d?ng t?ng dài nào s? qu?n lý thuê bao trong Pool 	NRI
+180	Thành ph?n APT trong h? th?ng c?a t?ng dài AXE10 g?m các thi?t b? nào?	"Bao g?m các thi?t b? chuy?n m?ch
+Bao g?m các thi?t b? ph?n c?ng cung nhu ph?n m?m di?u khi?n
+"
+181	Theo khuy?n ngh? c?a Ericsson thì trên m?i card ET-C41 có th? khai báo t?i da bao nhiêu báo hi?u HSL	2
+182	Theo qui d?nh VHBD, nhi?t d? phòng máy du?c qui d?nh nhu sau	"T? 22-24 d? C;
+Ð?m b?o nhi?t d? t?i giá máy t?i vi? trí qu?t hút vào thi?t b?  không quá 25 d? C"
+183	Theo quy thi?t k? c?a t?ng công ty, t?ng dài TSSE4A Ericsson t?i C?n Tho th?c hi?n ch?c nang gì  	Làm Gateway cho các t?ng dài di d?ng thu?c khu v?c dài C?n Tho
+184	Theo tài li?u thi?t k? c?a t?ng công ty thì t?ng dài MSSE4C Ericsson có dung lu?ng bao nhiêu thuê bao 	1M
+185	Theo tài li?u, c?ng ES trên card EC thi?t b? 1830PSS-32 dùng d?	K?t n?i d?n card EC trên shelf m? r?ng
+186	Theo tàili?u, card SCMA-SCC4 cóngu?ngthudu?id?iv?igiaodi?n NTWK là	          - 36 dBm
+187	Theo tàili?u, lo?idi?uch?tínhi?uquang 40G s?d?ngtrong card IFMA-QMC1 thi?tb? FW7500 là:	NRZ-ADPSK
+188	Thi?t b?  FW7500, công su?t phát  card khu?ch d?i tang theo s? bu?c sóng s? d?ng tuong ?ng di qua card, dúng hay sai	TRUE
+189	Thi?t b? d?u cu?i nào sau dây  có th? du?c s? d?ng d? làm ch?c nang c?a Router?	"SSG-20
+Cisco-888"
+190	Thi?t b? d?ng b? US5Ge k?t n?i t?i PE trên VN2 d?:	C?p tín hi?u d?ng b? PTP cho các thi?t b? khác qua m?ng VN2
+191	Thi?t b? E320 có m?y module ngu?n	1
+192	Thi?t b? MGC và MG trong h? th?ng t?ng dài Surpass c?a VTN du?c k?t n?i v?i nhau qua	Ðu?ng truy?n VPN
+193	Thi?t b? MX960 hi?n t?i có bao nhiêu FAN Tray	2
+194	Thi?t b? nào trong MAN-E k?t n?i v?i PE/BRAS c?a VTN?	AGG
+195	Thi?t b? OME6500 MSPP du?c thi?t k? d? cung c?p các lo?i d?ch v? nào sau dây	"Các d?ch v? SDH/SONET; Các d?ch v? PDH; Các d?ch v? bang r?ng (c? 3 )
+"
+196	Thi?t b? PE 7750 SR-7 có th? g?n t?i da bao nhiêu Line card 	5
+197	Thu?t ng? cell trong m?ng di d?ng du?c hi?u là 	m?t vùng ph? sóng vô tuy?n.
+198	Tr?m BTS có s? t?n s? càng nhi?u thì 	"càng ph?c v? du?c nhi?u thuê bao
+T?c d? data c?a ngu?i dùng càng l?n
+kh? nang gây nhi?u càng l?n"
+199	Tr?ng thái led TRIB1 c?a card IFMA-8TC1 thi?t b? FW7500 c?nh báo màu vàng, nghia là 	"C?nhbáo AIS c?ng TRIB1;
+C?nhbáo RDI c?ng TRIB"
+200	Trên hu?ng  liên l?c gi?a 2 di?m báo hi?u, báo hi?u SS7 có th? dáp ?ng t?i da bao nhiêu kênh trung k? tho?i	4096
+201	Trên m?t hu?ng liên l?c liên dài có 6 kênh trung k? tho?i, vào gi? cao di?m ghi nh?n có t?ng c?ng 54 phút liên l?c. Luu lu?ng trung bình (Erl/kênh) gi? cao di?m trên hu?ng này là bao nhiêu?	0.15
+202	Trên thi?t b? FW7500, card khuêch d?i APMA-DRC1 ph?i luôn g?n trên shelf SHU2, dúng hay sai	TRUE
+203	Trên thi?t b? FW7500, khi s? d?ng card khu?ch d?i APMA-DRC1 ph?i luôn s? d?ng cùng v?i  card  khu?ch d?i APMA-ULU1, dúng hay sai	TRUE
+204	Trên thi?t b? FW7500, tín hi?u OSC du?c ghép vào tín hi?u DWDM t?i card:	Amplifier
+205	Trên thi?t b? HW OSN8800, card nào sau dây th?c hi?n ghép 40 bu?c sóng ngõ vào d? t?o thành tín hi?u DWDM	M40
+206	Trong các lo?i card sau dây, lo?i card nào n?m trên thi?t b? BRAS E320:	"LM-10 Uplink
+GE-4 IOA
+"
+207	Trong các lo?i card sau dây, lo?i card nào n?m trên thi?t b? BRAS E320:	SRP-100; SFM-100
+208	Trong các lo?i card sau dây, lo?i card nào n?m trên thi?t b? PE 7750:	"MDA m2-10gb-xp-xfp
+IOM2-20g
+"
+209	Trong các lo?i card sau dây, lo?i card nào n?m trên thi?t b? PE MX960:	MIC 3D 20x 1GE(LAN) SFP
+210	Trong các lo?i d?ch v? sau dây, d?ch v? nào có bang thông ?n d?nh nh?t?	Leasedline
+211	Trong c?u trúc ch?c nang c?a t?ng dài MSSN các kh?i ch?c nang nào sau dây có c?u hình c? d?nh 	"OMU; STU; CMM
+"
+212	Trong h? di?u hành Cisco IOS XR, khai báo MPLS du?c th?c hi?n ? mode Global Configuration, dúng hay sai	TRUE
+213	Trong h? th?ng chuy?n ti?p báo hi?u STP Tekelec, card nào sau dây có th?d?u n?i ra port ge, d? khai báo báo hi?u Sigtran.	E5-ENET
+214	Trong h? th?ng STP Tekelek 2 card x? lý E5-MASP du?c g?n ? v? trí nào  sau dây 	1113/1114 và 1115/1116
+215	Trong h? th?ng STP Tekelek card dánh s? 1102 s? du?c g?n ? v? trí nào sau dây 	Frame 1, shelf 1, slot 02
+216	Trong h? th?ng STP Tekelek card E5-E1/T1 th?c hi?n ch?c nang nào sau dây	Cung c?p d?n 32 link báo hi?u kênh 64k ho?c 1 link báo hi?u HSL TDM.
+217	Trong h? th?ng STP Tekelek card E5-ENET th?c hi?n ch?c nang chính nào sau dây	Cung c?p giao di?n v?t lý 10/100 Mbps và th?c hi?n x? lý báo hi?u sigtran.
+218	Trong h? th?ng STP Tekelek có th? khai báo t?i da bao nhiêu link cho m?t linkset ?	16
+219	Trong h? th?ng Surpass c?a TCT Net, MGC di?u khi?n các MG qua giao th?c nào?	MGCP, H248
+220	Trong h? th?ng Surpass c?a TCT Net, thi?t b? nào sau dây không thu?c v? l?p phuong ti?n (Media) trong c?u trúc phân l?p c?a h? th?ng chuy?n m?ch m?m?	hiE 9200
+221	Trong IOG 20C t?ng dài Toll/AXE2 ta có th? xu?t d? li?u ra ngoài b?ng cách nào ?	"Truy?n qua data link Ftam 
+Truy?n qua data link Ericsson MTP
+Truy?n qua dia quang
+"
+222	Trong ki?n trúc m?ng lõi UMTS, ph?n t? nào sau dây k?t n?i v?i GGSN? :	SGSN
+223	Trong khung 2Mbps c?a lu?ng trung k? liên dài, tín hi?u báo hi?u R2 du?c ghép vào Time slot nào?	16
+224	Trong m?ng báo hi?u s? 7, di?m báo hi?u (Signaling Point Code) là duy nh?t dúng hay sai	TRUE
+225	Trong m?ng di?nh tuyê´n du`ng OSPF, m?i router trong m?ng d?u ph?i luu gi? các thông tin :	"Neighbor Table
+Topology Table
+Routing Table
+"
+226	Trong ring nam HW OSN8800, h? th?ng có th? th?c hi?n crossconnect ho?c passthrought bu?c sóng quang , dúng hay sai 	FALSE
+227	Trong t?ng dài AXE Toll các phân h? con nào sau dây thu?c v? b? ph?n chuy?n m?ch APT	"GSS
+TSS
+"
+228	Trong t?ng dài AXE Toll các phân h? con nào sau dây thu?c v? b? ph?n di?u khi?n APZ:	"RPS; CPS
+"
+229	Trong t?ng dài AXE10 nh?m chia t?i cho b? x? lý trung tâm (CP), ngu?i ta thi?t k? thêm các b? x? lý vùng (Regional Processor), Các RP h? tr? cho các CP x? lý các công vi?c chuyên bi?t nào dó, tuy nhiên t?t c? các quy?t d?nh d?u do CP	True 
+230	trong thông tin di d?ng, h? th?ng m?ng lõi GPRS bao g?m các ph?n t? nào	SGSN,GGSN
+231	trong thông tin di d?ng, SGSN là ph?n t? thu?c h? th?ng nào c?a m?ng	H? th?ng vô tuy?n gói chung GPRS
+232	Trung k? liên dài gi?a t?ng dài AXE v?i các t?ng dài khác trên m?ng lu?i hi?n t?i dang s? d?ng các lo?i c?ng k?t n?i	"E1
+STM1 
+"
+233	Vai trò c?a PE 7750/MX960 trong m?ng VN2	"Cung c?p d?ch v? L2/L3 VPN (unicast/multicast) 
+LeaseLine/Peering Internet , d?nh tuy?n luu lu?ng MegaVNN/FTTH"
+234	Vai trò c?a ph?n t? SPX trên các t?ng dài Ericsson blade cluster là gì 	X? lý báo hi?u
+235	V? trí và ch?c nang c?a card SRU trong thi?t b? NE40E-4 và NE40E-8?   	Slot 5 và 6 ( NE40E-4 ) và slot 9 và 10 ( NE40E-8 ) cung c?p ch?c nang di?u khi?n chính cho toàn b? thi?t b? 
+236	V? trí và ki?u d? phòng card RSP720-3C-GE trên MAN-E?	Slot 5,6  d? phòng ki?u 1:1 
+237	Vi?c d?nh tuy?n c?a giao th?c RIP d?a trên 	Hop count (s? hop d?m du?c)
+238	Vùng ph? sóng c?a tr?m 3G là c? d?nh hay thay d?i nhu th? nào 	Ph? thu?c vào s? thuê bao dang ho?t d?ng t?i tr?m nên vùng ph? sóng là d?ng

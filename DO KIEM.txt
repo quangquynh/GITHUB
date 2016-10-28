@@ -1,0 +1,307 @@
+﻿STT	Nội dung câu hỏi	Đáp án đúng		
+1	Báo hiệu flash được thiết bị truy cập gửi tới hệ thống IMS thông qua bản tin SIP nào	INFO		
+2	Các loại máy đo nào sau đây được dùng để đo chất lượng luồng E1 	"Máy ACTERNA EDT 135
+Máy đo luồng Sunset
+Máy đo luồng STM1 JDSU
+"		
+3	Các loại máy đo nào sau đây được dùng để đo chất lượng mạng vô tuyến trong hệ thống TTDĐ của VNPT-NET 	Máy MTU, máy Nemo, máy TEMS.		
+4	Các mode hoạt động của máy TEMS Investigation dùng để đo quét sóng vô tuyến 	Idle mode, Dedicated mode, Scanner mode		
+5	Các phương pháp đo luồng GE khi sử dụng máy đo EXPO FTB-200 	"Ethernet Frame Analyzer
+- Ethernet BERT
+- Ethernet RFC2544
+- EthernetSAM
+- EthernetSAM và RFC2544 Dual
+- Ethernet Smat Loopback"		
+6	Các thiết bị đo được cấp nguồn như thế nào 	Cả 3 câu A,B và C đều được		
+7	Các thông số chính để đo chất lượng dịch vụ MegaWAN 	"Băng thông (Bandwidth)
+Độ trễ (Delay)
+Mất gói (Packet Loss)
+"		
+8	Các thông số chính khi thiết lập cho máy đo công suất quang	Đặt bước sóng; Chọn đơn vị đo		
+9	Các thuộc tính thường được dùng để đo kiểm chất lượng thoại 	"Thời gian thiết lập cuộc gọi
+Tỷ lệ cuộc gọi bị rớt
+Tỷ lệ cuộc gọi thiết lập thành công
+"		
+10	Cách cấu hình cho các MS trong bài đo kiểm data 3G dùng máy đo MTU	"MS1: thiết lập chế độ WCDMA, trạng thái  active mode Thêm lệnh RasCommand sequence, cấu hình lệnh Ping đến địa chỉ www.google.com+ Dung lượng gói Ping: 100KB+ Số lần Ping: 100 lần+ Khoảng cách 2 lần ping: 10s;
+MS1: thiết lập chế độ WCDMA, trạng thái  active mode Thêm lệnh RasCommand sequence, cấu hình lệnh HTTP Download"		
+11	Cách cấu hình cho các MS trong bài đo kiểm data 3G dùng máy đo MTU 	"MS1: thiết lập chế độ WCDMA, trạng thái  active mode 
+- Thêm lệnh RasCommand sequence, cấu hình lệnh Ping đến địa chỉ www.google.com
++ Dung lượng gói Ping: 100KB
++ Số lần Ping: 100 lần
++ Khoảng cách 2 lần ping: 10s;
+- MS1: thiết lập chế độ WCDMA, trạng thái  active mode 
+- Thêm lệnh RasCommand sequence, cấu hình lệnh HTTP Download
+
+"		
+12	Cách cấu hình cho các MS trong bài đo vùng phủ, cuộc gọi thoại trên sóng 2G dùng máy đo MTU là gì 	" MS1: thiết lập chế độ GSM, trạng thái Idle mode.
+- MS2: thiết lập chế độ GSM, trạng thái active mode cấu hình lệnh Outgoing Call:
++ Số gọi: 18001091
++ Thời gian gọi: 60 giây
++ Khoảng cách 2 lần gọi: 10s
+(và ngược lại)"		
+13	cách mở phần mềm đo sóng vô tuyến trên máy tính  	" Nhấp chọn biểu tượng: “TEMS Investigation” trên Desktop máy tính.
+- Start -> All programs ->  Ascom -> Tems Product -> Tems Investigation Data Collection
+"		
+14	Cấu hình đầy đủ của một máy đo sóng vô tuyến tự động MTU	"5 module test (MS1, MS2, MS3, MS4, MS5), 1 module GPS.
+Pin;  Card CF có dung lượng một Gb
+1 chip DSP dùng cho test MOS
+"		
+15	Câu lệnh nào sau đây có thể được sử dụng trên PC để xác định đường đi (path) tới một host khác	tracert <address>		
+16	Có thể dùng máy đo EXFO FTB-200 để đo kiểm tín hiệu FE/GE của một kênh truyền dẫn. Đúng hay sai 	TRUE		
+17	Có thể loop cứng (cáp quang) một port GE tại thiết bị đầu xa và đặt 1 máy đo GE tại đầu gần (port quang) để đo kiểm tra băng thông của một đường GE , đúng hay sai	đúng		
+18	Có thể lưu giữ kết quả đo bởi máy đo ANT-20SE bằng cách :	Lưu kết quả đo vào ổ cứng có sẵn trong máy đo hoặc đĩa mềm bên ngoài.		
+19	Có thể lưu giữ kết quả đo bởi máy đo đồng bộ OSA 5565 bằng cách	 Lưu kết quả đo vào ổ cứng của PC giao tiếp với máy đo.		
+20	có thể lưu giữ kết quả đo của máy đo CMA5000 bằng cách nào sau đây	"Truyền file từ máy đo ra cổng giao tiếp ngoại vi.;
+In màn hình kết quả ra máy in"		
+21	Có thể martloopback quang và dùng máy đo HST 3000 đo băng thông đường truyền dẫn 1GE quang không	TRUE		
+22	Có thể martloopback quang và dùng máy đo HST 3000 đo băng thông đường truyền dẫn 1GE quang, đúng hay sai 	Đúng		
+23	Chất lượng của kênh IP sử dụng cho kết nối của node B được đánh giá là đạt khi kết quả đo phải bảo bảo đạt cả 3 tiêu chuẩn sau : 2-way delay <=7ms, jitter <=1ms, packet loss <10-6  , đúng hay sai 	FALSE		
+24	Chế độ đo Ethernet RFC 2544 trong máy đo EXPO FTB-200 kích cỡ frame lớn nhất có thể chọn là bao nhiêu  	1518		
+25	Chế độ đo EthernetSAM trong máy đo EXPO FTB-200 có thể đo tối đa  bao nhiêu luồng dịch vụ khác nhau	10		
+26	Chế độ Scanner trong máy đo quét sóng vô tuyến TEMS có thể dùng để scan các đối tượng nào sau đây 	"CPICH SCAN; NETWORK SCAN;  RSSI SCAN
+"		
+27	Chỉ tiêu tỉ lệ Cell xấu  mà VNPT-Net áp dụng cho các khu vực TP.HNI, TP.HCM, TP.DNG, TP.CTO 	<3% tổng số cells		
+28	Chỉ tiêu tỉ lệ Cell xấu  mà VNPT-Net áp dụng cho các khu vực khác (ngoài TP.HNI, TP.HCM, TP.DNG, TP.CTO)	<5% tổng số cells		
+29	Cho bài đo có kết quả đo như hình vẽ, bài đo này được cài đặt cấu hình đo với các đặc điểm nào sau đây	Tín hiệu cơ sở trong cấu trúc ghép SDH là 2Mbps		
+30	Cho bài đo có kết quả đo như hình vẽ, bài đo này được cài đặt cấu hình đo với các đặc điểm nào sau đây	Tín hiệu line trong bài đo kiểm là STM-1 điện		
+31	Cho bài đo có kết quả đo như hình vẽ, bài đo này được cài đặt cấu hình đo với các đặc điểm nào sau đây	Tín hiệu line trong bài đo kiểm là STM-16 quang		
+32	Cho bài đo có kết quả đo như hình vẽ, bài đo này được cài đặt cấu hình đo với các đặc điểm nào sau đây	Tín hiệu line trong cấu trúc ghép SDH là 2Mbps		
+33	Chuẩn chung đánh giá chất lượng đường truyền là	RFC-2544		
+34	Dải động của máy đo OTDR là gì 	Là tham số quyết định chiều dài sợi quang mà máy đo có khả năng đo đánh giá		
+35	Driving Test bằng máy TEMS cần có các công cụ nào	"Một laptop và một điện thoại đi động chuyên dụng có cài phần mềm TEMS.
+- Một GPS receiver
+- Bản đồ, route test, cellfile
+"		
+36	Dùng máy đo gì để xác định công suất thu quang 	Optical Power Meter		
+37	Dùngmáyđo EDT-135 cóthểđothờigian CMBV luồng E1, đúng hay sai	FALSE		
+38	Dữ liệu cần thiết khi thực hiện đo driving Test 	"Một Route Test dạng .Tab thể hiện đoạn đường cần thực hiện đo
+Một bản đồ dạng .Tab thể hiện khu vực cần đo.
+Một cellfile chứa thông tin trạm gốc, Cell, Lac, tọa độ…
+"		
+39	Dựa vào các số liệu nào để đánh giá chất lượng mạng Thông tin di động của VNPT-NET	"Các số liệu thống kê trên hệ thống OMC.
+Các số liệu thu được qua thực hiện đo driving test 
+"		
+40	Đâu là hạn chế của đo Ethernet theo chuẩn RFC-2544 	Chỉ phát một luồng dữ liệu để kiểm tra nên không thể đánh giá chính xác chất lượng luồng Ethernet đang truyền nhiều loại dịch vụ khác nhau.		
+41	Đâu là mục đích của việc đo BER cho luồng ETH 	Đánh giá chất lượng của đường truyền Ethernet và kết hợp đo kiểm băng thông của đường truyền.		
+42	Đâu là mục đích của việc đo kiểm tra chức năng phát và phân tích luồng lưu lượng vào mạng (Traffic Generation and Monitoring) 	Đánh giá mức độ đáp ứng của thiết bị với các loại lưu lượng khác nhau.		
+43	Để bắt bản tin báo hiệu trong hệ thống IMS có thể sử dụng công cụ nào sau đây	"Máy đo Acterna DA 3600;
+Wireshark;
+Phần mềm Pro Trace trên STP
+"		
+44	Để biết lịch sử hoạt động của thực thi Executor ta làm thế nào 	Vào thư mục D:\data chạy file Executor.txt		
+45	Để đo kiểm băng thông và chất lượng của một kênh truyền dẫn cho khách hàng thì nhân viên kỹ thuật cần sử dụng phần mềm nào	Iperf		
+46	Để đo kiểm tín hiệu FE/GE cần sử dụng máy đo gì 	Máy đo  HST-3000 với Module phù hợp		
+47	Để thực hiện cấu hình máy đo vô tuyến MTU ta dùng cách nào sau đây	Dùng một Laptop, thông qua mạng LAN remote desktop vào thiết bị.		
+48	để xác định chính xác thứ tự sợi quang tại măng xông trong trường hợp sợi quang bị phai màu ta phải thực hiện điều gì sau	Dùng máy đo OTDR và uốn cong sợi quang		
+49	Địa chỉ IP mặc định trên cổng LAN của thiết bị đo vô tuyến MTU dùng để cấu hình máy đo là bao nhiêu 	192.168.1.171		
+50	Điểm khác biệt trong đo kiểm sóng vô tuyến In Building Test  so với Driving Test là gì	Không có tín hiệu GPS mà dùng công cụ Pin Point để xác định vị trí đang test 		
+51	điện cực máy hàn cáp quang được khuyến cáo thay thế sau bao nhiêu lần phóng hồ quang	3000 lần		
+52	Đối với các đường Ethernet không đôi xứng (2 hướng uplink và downlink có tốc độ không giống nhau, như có ADSL/VDSL xen giữa), chuẩn RFC-2544 cũng có thể cho kết quả đánh giá chính xác, đúng hay sai 	FALSE		
+53	Đối với các máy đo cầm tay (handheld) sử dụng nguồn pin sạc, cần sạc lại pin khi 	Sử dụng pin để đo trong ……sau một khoảng thời gian sử dụng.		
+54	Giá trị QoS triển khai trong mạng băng rộng của VNPT đối với dịch vụ VoIP bằng bao nhiêu (MPLS EXP)	EXP 5		
+55	Giao diện luồng E1 mà EDT-135 hổ trợ là	"75 Ohm; 120 Ohm
+"		
+56	Hai lệnh Start Recording và Stop Recording dùng để lưu và đóng logfile khi đo sóng vô tuyến bằng máy TEMS nằm trong nhóm lệnh nào sau đây	Nhóm lệnh: Control		
+57	Hãy cho biết: khi drive test, máy TEMS đo được giá trị Rx-Qual=7, vậy có thể kết luận gì về BER?	BER>12.8%		
+58	Hãy cho biết: khi đo kiểm, khu vực phủ sóng được coi là nhiễu khi kết quả đo vô tuyến tại khu vực đó:	Rx level cao, Rx quality thấp		
+59	Hệ điều hành chạy trên máy đo EXFO FTB-1	Windows		
+60	ITU-T G.811 dùng để đánh giá	 chất lượng đồng bộ 2MHz/2Mbps của bộ dao động PRC (Primary clock)		
+61	ITU-T G.812 dùng để đánh giá 	các luồng đồng bộ của cung cấp bởi SSU.		
+62	ITU-T G.813 dùng để đánh giá	 chất lượng đồng bộ cung cấp bởi các thiết bị truyền dẫn		
+63	ITU-T G.821, G.826 là các tiêu chuẩn dùng để đánh giá chất lượng đo kiểm:	Các luồng truyền dẫn PDH, và SDH		
+64	ITU-T G.825 là tiêu chuẩn dùng để đánh giá đo kiểm 	Jitter & Wander cho truyền dẫn SDH		
+65	ITU-T G.829 dùng để đánh giá đo kiểm	Các luồng tín hiệu SDH, OTN		
+66	ITU-T G694.1 để đánh giá đo kiểm 	Sự tuân thủ khoảng cách giữa các bước sóng của hệ thống DWDM		
+67	ITU-T G694.2 dùng để đánh giá đo kiểm 	Sự tuân thủ về khoảng cách giữa các bước sóng của hệ thống ghép CWDM		
+68	ITU-T G-813 dùng để đánh giá chất lượng đo kiểm	Tín hiệu đồng bộ 2MHz, 2Mbit/s ngõ ra thiết bị SDH		
+69	ITU-T G821 dùng để đánh giá chất lượng đo kiểm	Các luồng truyền dẫn PDH (2M, 34M, 140Mbit/s)		
+70	Khái niệm chất lượng mạng của một hệ thống Thông tin di động 	Là bao gồm chất lượng mạng Core và  chất lượng mạng Vô tuyến		
+71	Khi cần đo port GE 800M trên thiết bị FW 4570, với “Auto Negotiation” đang chọn “Enable” thì port trên máy đo VePAL cần cầu hình như thế nào	Auto-Neg = “On”		
+72	Khi đo driving test, giá trị KPI cơ bản yêu cầu đối với mạng 2G là gì 	"Call Setup Success Rate CSSR> 95%
+- Drop Call Rate: DCR <5%
+- Handover Success Rate: HOSR>92%
+"		
+73	Khi đo driving test, giá trị KPI yêu cầu đối với mạng 3G là gì  	"CSV Call Setup Success Rate CSSR (Voice Call): >99%¬¬.
+Drop Call Rate: DCR <0.7%
+"		
+74	Khi sử dụng máy đo chất lượng luồng E1 xuất hiện lỗi SES nghĩa là 	Những giâycólỗi bit vượtquá 10E-3		
+75	Khi sử dụng máy đo FTP-1 đo luồng GE theo tiêu chuẩn RFC2544, ta được các kết quả đo	"Throughput; Latency; 
+Frame Loss; Back to Back
+"		
+76	Khi thống kê trên OMC, giá trị KPI cơ bản yêu cầu đối với mạng 2G là gì 	"Call Setup Success Rate CSSR> 98.5%
+- Drop Call Rate: DCR <1%
+- Handover Success Rate: HOSR>97%
+"		
+77	Khi thống kê trên OMC, giá trị KPI cơ bản yêu cầu đối với mạng 3G là gì 	"CSV Call Setup Success Rate CSSR (Voice Call): >99%
+- Drop Call Rate: DCR <0.7%
+"		
+78	Khi thực hiện bài đo kiểm tra chất lượng kênh IP sử dụng cho kết nối NodeB 3G, tổng băng thông phát giữa Tester1 và Tester2 phục vụ cho mô phỏng đo kiểm tối đa là bao nhiêu so với băng thông thực tế 	95%		
+79	Khi thực hiện đo lường cần quan tâm đến nội dung nào dưới đây 	Tiêu chuẩn đo 		
+80	Khi thực hiện phép đo thời gian chuyển mạch trên máy đo ONT-506 cần check vào trường Enable Service Disruption Evaluation?	Đúng		
+81	Khuyến nghị ITU-T G826, G829 dùng để đánh giá chất lượng đo kiểm	Các luồng tín hiệu SDH		
+82	Khuyến nghị ITU-T G829 dùng để đánh giá chất lượng đo kiểm	Các luồng tín hiệu SDH, OTN		
+83	Loại máy đo nào dùng để đánh giá chất lượng tuyến cáp quang 	"Máy đo công suất quang
+Máy đo OTDR
+Máy đo tán sắc"		
+84	Loại máy đo nào sau đây được dùng để đo chất lượng luồng GE 	Máy đo FE FTB-200		
+85	Logfile kết quả đo sóng vô tuyến bằng máy TEMS có thể export sang thể hiện dưới dạng bản đồ Google Earth đúng hay sai 	TRUE		
+86	Logfile lưu kết quả đo quét sóng vô tuyến bằng máy đo MTU có thể đọc bằng chương trình nào sau đây	Phần mềm Actix.		
+87	Mã đường truyền AMI là loại mã	Bipolar		
+88	Mã đường truyền CMI có thể sử dụng cho các tín hiệu PDH 140Mbit/s, STM-1e.	Đúng		
+89	Mã đường truyền HDB3 là loại mã 	Bipolar		
+90	Mã đường truyền Unipolar NRZ là loại mã đơn cực và có chứa thành phần DC có thể gây suy hao nhiều trên đường truyền dẫn sử dụng cáp đồng.	Đúng		
+91	Mã HDB3 có đặc điểm :	Không có thành phần DC, Chỉ tồn tại tối đa 3 bit 0 liên tiếp		
+92	Máy đo ANT5 có thể hỗ trợ đo chuyển mạch bảo vệ APS, đúng hay sai  	TRUE		
+93	Máy đo CMA4500 ở chế độ "Construction" được sử dụng khi nào	Đo nghiệm thu tuyến cáp quang mới		
+94	Máy đo có 1 số cổng giao tiếp như hình vẽ, chọn câu phát biểu nào đúng	 Led Laser on sáng cho biết cổng (2) đang phát quang OC-1/3/12		
+95	Máy đo có 1 số cổng giao tiếp như hình vẽ, chọn câu phát biểu nào đúng	Cổng (6) là cổng IN của máy đo		
+96	Máy đo có 1 số cổng giao tiếp như hình vẽ, chọn câu phát biểu nào đúng 	Cổng (5) là cổng OUT của máy đo		
+97	Máy đo có 1 số cổng giao tiếp như hình vẽ, chọn câu phát biểu nào đúng 	(1) là ngõ vào (IN) của tín hiệu STM-1/4.		
+98	Máy đo có 1 số cổng giao tiếp như hình vẽ, chọn câu phát biểu nào đúng 	Led LOS sáng cho biết cổng (1) đang mất tín hiệu STM-1/4.		
+99	Máy đo có 1 số cổng giao tiếp như hình vẽ, chọn câu phát biểu nào đúng 	(7) là ngõ ra quang (OUT) của tín hiệu STM-n		
+100	Máy đo có 1 số cổng giao tiếp như hình vẽ, chọn câu phát biểu nào đúng 	(4) là ngõ vào (IN) cúa tín hiệu STM-1		
+101	Máy đo có 1 số cổng giao tiếp như hình vẽ, chọn câu phát biểu nào đúng 	(1) là các port 1,5M/2M trở kháng 120 Ohm sử dụng loại dây đo Bantam		
+102	Máy đo có một số cổng giao tiếp (interface) như hình vẽ sau, hãy xác định câu nào sau đây là đúng 	(2) là cổng OUT		
+103	Máy đo EDT-135 có hổ trợ đo kiểm MUX/DEMUX là đúng hay sai 	TRUE		
+104	Máy đo ETD135 có thể dùng để thực hiện các phép đo nào sau đây	"Đo luồng E1 chế độ Unframe;
+Đo NxTS (Time-Slot) trong luồng E1 "		
+105	Máy đo EXFO FTB-1có thể thực hiện được các bài đo nào 	"L2 VPN; L3 VPN
+"		
+106	máy đo EXPO FTB-1 có thể đo được các tốc độ nào sau đây 	"PDH 2 Mbps; SDH 155 Mbps
+GE quang dưới 1Gbps
+"		
+107	Máy đo EXPO FTB-1 có thể đo được giao diện GE quang có tốc độ bao nhiêu	Tất cả các đáp án đều đúng		
+108	Máy đo EXPO FTB-1 có thể đo được giao diện GE quang có tốc độ bao nhiêu	"1000M;100M; 50M
+(Tất cả các đáp án đều đúng)
+"		
+109	Máy đo FTB-1 có hỗ trợ chức năng Smart loopback đúng hay sai 	TRUE		
+110	Máy đo FTB-1có thể lưu kết quả đo kiểm ở đâu	Lưu trên ổ cứng máy đo và USB đều được		
+111	Máy đo FTB-880 có hỗ trợ chức năng đo phát và phân tích luồng lưu lượng vào mạng (Traffic Generation and Monitoring), đúng hay sai 	TRUE		
+112	Máy đo FTP-1 hỗ trợ các chế độ đô luồng Ethernet nào 	"BERT; RFC2544;
+Smart Loopback
+"		
+113	Máy đo GE EXPO FTB-200 Model FTB-8510B có thể đo luồng GE tốc độ tối đa bao nhiêu	1000 Mbps		
+114	Máy đo GE EXPO FTB-200 Model FTB-8510B sử dụng hệ điều hành nào	Window XP		
+115	Máy đo HST 3000 có những loại giao diện nào 	"GE điện; GE quang; ADSL
+(Cả 3 đáp án trên)
+"		
+116	Máy đo HST300 có thể đo cở các chế độ nào	Ethernet (đúng 50%)		
+117	Máy đo HST300 có thể đo cở các chế độ nào	"Terminate
+Ethernet
+"		
+118	Máy đo HST-3000 có hỗ trợ giao diện đo 10G đúng hay sai	FALSE		
+119	Máy đo HST-3000 có những giao diện đo nào	Fastethernet điện ; ADSL; Fastethernet quang (SFP)		
+120	Máy đo HST-3000 có thể tạo ra file pdf chứa kết quả đo theo dạng bảng và dạng đồ họa không	Đúng		
+121	Máy đo HST3000 dùng để đo xác định những gì 	Đo băng thông các kênh truyền số liệu có tốc độ  nhỏ hơn 1GE		
+122	Máy đo HST3000 với module Ethernet SIM, chúng ta có thể chạy phần script RFC 2544 để máy tự động thực hiện các bài test theo chuẩn RFC 2544	TRUE		
+123	máy đo HST3000 với module SHDSL test ta có thể thực hiện các phép đo nào sau đây	"Đo kiểm trong chế độ mô phỏng modem G.SHDSL
+Đo kiểm trong chế độ thiết bị kết cuối Ethernet (Ethernet TE).
+"		
+124	Máy đo nào sau đây có công dụng đo công suất quang	FHP2A04		
+125	Máy đo nào sau đây có thể đo được các luồng SDH đến STM-16 	ANT-20		
+126	Máy đo nào sau đây dùng để đo chất lượng đồng bộ	Synchtester 5565		
+127	Máy đo nào sau đây dùng để đo return loss của sợi quang 	MW 9076B		
+128	Máy đo nào sau đây dùng để đo thông số CD của sợi quang 	ONA-600		
+129	Máy đo nào sau đây dùng để đo thông số PMD của sợi quang	NEXUS		
+130	Máy đo nào sau đây dùng để đo và hiển thị đặc tuyến phản xạ của sợi quang 	MW 9076B		
+131	Máy đo nào sau đây dùng để phát công suất quang	FHS2D02		
+132	Máy đo nào sau đây dùng để phân tích phổ quang (OSA)	MTS-8000		
+133	Máy đo nào sau đây hỗ trợ đo SDH và cả phân tích OTN 	ONT-506		
+134	Máy đo nào sau đây hỗ trợ phân tích kênh nx64Kbit/s :	EDT-135		
+135	Máy đo nào thường đuợc dùng để đánh giá suy hao toàn trình tuyến cáp quang trước khi đưa vào sử dụng	Máy đo công suất quang		
+136	Máy đo sóng vô tuyến TEMS có các chế độ khóa mạng cho thiết bị như thế nào 	"Có thể khóa mạng GSM hoặc WCDMA.
+- Có thể khóa băng tần (Band Lock)  GSM850Mhz, GSM900Mhz, GSM1800Mhz, GSM1900Mhz, WCDMA2100Mhz...
+"		
+137	Máy đo sóng vô tuyến tự động MTU được viết tắt bằng cụm từ Tiếng Anh nào sau đây	Mobile Test Unit		
+138	Máy đo SUNSET E20C ngoài đo chất lượng lượng luồng E1 còn dùng cho mục đích nào sau đây	Nghe thoại		
+139	Máy đo VePAL MX 100 có thể hỗ trợ đo chất lượng đường truyền ở lớp 2 và lớp 3, Đúng hay sai	TRUE		
+140	Máy đo VePAL MX100 có thể hỗ trợ đo cùng lúc bao nhiêu stream	8		
+141	Máy đo VePAL MX100 có thể hỗ trợ đo RFC 2544 với frame size từ 64 bytes đến 9000 bytes, đúng hay sai	FALSE		
+142	Máy đo vô tuyến TEMS nhóm lệnh Control Flow bao gồm các lệnh nào sau đây	"If-Else; Parallel; Sequence;
+- Terminate; Wait; While
+"		
+143	Máy loop luồng GE EXPO ETS-1000 có thể cấu hình loop được VLAN đúng hay sai	TRUE		
+144	Menu 1 trong thiết lập đo máy đo EDT-135 chủ yếu cung cấp thông tin gì	Cấu hình tham số đo BER		
+145	Module  FTB-8510B-1 trên máy đo FTB-200 hỗ trợ đo kiểm cả 2 giao diện điện và quang, đúng hay sai  	TRUE		
+146	Module  FTB-8510B-1 trên máy đo FTB-200 hỗ trợ tốc độ đo kiểm bao nhiêu	"1Gb/s; 10/100 Mb/s
+(Cả b/c đều đúng)
+"		
+147	Module FT-880 NetBlazer trên máy đo EXFO FTB-1có thể thực hiện đo SDH 2.5Gbps, đúng hay sai	Sai		
+148	Module FT-880 NetBlazer trên máy đo EXFO FTB-1có thể thực hiện được các phép đo trên các giao diện nào	"PDH/SDH từ 2Mbit/s đến STM-1 (155Mbit/s) điện và quang
+Ethernet tốc độ 2,5Gbit/s điện và quang
+FE 100/1000M
+"		
+149	Module FT-880 NetBlazer trên máy đo EXFO FTB-1có thể thực hiện phép Ping test một PC trên mạng cần đo không, đúng hay sai 	TRUE		
+150	Một luồng đồng bộ có thời gian đo tối thiểu bao nhiêu giờ 	24 giờ		
+151	Một người quản trị mạng sử dụng câu lệnh “ping 192.168.1.10” để kiểm tra kết nối từ PC tới host 192.168.1.10, kiểm tra thành công. giao thức nào đã được sử dụng cho bài test trên	icmp		
+152	Một trong những thông số cài đặt cần lưu ý khi đo băng thông tín hiệu Ethernet	Tốc độ tín hiệu cần đo		
+153	Một trong những thông số cài đặt cần lưu ý khi đo băng thông tín hiệu Ethernet 	Layer 2 hoặc layer 3		
+154	Mục đích của việc thực hiện đo kiểm tra mạng Ethernet theo RFC-2544 	Kiểm tra băng thông (Throughput), độ trễ (Latency), mất gói (Frame loss) của các gói tin với kích thước khác nhau.		
+155	Muốn đo băng thông kênh MegaWAN có tốc độ 100M cần mấy máy đo HST300	2 máy đo, trong đó có máy smartloopback đầu xa		
+156	Mức ngưỡng của thông số Latency có thể thiết lập trong bài đo RFC 2544 trên máy đo FTB-1	8000ms		
+157	Những tham số quan trọng đánh giá chất lượng truyền dẫn theo khuyến nghị G821 là	Tất cả đều đúng		
+158	Quy chuẩn QCVN 9:2010/BTTTT đề cập đến 	Quy định về tiếp đất cho hệ thống thiết bị và nhà trạm viễn thông		
+159	RFC 2544 dùng để đánh giá chất lượng đo kiểm 	Các tín hiệu Ethernet (FE, GE) bao gồm các phép đo Throughput, Latency, Frameloss, Back to back.		
+160	Suy hao âm xuất hiện khi đo suy hao mối hàn băng máy đo OTDR do	"Hệ số suy hao của 2 sợi quang được hàn nối khác nhau
+Do mức tán xạn ngược của hai sợi quang hàn nối khác nhau
+"		
+161	Sử dụng máy đo ANT-5 có thể đo các luồng nào 	E1; E4; STM1		
+162	Ta có thể lấy kết quả đo của máy đo VePAL MX100 thông qua	"Thông qua truyền file FTP.;
+Thông qua USB"		
+163	Tập tin và đường dẫn dùng để lưu cấu hình các MS và  các bài đo trong máy đo MTU có tên là gì 	D:\Projix.xml		
+164	Tham số đo chất lượng luồng truyền dẫn SES là gì 	Những giây trong đó xảy lỗi với tỉ số BER lớn hơn hoặc bằng 10E-3		
+165	Tham số đo độ trễ truyền dẫn trong chẩn RFC 2544 là gì	Latency		
+166	Tham số đo tổn hao gói tin trong chuẩn RFC 2544 là 	Frame Loss		
+167	Tham số nào đánh giá chất lượng mạng truyền tải IP 	Tất cả đều đúng( Biến động trễ truyền gói tin; Tỷ lệ tổn thất gói; Trễ truyền gói tin một chiều)		
+168	Theo tiêu chuẩn  ITU, thời gian CMBV tối đa luồng SDH cho phép để không ảnh hưởng lưu lượng là bao nhiêu 	50ns		
+169	Theo tiêu chuẩn VN thì chỉ tiêu tỉ lệ thiết lập cuộc gọi thành công là bao nhiêu 	≥ 92%		
+170	Thông số quy định chất lượng QoS tại lớp 2 trên mạng Man-E là :	802.1P		
+171	Thực hiện đo công suất quang cho ngõ ra thiết bị có công suất phát theo mặc định của hãng là 0 dBm/1550 nm, cần phải lưu ý hoặc cài đặt những thông số gì cho máy đo	Đặt suy hao quang phù hợp nếu cần, giữa máy đo công suất quang và ngõ ra quang của thiết bị cần đo		
+172	Trên máy đo EXFO FTB-1, khi thiết lập Smart Loopback cần cấu hình thông số về	"Port; Network
+"		
+173	Trên máy đo EXFO FTB-880, khi thiết lập Smart Loopback cần thực hiện các thao tác nào sau đây	"Từ màn hình “”Test Application” trong thanh công cụ “Setup” chọn chế độ “Smart Loopback”
+Thiết lập các thông số của giao diện Loopback  như: cổng, tốc độ, địa chỉ IP, VLAN…
+Ấn nút “Start ” để bắt đầu quá trình loopback cho thiết bị.
+"		
+174	Trên máy đo VePAL MX100, khi chức năng “Auto Negotiation” đang chọn “Off” ta có thể cấu hình các tham số của port cần đo như: Speed, Duplex, Flow control.  Đúng hay sai	TRUE		
+175	Trình tự các bước thực hiện cấu hình một bài đo bằng máy đo sóng vô tuyến MTU	"Dùng một laptop kết nối vào MTU thông qua remote Desktop
+- Chạy chương trình: C:\MTU\Creator.exe để tạo cấu hình mới cho các MS và các lệnh cho bài đo, lưu lại cấu hình mới.
+- Chạy chương trình: C:\MTU\Executor.exe để thực thi bài đo.
+- Kiểm tra logfile đã được tạo ra trong thư mục D:\data\data
+"		
+176	Trình tự các bước thực hiện đo Ethernet BERT Test Case sử dụng máy đo GE EXPO FTB-200 Model FTB-8510B	"   Bước 1: cấu hình Port
+- Bước 2: Lựa chọn Layer
+- Bước 3: Cấu hình mạng
+- Bước 4: Chọn mẫu đo
+- Bước 5: Bậc chế độ đo
+"		
+177	Trình tự các bước thực hiện đo Ethernet BERT Test Case sử dụng máy đo GE EXPO FTB-200 Model FTB-8510B 	Bước 1: cấu hình PortBước 2: Lựa chọn LayerBước 3: Cấu hình mạngBước 4: Chọn mẫu đoBước 5: Bậc chế độ đo		
+178	Trình tự các bước thực hiện đo EthernetSAM Test Case sử dụng máy đo GE EXPO FTB-200 Model FTB-8510B	"  Bước 1: cấu hình Port
+- Bước 2: Cấu hình mạng
+- Bước 3: Cấu hình các luồng dịch vụ
+- Bước 4: Bậc chế độ đo
+"		
+179	Trong máy đo GE EXPO FTB-200V2 (model FTB-8510B-1) để đo cùng lúc nhiều luồng dịch vụ khác nhau ta phải chọn bài đo nào sau đây 	EthernetSam (Y156sam) Test Case		
+180	Trong máy đo kiểm sóng vô tuyến tự động MTU các khe cấm nào lần lượt tương ứng với các module MS1, MS2, MS3, MS4, MS5  	SIM1, SIM3, SIM5, SIM7, SIM9		
+181	Trong máy đo MTU để cấu hình các lệnh về data ta phải thêm Command sequence nào trước	RasCommand sequence		
+182	Trong máy đo MW9076 phím chức năng Menu>Application>F2 "Trace compare" có công dụng gì	So sánh kết quả đo của sợi đang test với kết quả đã lưu trước đó, theo dõi biến động suy hao của một tuyến quang.		
+183	Trong máy đo MW9076 phím chức năng Menu>FILE>save>F3 "increment" có công dụng gì:	Thực hiện chức năng tự động đặt tên file (auto increment function).		
+184	Trong máy đo sóng vô tuyến TEMS nơi được dùng để tạo Script cho bài đo gọi là gì	Workflow		
+185	Trong Menu lệnh của máy đo sóng vô tuyến TEMS có các nhóm lệnh nào  sau đây	"Messaging, Video, Voice
+- Control, Control Flow, IP
+"		
+186	Trong quy định về đo kiểm chất lượng dịch vụ truy nhập internet trên mạng di động mặt đất, chỉ tiêu về tỷ lệ truy nhập thành công dịch vụ phải đạt	≥ 90%		
+187	Trong quy định về đo kiểm chất lượng dịch vụ truy nhập internet trên mạng di động mặt đất, chỉ tiêu về tỷ lệ truy nhập thành công dịch vụ phải đạt:	Đúng		
+188	Trong quy định về đo kiểm chất lượng dịch vụ truy nhập internet trên mạng di động mặt đất, số lượng mẫu đo phân bố đều trong các điều kiện đo kiểm tối thiểu phải lấy là:	1500		
+189	Trong quy định về đo kiểm chất lượng dịch vụ truy nhập internet trên mạng di động mặt đất, yêu cầu chung về vị trí đo kiểm là:	Đo trong nhà, ngoài trời tại các vị trí cố định và di động		
+190	Trường Ethernet Test Aplications trong máy đo FTB-1 có các bài test nào	EtherSAM; RFC 2544		
+191	Trường Transport Test Aplications trong máy đo FTB-1 có các bài test nào	PDH Bert; SDH Bert 		
+192	User name và Password mặc định dùng để login vào máy đo vô tuyến MTU là gì	"User: administrator
+Password: 1234
+"		
+193	Ứng dụng dùng để đo báo hiệu C7  của máy đo Textronic là gì 	K15 Protocol Tester		
+194	Ưu điểm nổi bật của máy đo TEMS so với máy MTU trong việc đo driving Test 	Có khả năng phân tích, đánh giá, xuất báo cáo, trực quan hơn khi thực hiện phép đo		
+195	Việc cấu hình các module MS, cấu hình các bài đo sẽ được thực hiện trên chương trình nào của máy đo MTU	Chương trình: Creator.exe		
+196	Việc thực thi các cấu hình MS, các bài đo sẽ xẩy ra khi tắt bật chương trình nào của máy đo MTU	Chương trình: Executor.exe		
+197	Với máy đo đồng bộ Time Analyze 7500 ( TA 7500 ) nguồn tham chiếu cho máy đo có thể Set chọn chọn từ	External		
+				

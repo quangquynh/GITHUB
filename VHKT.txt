@@ -1,0 +1,353 @@
+﻿Nội dung câu hỏi	Đáp án đúng
+01 NE 5430 hỗ trợ tối đa bao nhiêu module LM 	30
+Area Backbone hiện tại đang khai báo trong OSPF của mạng IP Core Mobile hiện tại là bao nhiêu	0
+AS Number của giao thức IBGP đang sử dụng trong mạng IP Core cho di động hiện tài là bao nhiêu	65512
+Bảo dưỡng thiết bị viễn thông có ảnh hưởng liên lạc cần thực hiện thời gian nào	Sau 23h đêm
+Bộ chuyển đổi bước sóng quang (OWT) có chức năng 	Chuyển đổi các bước sóng ngõ vào từ tiêu chuẩn ITU-T G.957 thành ITU-T G.962 để phù hợp với qui định của hệ thống DWDM
+Cả 2 Router P, PE trong mạng IP Core cho Mobile đều khai báo BGP với Router Reflector, đúng hay sai	FALSE
+Các  router MAN-E được phân thành các loại nào sau đây theo chức năng? 	AGG router và UPE router
+các báo hiệu nào sao đây được sử dụng trong  tổng đài NGN-HIE9200	H248; SIP; Sigtran
+Các bước cần thực hiện trong thao tác rút card OAU hỏng trên thiết bị HW OSN8800 để thay mới	Kiểm tra card mới cùng version với card cần thay – ghi nhận cảnh báo đang tồn tại – kích hoạt chức năng chị thị tháo card (board removal indication function) trên NMS – label các cáp trên card – mang dây tỉnh điện – rút card cần thay ra
+Các bước thực hiện remove một card CPU blade (làm chức năng OMU)  trên MSSND	"  1.Copy dữ liệu từ OMU vào ổ cứng.
+- 2.Ngăn cấm việc cập nhật dữ liệu lên ổ cứng.
+- 3.Thay đổi trạng thái ổ cứng,
+- 4.Thay đổi trạng thái OMU sang SE-NH.
+- 5. Tiến hành rút card."
+Các card cung cấp giao diện truyền dẫn TDM trên MGW của các MSS Ericsson đang hoạt động theo cơ chế dự phòng như thế nào	1+1
+Các dịch vụ ( VPNL2 liên tỉnh  ,VPNL3 ) trên mạng VN2 được khai báo trên các thiết nào dưới đây?	"Alcalte 7750SR 
+Juniper MX-960 
+"
+Các giao thức nào sau đây thuộc loại giao thức EGP (Exterior Gateway Protocols) :	BGP
+Các khối chức năng chính trong một card CLA của MWGN 	"OMU; CM; HCLB; SISU; GSU
+"
+Các loại Card nào đang được sử dụng trên MGW4D, VNPT-NET2 	ACPI4-A, AHUB3-A, CPRT4-A, HBRT3-A, ADSP1-B.
+Các loại Card nào đang được sử dụng trên MSSN4D, VNPT-NET2 	ACPI4-B, AHUB3-A, CPRT4-B, HBRT3-A
+Các loại card trong thiết bị NE40E của Huawei	SRU ,  LPU ; SFU    
+Các loại dịch vụ đang khai báo trên MAN-E của VNPT?	"Dịch vụ VPN Layer 2 ( ELAN , ETREE ) 
+Dịch vụ Virtual Leased Line ( ELINE ) 
+Dịch vụ MyTV/VoD 
+"
+Các loại giao diện đang sử dụng trên PE 7750 SR-7 là gì 	1GE, 10GE, STM16, STM64
+Các loại Line card có trong MAN-E cisco	"7600-ES+2TG3C
+7600-ES+20G3C
+7600-ES+4TG3C 
+7600-ES20-10G3C ,7600-ES20-GE3C 
+"
+Các lớp nào sau đây thuộc về cấu trúc phân lớp của hệ thống chuyển mạch mềm:	"Lớp điều khiển; 
+Lớp phương tiện
+"
+Các mạng nào sau đây thuộc loại Broadcast Multi-access :	Ethernet
+Các mạng nào sau đây thuộc loại NBMA (Nonbroadcast Multi-access) :	"Frame Relay
+ATM
+X.25
+"
+Các model router đang được khai thác trên mạng MAN-E ?   	"CISCO7609  và CISCO7609
+Huawei NE40E-4 và Huawei NE40E-8
+"
+Các phần tử thuộc mạng vô tuyến 2G	BTS/BSC
+Các Router trong mạng IP Core cho di động hiện tại có cấu hình COPP( Control Plane Policing) 	Có
+Các router trong mạng IP Core Mobile VNP sử dụng xác thực user login là xác thực TACACS+, đúng hay sai	FALSE
+Các shelf quạt được cấp nguồn bởi những CB nào	A9, A10, B9, B10
+Các tiêu chuẩn ITU-T G.821, G.826, G.829 là các tiêu chuẩn 	Để đánh giá chất lượng đường truyền dẫn PDH và SDH.
+Các Tổng đài MSS Ericsson card nào thực hiện chức năng xử lý thoại và triệt tiếng vọng 	MSB
+Các Tổng đài MSS Ericsson khu vực đài CTO đang được giám sát qua giao thức gì	Telnet
+Các tổng đài MSS Ericsson tại khu vực đài VT Cần Thơ dùng để cung cấp dịch vụ gì trong mạng thông tin di động 	Dịch vụ thoại 
+các thành phần cơ bản của tổng đài NGN-HIE9200	CP113, MB, MCPA , HIG 1200/HIG1800, PCU, NETM
+Các thiết bị EAGLE 5 ISS Tekelec nằm trong hệ thống nào trên mạng lưới của TCT NEt?	Mạng báo hiệu STP
+Các thiết bị nào sau đây có cơ cấu tản nhiệt hút theo chiều thẳng đứng?	"T1600, MX960, 7750-SR7; 
+T1600, MX960, 7750-SR12"
+Các thiết bị US5Ge nằm trong hệ thống nào trên mạng lưới 	Mạng đồng bộ
+Các VNPT TTP nào thuộc khu vực VNPT Net2 hiện đang trang bị hệ thống MAN-E Huawei	"Lâm Đồng
+Long An
+Bình Thuận
+"
+Card 8xGE/T hỗ trợ độ dài gói Ethernet đến 9600 bytes, đúng hay sai	TRUE
+Card HOCC thiết bị FW4570 có khả năng kết nối chéo mọi cấp độ VC, đúng hay sai 	FALSE
+Card IPDU trong hệ thống MSSN4D hoạt động theo cơ chế nào 	2 + 1
+Card nào sau đây thực hiện chức năng khuyết đại tín hiệu trong ring nam HW OSN8800	"OAU
+RAU
+"
+Card nào trên các Mediagateway của các MSS Ericsson cung cấp giao diện IP để kết nối đến mạng IP-Core	ET-IPG
+Card nào trên các MGW Ericsson cung cấp giao diện truyền dẫn ATM 	ET-MC1 
+Card nào trên các MGW Ericsson nhận và xử lý tín hiệu đồng bộ 2Mhz	TUB
+Card xử lý chung trong hệ thống STP Tekelek là card nào sau đây	E5-MASP  A, B
+Cấu hình thiết bị FW7500 chỉ có hai hướng quang có add/drop bước sóng, có thể chọn cấu hình  	"2D-ROADM
+WSS-ROADM"
+Câu lệnh để kiểm tra trạng thái Master/Slave trên Router Huawei là	"Display device; Display version
+"
+Câu lệnh được sử dụng trong quá trình thu thập thông tin cho router Cisco để phục vụ chẩn đoán, xử lý lỗi là gì	Show tech-support
+Cấu trúc của SoftSwitch HiE 9200 bao gồm các thành phần nào	CFS, ICN, PM, SG và OAM&P agent
+Cấu trúc hệ thống của tổng đài AXE10 được chia làm 02 phần, tên gọi hai phần đó là gì?	APT và APZ
+Cấu trúc khung PCM 30 được mã hóa theo luật A có đặc tính cơ bản sau:	Tốc độ truyền 2,048 Kb/s, một khung gồm 32 TS/30 CH
+Có bao nhiêu module “Power and Fan” trên subrack IS của các MSS Ericsson blade cluster	2
+Có thể sử dụng lệnh để chuyển thuê bao qua lại giữa 2 MSS trong cùng 1 Pool, đúng hay sai	TRUE
+Cổng giao tiếp giữa PE/VN2 và MAN-E sử dụng loại cổng nào sao đây 	1GE ; 10GE-LAN 
+Cơ chế chuyển mạch bảo vệ bước sóng quang đang sử dụng trên ring BB2 ALU	ASON
+Cơ chế Pool nào đang hoạt động trên các tổng đài Ericsson khu vực đài CTO	"MPP
+MiP"
+Chế độ chạy dự phòng của card GISU (General Signalling Unit) trong MSSN như thế nào	N+ 3
+Chức năng các thiết bị SSU được lắp đặt tại các trạm viễn thông Tlà gì 	Cấp các luồng tín hiệu đồng bộ 2MHZ và 2MBPS cho các thiết bị Viễn thông
+Chức năng card SHP3 sử dụng trong hệ thống FW7500 là gì 	Quản lý dữ liệu, định tuyến và kết cuối DCC, OSC. Hỗ trợ tải phầm mềm. Hỗ trợ lưu trữ và phục hồi bộ nhớ từ xa. Điều khiển chuyển mạch bảo vệ quang. Phát hiện và cảnh báo lỗi. Giám sát và cảnh báo chất lượng hệ thống
+Chức năng của  STP là gì 	Chuyển tiếp báo hiệu từ 1 đài này tới 1 đài khác 
+Chức năng của mạng MAN-E là gì?	Là mạng đô thị dùng công nghệ Ethernet  cung cấp các dịch vụ lớp 2, MyTV ,VOD  tại tất  cả các tỉnh , kết nối vói mạng Core VN2 của VNPT 
+Chức năng của mạng vô tuyến 3G là	Cung cấp, điều kiển và quản lý tài nguyên vô tuyến.
+Chức năng của NodeB là 	"Quản lý kênh vô tuyến
+Mã hóa và giải mã kênh
+Điều chỉnh công suất phát"
+Chức năng của tổng đài AXE trên mạng lưới viễn thông của TCT Net là gì?	Làm Tổng đài Toll
+Chức năng chính của STP trong mạng báo hiệu SS7 	"Định tuyến các bản tin báo hiệu.
+Quản lí mạng báo hiệu.
+Thực hiện đo kiểm.
+Phiên dịch địa chỉ GT (Global Title)
+Làm chức năng Gateway Screening Function: lọc các bản tin báo hiệu.
+"
+Chức năng chuyển mạch ASON thiết bị 1830PSS-36 được điều khiển bởi 	FLC
+Dịch vụ SMS BrandName được cung cấp bởi hệ thống thiết bị nào của VNPT Net2 ?	Hệ thống SMSGW
+Dung lượng tối đa của hệ thống M16.1 ATCA-MSSN  có cấu hình cao nhất (1 cabinet, 3 shelves) là bao nhiêu 	5 triệu thuê bao, 120 nghìn calls cùng một lúc. 
+Đa truy cập ghép kênh phân chia theo tần số có tên viết tắt là gì	FDMA
+Đa truy cập ghép kênh phân chia theo thời gian có tên viết tắt là gì	TDMA
+Đặc trưng chính của loại Hardware ATCA đang sử dụng trên hệ thống MSSN và MGWN của VNPT-NET 	"Dung lượng lớn, năng lượng điện tiêu thu thấp.
+Kích thước nhỏ và khả năng tương thích cao với các hệ thống đang có
+Lượng khí thải CO2 thấp
+"
+Để giám sát và Điều khiển hoạt động của Subrack IS trên các MSS Blade cluster Ericsson, ta dùng chương trình gì 	Sử dụng giao thức http qua ứng dụng Web Browser
+Để tiến hành thay thế card dự phòng cho các tổng đài MSS Ericsson ta cần xem các thông tin gì trên card dự phòng để thay thế phù hợp 	"Tên card
+Số Part Number
+"
+địa chỉ port craft default trên module UOSC của thiết bị Ciena CPL là	10.10.0.1/30
+Điểm khác biệt cơ bản giữa Node OADM và ROADM trong hệ thống DWDM là gì?	ROADM có thể tùy chỉnh remote việc add/drop bước sóng mà không ảnh hưởng đến các bước sóng đã pass-through qua Node
+điểm khác nhau giữa tín hiệu số và tín hiệu tương tự là Tín hiệu số là tín hiệu có giá trị hữu hạn trong miền xét (tần số, biên độ), còn tính hiệu tương tự có giá trị liên tục, so sánh này đúng  hay sai	đúng
+điểm khác nhau giữa tín hiệu số và tín hiệu tương tự là tín hiệu số là tín hiệu chỉ có hai giá trị, còn tín hiệu tương tự có nhiều hơn hai giá trị, so sánh này đúng  hay sai	sai
+Độ rộng băng tần của một tần số sử dụng trong WCDMA	5MHZ
+Độ rộng băng tần của một tần số trong GSM là 	200 KHz
+Đối với dịch vụ Megawan cung cấp, định tuyến giữa thiết bị mạng của TCT Net với thiết bị khách hàng đang sử dụng phương thức:	"Static
+EBGP
+"
+Đơn vị nào chịu trách nhiệm chính vận hành khai thác mạng IP Mobile Core VNPT khu vực NET2 	INOC2
+Đơn vị nào hiện đang chịu trách nhiệm chính trong việc vận hành khai thác hệ thống các tổng đài di động khu vực NET2	SNOC2
+EDFA là bộ khuếch đại quang 	"Hoạt động dựa trên các thành phần chủ yếu là nguồn bơm laser có bước sóng 980 nm và 1480 nm và sợi quang pha tạp nguyên tố hiếm Erbium.
+Được ứng dụng trong các trường hợp như khuếch đại công suất cho phía phát, khuếch đại đường dây cho các tuyến quang dài, và tiền khuếch đại cho phía thu trên hệ thống DWDM.
+Hoạt động được với dãi bước sóng thuộc băng C và L"
+Ghép kênh phân chia theo tần số có tên viết tắt là gì	FDM
+Ghép kênh phân chia theo thời gian có tên viết tắt là gì	TDM
+Giao thứ định tuyến OSPF đang khai báo trong mạng IP Core cho mobile hiện tại là	OSPFv2
+Giao thức đang được sử dụng để truyền tin nhắn SMS giữa hệ thông SMSGW  với các hệ thống khác là	SMPP
+Giao thức đóng gói tín hiệu GE vào khung SDH trên thiết bị FW4570	GFP
+Hai tổng đài MSS Ericsson có dung lượng khác nhau có thể cấu hình vào cùng 1 Pool Area , Đúng hay sai 	TRUE
+Hạn chế hiện nay của công nghệ ghép bước sóng quang DWDM là :	"Chưa khai thác hết băng tần hoạt động của sơi quang (chỉ sử dụng dãi bước sóng băng C và L).
+Phụ thuộc rất nhiều vào đặc tính của sợi quang sử dụng.
+"
+hãy liệt kê các dịch vụ chạy trên thiết bị BRAS E320	MegaVNN, FTTH
+hãy Liệt kê các dịch vụ chạy trên thiết bị BRAS ERX 1410/1440/705	MegaVNN, MegaWan, FTTH
+Hệ thống DWDM có thể kết nối nhiều hướng khác nhau (multi degree) nhờ có :	Bộ xen/rẽ bước sóng quang ROADM (tích hợp WSS) đa hướng có thể thực hiện cấu hình từ xa cho từng bước sóng quang xen/rẽ.
+Hệ thống DWDM được ứng dụng trong các mô hình :	"Mạng truyền dẫn quang đường dài (long haul).
+Mạng truy nhập (access).
+Mạng truyền dẫn quang đô thị(MAN).
+"
+Hệ thống DWDM kiểu “tích hợp” có đặc tính khác với hệ thống DWDM kiểu “mở” là :	Hệ thống DWDM kiểu tích hợp yêu cầu tín hiệu quang tại các ngõ vào hệ thống DWDM phải tuân thủ tiêu chuẩn ITU-T G.962.
+Hệ thống EAGLE 5 ISS Tekelec  có chức năng là:	Mạng báo hiệu độc lập trên mạng lưới viễn thông-STP
+Hệ thống ManE tại các VNPT Tỉnh/TP do TCT Net quản lý sử dụng thiết bị của hãng nào?	"Cisco
+Huawei
+"
+Hệ thống NGN bao gồm các thiết bị nào sau đây	"SoftSwitch HiE 9200, HiG1000, HiG1100, HiG1200, HiR200, HiQ20, HiQ30
+Các router Core và các router biên
+"
+Hệ thống Router ManE-Huawei tại VNPT Tỉnh/TP do TCT Net quản lý có tất cả 2 thẻ nhớ?	True 
+Hệ thống STP Tekelek có các loại Card nào sau đây 	"E5-MASP, E5-SM4G, E5-ENET, E5-TSM;
+E5-IPSM, E5-E1/T1, E5-ATM"
+Hệ thống STP Tekelek có thể cho phép khai báo tối đa bao nhiêu Point Code theo chuẩn ITU	16,384
+Hệ thống STP Tekelek đơn vị đo lưu lượng của một link báo hiệu sigtran là gì 	TPS
+Hệ thống Surpass  có khả năng được sử dụng để cung cấp dịch vụ thay thế cho tổng đài AXE	TRUE
+Hệ thống thiết bị đồng bộ US5Ge  đang cung cấp loại tín hiệu đồng bộ nào?	" 2Mbps/2MHz; PTP;  NTP
+ (Cả 3 loại)
+"
+Hiện nay các cơ chế bảo vệ lưu lượng đang được đấu nối chia sẻ giữa các thiếtbị tại các trạm Tỉnh thuộc Net2 như sau	"Các link MSP 1+1 trên FW4570 được chia sẻ qua HW OSN-8800
+Các link MSP 1+1 trên FW4570 chỉ được kết nối trên cùng FW7500. (a+b)
+"
+Hiện nay NOC2 đang áp dụng cấu hình bảo vệ chuyển mạch bảo vệ đối với các links SDH tại các tỉnh phía Nam	"Bảo vệ MSP 1+1; Bảo vệ SNCP
+Bảo vệ MS-SPRing (tất cả đúng)
+"
+Hiện tại trên mạng NGN đang có lưu lượng của các dịch vụ nào?	171, 1719, 1800, 1900 và các dịch vụ IP 
+Hiện tượng tắc nghẽn  trên các hướng trung kế liên đài xảy ra khi	Số cuộc thoại cần kết nối đồng thời lớn hơn số kênh trung kế
+Hoạt động của bộ khuếch đại RAMAN sử dụng trong hệ thống DWDM :	"Dựa trên hiện tượng tán xạ kích thích Raman, bộ khuếch đại Raman không giới hạn dãi bước sóng khuếch đại.
+Nhờ vào hoạt động của nguồn bơm laser ổn định có công suất cao (có thể lên đến 1W), bộ ghép (coupler) và bộ cách ly (isolator).
+"
+Kênh giám sát OSC thiết bị FW7500 có bước sóng	1510nm
+Kênh OSC trong hệ thống DWDM có thể sử dụng bước sóng nào sau đây?	"1510 nm;1620 nm;1310 nm
+Tất cả các phương án đều đúng
+"
+Kết nối giữa RNC và Router có thể sử dụng cả hai giao diện điện và quang	TRUE
+Kết nối từ TRAU đến các MediaGateway của tổng đài Ericsson thuộc đài VT CTO  đang sử dụng giao diện gì 	"STM1
+E1
+"
+Khả năng kết nối chéo card MT1T9C thiết bị 1830PSS-36	"1,92Tbps cấp ODU
+640Gbps cấp SDH   (cà 2)"
+khai báo OSPF hiện tại trên interface các Router PE, P trong mạng IP Mobile là mode nào	Point-to-point
+Khi 2 tổng đài được cấu hình vào cùng 1 Pool Area thì dữ liệu khai báo trên 2 tổng đài phải giống nhau, đúng hay sai 	TRUE
+Khi có sự cố xảy ra gây mất liên lạc các tổng đài MSS Ericsson thì khách hàng không thể sử dụng dịch vụ DATA trên sóng 3G, đúng hay sai 	FALSE
+Khi login vào các Router trong mạng IP Core Mobile, hiện tại người khai thác đang sử dụng giao thức nào để kết nối vào Router	Telnet
+Không thể khai báo các dịch vụ VPN trên hệ thống ManE, bắt buộc phải khai báo trên Router PE hoặc BRAS?	FALSE
+Lấy mẫu tín hiệu trong quá trình PCM là 	Quá trình chuyển đổi tín hiệu tương tự liên tục theo thời gian thành tín hiệu rời rạc với 1 tần số lấy mẫu nào đó.
+lịch sử phát triển của viễn thông được chia thành bao nhiêu pha trong quá trình phát triển	4
+Loại kênh truyền nào không sử dụng trong mạng truyền hình hội nghị NGN ?	Leasedline
+Loại Router Cisco ASR9K nào đang sử dụng trong mạng IP Core Mobile tại NET2	9010
+Loại tín hiệu báo hiệu nào sau đây đang được sử dụng tại tổng đài Toll	"SS7; R2
+"
+Loại thiết bị MG nào trong hệ thống Surpass của TCT Net có dung lượng kết nối 32 E1?	hiG 1100
+Loại thiết bị nào sau đây không có trong hệ thống Surpass của TCT Net?	hiG 1600
+Lưu lượng dịch vụ từ các RNC về các tổng đài MSS Ericsson hiện tại đang sử dụng qua giao diện truyền dẫn gì 	IP
+Mã điểm báo hiệu lần lượt của STPT4A và STPT4B dùng để khai báo  báo hiệu sigtran là bao nhiêu 	8778 và 8779
+Mã đường truyền AMI có đặc điểm 	"Không có thành phần DC nhờ đặc tính luân phiên đảo dấu.
+Có thể tồn tại nhiều bit 0 liên tiếp
+Giảm suy hao trên đường truyền do thành phần DC gây ra."
+Mã HDB3 có đặc điểm 	"Không có thành phần DC
+Chỉ tồn tại tối đa 3 bit 0 liên tiếp"
+Mã hoá trong quá trình PCM là Sự chuyển đổi các giá trị lượng tử hoá của tín hiệu tương tự thành mã nhị phân để truyền đi.	TRUE
+Mạng 3G Vinaphone đang sử dung công nghệ đa truy cập nào	WCDMA
+Mạng 3G Vinaphone sử dụng công nghệ nào sau đây:	Tất cả đều sai (coi lại)
+Mạng chuyển mạch liên tỉnh  thực hiện chuyển tiếp các cuộc gọi liên tỉnh cho tất cả các VNPT T/TP trên toàn quốc, các mạng di động và các mạng Doanh nghiệp Viễn thông khác?	true 
+Mạng MAN-E của VNPT sử dụng cấu trúc đấu nối nào sao đây   	Ring topology  
+Mạng MAN-E của VNPT sử dụng thiết bị của các vendor nào sau đây  	Huawei  và Cisco 
+Mạng vô tuyến 3G gồm có các phần tử chính 	RNC + NodeB
+MGW của tổng đài NSN ATCA có tối đa bao nhiêu shelf	3
+Mỗi card E5-IPSM trong hệ thống STP Tekelek có thể cung cấp bao nhiêu port telnet vào hệ thống 	8
+Mỗi card ET-C41 trên các Media Gateway của các MSS Ericsson hổ trợ bao nhiêu port STM1	4
+Mỗi module Power and Fan trên subrack IS của Tổng đài Ericsson có bao nhiêu nguồn cung cấp	3
+Mỗi subrack trên các tổng đài Ericsson có bao nhiêu module FAN	2
+Một đa khung được hình thành từ cách ghép 16 khung 2Mbit/s cơ sở (PCM-30), và có độ dài là 2ms	TRUE
+Một kênh báo hiệu R2 có thể đáp ứng tối đa bao nhiêu kênh trung kế thoại?	30
+Một số thông số của bộ khuếch đại EDFA có thể gây ảnh hưởng xấu tới chất lượng hoạt động của hệ thống DWDM là :	"Tạp âm nội của bộ khuếch đại EDFA, hệ số tạp âm này có thể làm suy giảm SNR của hệ thống.
+Độ bằng phẳng của độ lợi khuếch đại trong dãi bước sóng sử dụng.
+"
+Một số yếu tố ảnh hưởng đến chất lượng của hệ thống ghép bước sóng quang DWDM là 	"Các loại suy hao quang khác nhau như suy hao do hấp thụ, do tán xạ tuyến tính, do tán xạ Rayleigh, suy hao do uốn cong.
+Các loại tán sắc, tán sắc sắc thể, tán sắc phân cực.
+"
+Một trạm BTS có số lượng cell tối thiểu là 	1
+mục đích của việc chuẩn hoá trong viễn thông là gì	"Để giúp người sử dụng được nhiều quyền lựa chọn khi mua sản phẩm
+Để giảm bớt khó khăn về kỹ thuật khi kết nối các hệ thống thiết bị của các nhà sản xuất khác nhau
+Để cung cấp các dịch vụ kết nối quốc tế được dễ dàng hơn"
+Nền tảng phần cứng tổng đài NSN ATCA có đặc điểm nào sau đây	MSS và MGW sử dụng cùng nền tảng phần cứng
+Nếu 1 trong 2 tổng đài MSSE4B và MSSE4C bị mất liên lạc thì 50% số thuê bao của 2 tổng đài trên sẽ không thể thực hiện cuộc gọi, đúng hay sai 	FALSE
+Những thiết bị, thành phần của hệ thống nào sau đây không kết nối tới PE? 	Hệ thống tổng đài Toll
+Những thông số nào sau đây của kênh Megawan nằm trong cam kết chất lượng dịch vụ (SLA) giữa TCT Net với khách hàng?	"Bandwidth
+Latency
+Packet loss
+"
+Nhược điểm của mạng GSM là gì 	"Tốc độ truyền số liệu thấp
+Độ rộng băng tần thấp
+Tài nguyên vô tuyến tần số bị hạn chế
+"
+Phát biểu nào sau đây KHÔNG ĐÚNG về trạng thái cảnh báo trên card của thiết bị HW OSN8800 	Khi LED “LAS”  trên card RAU sáng xanh: Lazer đã tắt và NV có thể thao tác chuyển cáp quang
+Phần tử nào sau đây không thuộc mạng lõi (core) 3G 	RNC
+Phần tử nào sau đây luôn luôn đi kèm với tổng đài chuyển mạch MSC	VLR
+Phần tử nào trên các tổng đài Ericsson làm nhiệm vụ ghi và lưu trữ file cước	APG
+Phương tiện bảo vệ cá nhân làm nghề vận hành bảo dưỡng sửa chữa tại trạm gồm:	"Quần áo, vải; Giầy chống tĩnh điện
+Găng tay cách điện
+"
+Phương thức điều chế WCDMA có nghĩa là	Đa truy nhập phân chia theo mã băng rộng
+Router 7750 SR-7 đang sử dụng kết nối cho  RNC ALU  trong mạng IP Core Mobile đóng vai gì	CE
+Router Cisco ASR9K cần tối thiểu bao nhiêu card điều khiển RSP để có thể hoạt động	1
+Router Cisco CRS1 có bao nhiêu module nguồn 	2
+RTM (Rear Tranition Modules) trong tổng đài NSN ATCA là gì	Là từ ngữ chung chỉ các card nằm phía sau mặt chính của shelf
+Shelf B trên Ciena 5430 có bao nhiêu slot 	9
+So sánh tốc độ truyền data giữa GPRS và EDGE	EDGE > GPRS
+Software đang chạy trên hệ thống MSSN và MGWN của  VNPT-NET là gì	DX200 (M16.1) (MSS) và Flexi Ui5.0 (MGW).
+Số lượng line card trong Router Cisco 7609	7
+Số lượng Router Core mạng VN2 đặt tại Cần Thơ	2
+Số lượng tần số thu/phát của dải tần số PGSM được cấp riêng cho Vinaphone 	43 (coi lại)
+Sơ đố kết nối phân cấp nào phù hợp trong mạng VN2	"ASBR-P-PE-BRAS
+PE-BRAS-MANE
+"
+STP Tekelek EAGLE 5 hổ trợ khai báo tối đa bao nhiêu linkset 	1024
+STP TEKELEK mà VNPT-NET đang sử dụng được sản xuất ở quốc gia nào	Mỹ
+Subrack TCSM của các BSC Huawei hiện tại đang được lắp đặt gần Tổng đài hơn so với BSC , đúng hay sai 	TRUE
+SW 4200 tại trạm có kết nối Uplink đến thiết bị nào 	PE
+Tốc độ kết nối mặc định (default) để login trực tiếp vào Modem Juniper SSG20 thông qua cổng Console 	9600 bps
+Tổng đài AXE có khả năng được sử dụng để cung cấp dịch vụ thay thế cho tổng đài Surpass	FALSE
+Tổng đài HiG 1100 có thể đấu nối tối đa bao nhiêu E1 ?	32 E1
+Tổng đài MSC trong kiến trúc mạng UMTS R4 được chia thành các phần tử nào?	MSC Server, MGW(Media Gateway)  
+Tham số nào được sử dụng trong số TMSI để nhận dạng tổng đài nào sẽ quản lý thuê bao trong Pool 	NRI
+Thành phần APT trong hệ thống của tổng đài AXE10 gồm các thiết bị nào?	"Bao gồm các thiết bị chuyển mạch
+Bao gồm các thiết bị phần cứng cũng như phần mềm điều khiển
+"
+Theo khuyến nghị của Ericsson thì trên mỗi card ET-C41 có thể khai báo tối đa bao nhiêu báo hiệu HSL	2
+Theo qui định VHBD, nhiệt độ phòng máy được qui định như sau	"Từ 22-24 độ C;
+Đảm bảo nhiệt độ tại giá máy tại vị trí quạt hút vào thiết bị  không quá 25 độ C"
+Theo quy thiết kế của tổng công ty, tổng đài TSSE4A Ericsson tại Cần Thơ thực hiện chức năng gì  	Làm Gateway cho các tổng đài di dộng thuộc khu vực đài Cần Thơ
+Theo tài liệu thiết kế của tổng công ty thì tổng đài MSSE4C Ericsson có dung lượng bao nhiêu thuê bao 	1M
+Theo tài liệu, cổng ES trên card EC thiết bị 1830PSS-32 dùng để	Kết nối đến card EC trên shelf mở rộng
+Theo tàiliệu, card SCMA-SCC4 cóngưỡngthudướiđổivớigiaodiện NTWK là	          - 36 dBm
+Theo tàiliệu, loạiđiềuchếtínhiệuquang 40G sửdụngtrong card IFMA-QMC1 thiếtbị FW7500 là:	NRZ-ADPSK
+Thiết bị  FW7500, công suất phát  card khuếch đại tăng theo số bước sóng sử dụng tương ứng đi qua card, đúng hay sai	TRUE
+Thiết bị đầu cuối nào sau đây  có thể được sử dụng để làm chức năng của Router?	"SSG-20
+Cisco-888"
+Thiết bị đồng bộ US5Ge kết nối tới PE trên VN2 để:	Cấp tín hiệu đồng bộ PTP cho các thiết bị khác qua mạng VN2
+Thiết bị E320 có mấy module nguồn	1
+Thiết bị MGC và MG trong hệ thống tổng đài Surpass của VTN được kết nối với nhau qua	Đường truyền VPN
+Thiết bị MX960 hiện tại có bao nhiêu FAN Tray	2
+Thiết bị nào trong MAN-E kết nối với PE/BRAS của VTN?	AGG
+Thiết bị OME6500 MSPP được thiết kế để cung cấp các loại dịch vụ nào sau đây	"Các dịch vụ SDH/SONET; Các dịch vụ PDH; Các dịch vụ băng rộng (cả 3 )
+"
+Thiết bị PE 7750 SR-7 có thể gắn tối đa bao nhiêu Line card 	5
+Thuật ngữ cell trong mạng di động được hiểu là 	một vùng phủ sóng vô tuyến.
+Trạm BTS có số tần số càng nhiều thì 	"càng phục vụ được nhiều thuê bao
+Tốc độ data của người dùng càng lớn
+khả năng gây nhiễu càng lớn"
+Trạng thái led TRIB1 của card IFMA-8TC1 thiết bị FW7500 cảnh báo màu vàng, nghĩa là 	"Cảnhbáo AIS cổng TRIB1;
+Cảnhbáo RDI cổng TRIB"
+Trên hướng  liên lạc giữa 2 điểm báo hiệu, báo hiệu SS7 có thể đáp ứng tối đa bao nhiêu kênh trung kế thoại	4096
+Trên một hướng liên lạc liên đài có 6 kênh trung kế thoại, vào giờ cao điểm ghi nhận có tổng cộng 54 phút liên lạc. Lưu lượng trung bình (Erl/kênh) giờ cao điểm trên hướng này là bao nhiêu?	0.15
+Trên thiết bị FW7500, card khuêch đại APMA-DRC1 phải luôn gắn trên shelf SHU2, đúng hay sai	TRUE
+Trên thiết bị FW7500, khi sử dụng card khuếch đại APMA-DRC1 phải luôn sử dụng cùng với  card  khuếch đại APMA-ULU1, đúng hay sai	TRUE
+Trên thiết bị FW7500, tín hiệu OSC được ghép vào tín hiệu DWDM tại card:	Amplifier
+Trên thiết bị HW OSN8800, card nào sau đây thực hiện ghép 40 bước sóng ngõ vào để tạo thành tín hiệu DWDM	M40
+Trong các loại card sau đây, loại card nào nằm trên thiết bị BRAS E320:	"LM-10 Uplink
+GE-4 IOA
+"
+Trong các loại card sau đây, loại card nào nằm trên thiết bị BRAS E320:	SRP-100; SFM-100
+Trong các loại card sau đây, loại card nào nằm trên thiết bị PE 7750:	"MDA m2-10gb-xp-xfp
+IOM2-20g
+"
+Trong các loại card sau đây, loại card nào nằm trên thiết bị PE MX960:	MIC 3D 20x 1GE(LAN) SFP
+Trong các loại dịch vụ sau đây, dịch vụ nào có băng thông ổn định nhất?	Leasedline
+Trong cấu trúc chức năng của tổng đài MSSN các khối chức năng nào sau đây có cấu hình cố định 	"OMU; STU; CMM
+"
+Trong hệ điều hành Cisco IOS XR, khai báo MPLS được thực hiện ở mode Global Configuration, đúng hay sai	TRUE
+Trong hệ thống chuyển tiếp báo hiệu STP Tekelec, card nào sau đây có thểđấu nối ra port ge, để khai báo báo hiệu Sigtran.	E5-ENET
+Trong hệ thống STP Tekelek 2 card xử lý E5-MASP được gắn ở vị trí nào  sau đây 	1113/1114 và 1115/1116
+Trong hệ thống STP Tekelek card đánh số 1102 sẽ được gắn ở vị trí nào sau đây 	Frame 1, shelf 1, slot 02
+Trong hệ thống STP Tekelek card E5-E1/T1 thực hiện chức năng nào sau đây	Cung cấp đến 32 link báo hiệu kênh 64k hoặc 1 link báo hiệu HSL TDM.
+Trong hệ thống STP Tekelek card E5-ENET thực hiện chức năng chính nào sau đây	Cung cấp giao diện vật lý 10/100 Mbps và thực hiện xử lý báo hiệu sigtran.
+Trong hệ thống STP Tekelek có thể khai báo tối đa bao nhiêu link cho một linkset ?	16
+Trong hệ thống Surpass của TCT Net, MGC điều khiển các MG qua giao thức nào?	MGCP, H248
+Trong hệ thống Surpass của TCT Net, thiết bị nào sau đây không thuộc về lớp phương tiện (Media) trong cấu trúc phân lớp của hệ thống chuyển mạch mềm?	hiE 9200
+Trong IOG 20C tổng đài Toll/AXE2 ta có thể xuất dữ liệu ra ngoài bằng cách nào ?	"Truyền qua data link Ftam 
+Truyền qua data link Ericsson MTP
+Truyền qua dĩa quang
+"
+Trong kiến trúc mạng lõi UMTS, phần tử nào sau đây kết nối với GGSN? :	SGSN
+Trong khung 2Mbps của luồng trung kế liên đài, tín hiệu báo hiệu R2 được ghép vào Time slot nào?	16
+Trong mạng báo hiệu số 7, điểm báo hiệu (Signaling Point Code) là duy nhất đúng hay sai	TRUE
+Trong mạng định tuyến dùng OSPF, mỗi router trong mạng đều phải lưu giữ các thông tin :	"Neighbor Table
+Topology Table
+Routing Table
+"
+Trong ring nam HW OSN8800, hệ thống có thể thực hiện crossconnect hoặc passthrought bước sóng quang , đúng hay sai 	FALSE
+Trong tổng đài AXE Toll các phân hệ con nào sau đây thuộc về bộ phận chuyển mạch APT	"GSS
+TSS
+"
+Trong tổng đài AXE Toll các phân hệ con nào sau đây thuộc về bộ phận điều khiển APZ:	"RPS; CPS
+"
+Trong tổng đài AXE10 nhằm chia tải cho bộ xử lý trung tâm (CP), người ta thiết kế thêm các bộ xử lý vùng (Regional Processor), Các RP hỗ trợ cho các CP xử lý các công việc chuyên biệt nào đó, tuy nhiên tất cả các quyết định đều do CP	True 
+trong thông tin di động, hệ thống mạng lõi GPRS bao gồm các phần tử nào	SGSN,GGSN
+trong thông tin di động, SGSN là phần tử thuộc hệ thống nào của mạng	Hệ thống vô tuyến gói chung GPRS
+Trung kế liên đài giữa tổng đài AXE với các tổng đài khác trên mạng lưới hiện tại đang sử dụng các loại cổng kết nối	"E1
+STM1 
+"
+Vai trò của PE 7750/MX960 trong mạng VN2	"Cung cấp dịch vụ L2/L3 VPN (unicast/multicast) 
+LeaseLine/Peering Internet , định tuyến lưu lượng MegaVNN/FTTH"
+Vai trò của phần tử SPX trên các tổng đài Ericsson blade cluster là gì 	Xử lý báo hiệu
+Vị trí và chức năng của card SRU trong thiết bị NE40E-4 và NE40E-8?   	Slot 5 và 6 ( NE40E-4 ) và slot 9 và 10 ( NE40E-8 ) cung cấp chức năng điều khiển chính cho toàn bộ thiết bị 
+Vị trí và kiểu dự phòng card RSP720-3C-GE trên MAN-E?	Slot 5,6  dự phòng kiều 1:1 
+Việc định tuyến của giao thức RIP dựa trên 	Hop count (số hop đếm được)
+Vùng phủ sóng của trạm 3G là cố định hay thay đổi như thế nào 	Phụ thuộc vào số thuê bao đang hoạt động tại trạm nên vùng phủ sóng là động
